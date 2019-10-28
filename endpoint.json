@@ -1,0 +1,85 @@
+{
+  "label": "Endicia",
+  "name": "endicia",
+  "apiVersion": "v1",
+  "internal": false,
+  "configurationType": "GLOBAL",
+  "deployment": {
+    "profiles": [
+      {
+        "name": "default",
+        "label": "Default",
+        "memory": 256,
+        "description": "Default configuration"
+      }
+    ],
+    "allowMultipleInstances": false
+  },
+  "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/endicia.png",
+  "configurationHelpUrl": "/endpoints_endicia.html",
+  "status": "ACTIVE",
+  "stores": [],
+  "events": [],
+  "functions": [
+    {
+      "label": "Track by pic number",
+      "name": "_trackByPicNumber"
+    },
+    {
+      "label": "Track by pice number",
+      "name": "_trackByPieceNumber"
+    },
+    {
+      "label": "Track by transaction id",
+      "name": "_trackByTransactionId"
+    },
+    {
+      "label": "Track by reference id",
+      "name": "_trackByReferenceId"
+    }
+  ],
+  "scripts": [
+    "functions.js"
+  ],
+  "listeners": [],
+  "configuration": [
+    {
+      "name": "accountNumber",
+      "label": "Account Number",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "passphrase",
+      "label": "Passphrase",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "requesterId",
+      "label": "Requester ID",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "sandbox",
+      "label": "Sandbox",
+      "type": "buttonsGroup",
+      "required": true,
+      "defaultValue": "yes",
+      "typeOptions": {
+        "allowCustom": true,
+        "possibleValues": [
+          {
+            "label": "Yes",
+            "name": "yes"
+          },
+          {
+            "label": "No",
+            "name": "no"
+          }
+        ]
+      }
+    }
+  ]
+}
