@@ -15,6 +15,7 @@ import java.net.URL;
 public class EndiciaEndpoint extends Endpoint {
 
     private static final Logger logger = Logger.getLogger(EndiciaEndpoint.class);
+    private static final String SANDBOX = "https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl";
 
     private static URL URL;
 
@@ -40,8 +41,10 @@ public class EndiciaEndpoint extends Endpoint {
         try {
 
             if (StringUtils.equals("sandbox", apiEndpoint)) {
-                URL = new URL("https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl");
+                logger.info("Starting sandbox. URL: " + SANDBOX);
+                URL = new URL(SANDBOX);
             } else {
+                logger.info("Starting custom. URL: " + apiEndpoint);
                 URL = new URL(apiEndpoint);
             }
 
