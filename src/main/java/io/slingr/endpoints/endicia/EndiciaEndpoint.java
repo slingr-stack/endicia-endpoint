@@ -91,6 +91,28 @@ public class EndiciaEndpoint extends Endpoint {
         return Json.parse(JSONUtils.toJson(response, true));
     }
 
+    @EndpointFunction(name = "_transactionListings")
+    public Json transactionListings(Json params){
+
+        EwsLabelService ewsLabelService = getLabelService();
+
+        String startDateTime = params.string("pieceNumber");
+        String endDateTime = params.string("pieceNumber");
+
+        GetTransactionsListingRequest txListReq = new GetTransactionsListingRequest();
+        txListReq.setCertifiedIntermediary(getCredentials());
+        txListReq.setRequestID("1");
+        txListReq.setRequesterID(requesterId);
+
+        TransactionListingsRequestOptions options = new TransactionListingsRequestOptions();
+        options.setStartDateTime(startDateTime);
+        options.setEndDateTime(endDateTime);
+
+        TransactionsListingResponse response = ewsLabelService.getEwsLabelServiceSoap().getTransactionsListing(txListReq);
+
+        return Json.parse(JSONUtils.toJson(response, true));
+    }
+
     private CertifiedIntermediary getCredentials() {
         CertifiedIntermediary certifiedIntermediary = new CertifiedIntermediary();
         certifiedIntermediary.setAccountID(accountNumber);

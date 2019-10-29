@@ -25,3 +25,11 @@ endpoint.trackByReferenceId = function (referenceId) {
     };
     return endpoint._trackByReferenceId(options);
 };
+
+endpoint.transactionListings = function (startDateTime, endDateTime) {
+    var options = {
+        startDateTime: startDateTime,
+        endDateTime: endDateTime
+    };
+    return endpoint._transactionListings(options);
+};

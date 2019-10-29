@@ -36,6 +36,10 @@
     {
       "label": "Track by reference id",
       "name": "_trackByReferenceId"
+    },
+    {
+      "label": "Listing transactions",
+      "name": "_transactionListings"
     }
   ],
   "scripts": [

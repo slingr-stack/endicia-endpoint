@@ -114,29 +114,32 @@ public class EndiciaEndpointTest {
 
     }
 
-//    @Test
-//    @Ignore
-//    public void testPackageStatusByPicNumbers() {
-//
-//        EwsLabelService ewsLabelService = new EwsLabelService(API_URL);
-//
-//        CertifiedIntermediary certifiedIntermediary = new CertifiedIntermediary();
-//        certifiedIntermediary.setAccountID(accountNumber);
-//        certifiedIntermediary.setPassPhrase(passphrase);
-//
-//        PackageStatusRequest packageStatusReq = new PackageStatusRequest();
-//        packageStatusReq.setCertifiedIntermediary(certifiedIntermediary);
-//        packageStatusReq.setRequesterID(requesterId);
-//
-//        packageStatusReq.getPicNumbers().getPicNumber().add(picNumber);
-//
-//        PackageStatusResponse response =
-//                ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
-//
-//        String strRes = JSONUtils.toJson(response, true);
-//        Assert.assertNotNull(strRes);
-//        System.out.println(strRes);
-//
-//    }
+    @Test
+    public void testTransactionListRequest() {
+
+        EwsLabelService ewsLabelService = new EwsLabelService(API_URL);
+
+        CertifiedIntermediary certifiedIntermediary = new CertifiedIntermediary();
+        certifiedIntermediary.setAccountID(accountNumber);
+        certifiedIntermediary.setPassPhrase(passphrase);
+
+        GetTransactionsListingRequest txListReq = new GetTransactionsListingRequest();
+        txListReq.setCertifiedIntermediary(certifiedIntermediary);
+        txListReq.setRequestID("1");
+        txListReq.setRequesterID(requesterId);
+
+        TransactionListingsRequestOptions options = new TransactionListingsRequestOptions();
+        options.setStartDateTime("09/29/2019 12:00:00 AM");
+        options.setEndDateTime("10/29/2019 11:59:00 PM");
+
+        TransactionsListingResponse response = ewsLabelService.getEwsLabelServiceSoap().getTransactionsListing(txListReq);
+
+        String strRes = JSONUtils.toJson(response, true);
+        Assert.assertNotNull(strRes);
+        System.out.println(strRes);
+        System.out.println("---END---");
+
+    }
+
 
 }
