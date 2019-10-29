@@ -16,6 +16,8 @@ public class EndiciaEndpoint extends Endpoint {
 
     private static final Logger logger = Logger.getLogger(EndiciaEndpoint.class);
 
+    private static URL URL;
+
     @EndpointProperty
     private String accountNumber;
 
@@ -34,6 +36,19 @@ public class EndiciaEndpoint extends Endpoint {
     @Override
     public void endpointStarted() {
         logger.info("Starting Endicia track client...");
+
+        try {
+
+            if (StringUtils.equals("production", apiEndpoint)) {
+                URL = new URL(productionURL);
+            } else {
+                URL = new URL("https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl");
+            }
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
     }
 
     @EndpointFunction(name = "_trackByPicNumber")
@@ -135,16 +150,10 @@ public class EndiciaEndpoint extends Endpoint {
     private EwsLabelService getLabelService() {
         try {
 
-            URL URL = new URL("https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl");
-
-            if (StringUtils.equals("production", apiEndpoint)) {
-                URL = new URL(productionURL);
-            }
-
             EwsLabelService ewsLabelService = new EwsLabelService(URL);
 
             return ewsLabelService;
-            
+
         } catch (Exception ex) {
             ex.printStackTrace();
         }
