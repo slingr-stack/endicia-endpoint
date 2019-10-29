@@ -39,10 +39,10 @@ public class EndiciaEndpoint extends Endpoint {
 
         try {
 
-            if (StringUtils.equals("production", apiEndpoint)) {
-                URL = new URL(productionURL);
-            } else {
+            if (StringUtils.equals("sandbox", apiEndpoint)) {
                 URL = new URL("https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl");
+            } else {
+                URL = new URL(apiEndpoint);
             }
 
         } catch (Exception ex) {

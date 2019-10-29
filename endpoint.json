@@ -77,20 +77,9 @@
           {
             "label": "Sandbox",
             "name": "sandbox"
-          },
-          {
-            "label": "Production",
-            "name": "production"
           }
         ]
       }
-    },
-    {
-      "name": "productionURL",
-      "label": "Production URL",
-      "type": "text",
-      "required": "config.apiEndpoint == 'production'",
-      "visibility": "config.apiEndpoint == 'production'"
     }
   ]
 }
