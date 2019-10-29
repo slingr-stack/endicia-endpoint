@@ -56,7 +56,7 @@
     {
       "name": "passphrase",
       "label": "Passphrase",
-      "type": "text",
+      "type": "password",
       "required": true
     },
     {
