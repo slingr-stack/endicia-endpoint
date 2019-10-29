@@ -1,9 +1,6 @@
 package io.slingr.endpoints.endicia;
 
-import com.envmgr.labelservice.CertifiedIntermediary;
-import com.envmgr.labelservice.EwsLabelService;
-import com.envmgr.labelservice.PackageStatusRequest;
-import com.envmgr.labelservice.PackageStatusResponse;
+import com.envmgr.labelservice.*;
 import io.slingr.endpoints.Endpoint;
 import io.slingr.endpoints.framework.annotations.EndpointFunction;
 import io.slingr.endpoints.framework.annotations.EndpointProperty;
@@ -42,7 +39,10 @@ public class EndiciaEndpoint extends Endpoint {
         PackageStatusRequest packageStatusReq = getPackageStatusRequest();
 
         String picNumber = params.string("picNumber");
-        packageStatusReq.getPicNumbers().getPicNumber().add(picNumber);
+
+        ArrayOfString1 arrayOfString1 = new ArrayOfString1();
+        arrayOfString1.getPicNumber().add(picNumber);
+        packageStatusReq.setPicNumbers(arrayOfString1);
 
         PackageStatusResponse response = ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
         return Json.parse(JSONUtils.toJson(response, true));
@@ -55,7 +55,9 @@ public class EndiciaEndpoint extends Endpoint {
         PackageStatusRequest packageStatusReq = getPackageStatusRequest();
 
         String pieceNumber = params.string("pieceNumber");
-        packageStatusReq.getPieceNumbers().getPieceNumber().add(pieceNumber);
+        ArrayOfString2 arrayOfString2 = new ArrayOfString2();
+        arrayOfString2.getPieceNumber().add(pieceNumber);
+        packageStatusReq.setPieceNumbers(arrayOfString2);
 
         PackageStatusResponse response = ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
         return Json.parse(JSONUtils.toJson(response, true));
@@ -67,7 +69,9 @@ public class EndiciaEndpoint extends Endpoint {
         PackageStatusRequest packageStatusReq = getPackageStatusRequest();
 
         String transactionId = params.string("transactionId");
-        packageStatusReq.getTransactionIds().getTransactionId().add(transactionId);
+        ArrayOfString3 arrayOfString3 = new ArrayOfString3();
+        arrayOfString3.getTransactionId().add(transactionId);
+        packageStatusReq.setTransactionIds(arrayOfString3);
 
         PackageStatusResponse response = ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
         return Json.parse(JSONUtils.toJson(response, true));
@@ -79,7 +83,9 @@ public class EndiciaEndpoint extends Endpoint {
         PackageStatusRequest packageStatusReq = getPackageStatusRequest();
 
         String referenceId = params.string("referenceId");
-        packageStatusReq.getReferenceIds().getReferenceId().add(referenceId);
+        ArrayOfString4 arrayOfString4 = new ArrayOfString4();
+        arrayOfString4.getReferenceId().add(referenceId);
+        packageStatusReq.setReferenceIds(arrayOfString4);
 
         PackageStatusResponse response = ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
         return Json.parse(JSONUtils.toJson(response, true));
@@ -96,6 +102,7 @@ public class EndiciaEndpoint extends Endpoint {
         PackageStatusRequest packageStatusReq = new PackageStatusRequest();
         packageStatusReq.setCertifiedIntermediary(getCredentials());
         packageStatusReq.setRequesterID(requesterId);
+        packageStatusReq.setRequestID("1");
         return packageStatusReq;
     }
 

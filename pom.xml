@@ -185,7 +185,6 @@
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/main/resources/wsdl/EwsLabelService.wsdl</wsdl>
-<!--                                    <wsdlLocation>classpath:wsdl/EwsLabelService.wsdl</wsdlLocation>-->
                                     <extraargs>
                                         <extraarg>-client</extraarg>
                                     </extraargs>

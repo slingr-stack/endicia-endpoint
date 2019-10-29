@@ -1,12 +1,27 @@
-endpoint.testing = function () {
-
-    return {status: 200};
+endpoint.trackByPicNumber = function (picNumber) {
+    var options = {
+        picNumber: picNumber
+    };
+    return endpoint._trackByPicNumber(options);
 };
 
-// endpoint.trackByPicNumber = function(number) {}
+endpoint.trackByPieceNumber = function (pieceNumber) {
+    var options = {
+        pieceNumber: pieceNumber
+    };
+    return endpoint._trackByPieceNumber(options);
+};
 
-// endpoint.trackByPieceNumber = function(number) {}
+endpoint.trackByTransactionId = function (transactionId) {
+    var options = {
+        transactionId: transactionId
+    };
+    return endpoint._trackByTransactionId(options);
+};
 
-// endpoint.trackByTransactionId = function(number) {}
-
-// endpoint.trackByReferenceId = function(number) {}
+endpoint.trackByReferenceId = function (referenceId) {
+    var options = {
+        referenceId: referenceId
+    };
+    return endpoint._trackByReferenceId(options);
+};
