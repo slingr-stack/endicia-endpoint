@@ -6,6 +6,7 @@ import io.slingr.endpoints.framework.annotations.EndpointFunction;
 import io.slingr.endpoints.framework.annotations.EndpointProperty;
 import io.slingr.endpoints.framework.annotations.SlingrEndpoint;
 import io.slingr.endpoints.utils.Json;
+import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
 import java.net.URL;
@@ -25,7 +26,10 @@ public class EndiciaEndpoint extends Endpoint {
     private String requesterId;
 
     @EndpointProperty
-    private String sandbox;
+    private String apiEndpoint;
+
+    @EndpointProperty
+    private String productionURL;
 
     @Override
     public void endpointStarted() {
@@ -92,7 +96,7 @@ public class EndiciaEndpoint extends Endpoint {
     }
 
     @EndpointFunction(name = "_transactionListings")
-    public Json transactionListings(Json params){
+    public Json transactionListings(Json params) {
 
         EwsLabelService ewsLabelService = getLabelService();
 
@@ -130,9 +134,17 @@ public class EndiciaEndpoint extends Endpoint {
 
     private EwsLabelService getLabelService() {
         try {
+
             URL URL = new URL("https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl");
+
+            if (StringUtils.equals("production", apiEndpoint)) {
+                URL = new URL(productionURL);
+            }
+
             EwsLabelService ewsLabelService = new EwsLabelService(URL);
+
             return ewsLabelService;
+            
         } catch (Exception ex) {
             ex.printStackTrace();
         }

@@ -66,24 +66,31 @@
       "required": true
     },
     {
-      "name": "sandbox",
-      "label": "Sandbox",
+      "label": "API Endpoint",
+      "name": "apiEndpoint",
       "type": "buttonsGroup",
       "required": true,
-      "defaultValue": "yes",
+      "defaultValue": "sandbox",
       "typeOptions": {
         "allowCustom": true,
         "possibleValues": [
           {
-            "label": "Yes",
-            "name": "yes"
+            "label": "Sandbox",
+            "name": "sandbox"
           },
           {
-            "label": "No",
-            "name": "no"
+            "label": "Production",
+            "name": "production"
           }
         ]
       }
+    },
+    {
+      "name": "productionURL",
+      "label": "Production URL",
+      "type": "text",
+      "required": "config.apiEndpoint == 'production'",
+      "visibility": "config.apiEndpoint == 'production'"
     }
   ]
 }
