@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CloseAccountReasons complex type.
+ * <p>Clase Java para CloseAccountReasons complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CloseAccountReasons"&gt;
@@ -44,7 +44,7 @@ public class CloseAccountReasons {
     protected boolean other;
 
     /**
-     * Gets the value of the changeInBusiness property.
+     * Obtiene el valor de la propiedad changeInBusiness.
      * 
      */
     public boolean isChangeInBusiness() {
@@ -52,7 +52,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Sets the value of the changeInBusiness property.
+     * Define el valor de la propiedad changeInBusiness.
      * 
      */
     public void setChangeInBusiness(boolean value) {
@@ -60,7 +60,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Gets the value of the serviceIsExpensive property.
+     * Obtiene el valor de la propiedad serviceIsExpensive.
      * 
      */
     public boolean isServiceIsExpensive() {
@@ -68,7 +68,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Sets the value of the serviceIsExpensive property.
+     * Define el valor de la propiedad serviceIsExpensive.
      * 
      */
     public void setServiceIsExpensive(boolean value) {
@@ -76,7 +76,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Gets the value of the switchingToAnotherProvider property.
+     * Obtiene el valor de la propiedad switchingToAnotherProvider.
      * 
      */
     public boolean isSwitchingToAnotherProvider() {
@@ -84,7 +84,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Sets the value of the switchingToAnotherProvider property.
+     * Define el valor de la propiedad switchingToAnotherProvider.
      * 
      */
     public void setSwitchingToAnotherProvider(boolean value) {
@@ -92,7 +92,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Gets the value of the productIsComplicated property.
+     * Obtiene el valor de la propiedad productIsComplicated.
      * 
      */
     public boolean isProductIsComplicated() {
@@ -100,7 +100,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Sets the value of the productIsComplicated property.
+     * Define el valor de la propiedad productIsComplicated.
      * 
      */
     public void setProductIsComplicated(boolean value) {
@@ -108,7 +108,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Gets the value of the other property.
+     * Obtiene el valor de la propiedad other.
      * 
      */
     public boolean isOther() {
@@ -116,7 +116,7 @@ public class CloseAccountReasons {
     }
 
     /**
-     * Sets the value of the other property.
+     * Define el valor de la propiedad other.
      * 
      */
     public void setOther(boolean value) {

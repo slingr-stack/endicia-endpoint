@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackagePickupCancelRequest complex type.
+ * <p>Clase Java para PackagePickupCancelRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackagePickupCancelRequest"&gt;
@@ -22,6 +22,8 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="UseAddressOnFile" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="PhysicalPickupAddress" type="{www.envmgr.com/LabelService}PhysicalPickupAddress" minOccurs="0"/&gt;
  *         &lt;element name="ConfirmationNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="Carrier" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="CarrierPickupType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="RequesterID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="CertifiedIntermediary" type="{www.envmgr.com/LabelService}CertifiedIntermediary" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
@@ -39,6 +41,8 @@ import javax.xml.bind.annotation.XmlType;
     "useAddressOnFile",
     "physicalPickupAddress",
     "confirmationNumber",
+    "carrier",
+    "carrierPickupType",
     "requesterID",
     "certifiedIntermediary"
 })
@@ -54,6 +58,10 @@ public class PackagePickupCancelRequest
     protected PhysicalPickupAddress physicalPickupAddress;
     @XmlElement(name = "ConfirmationNumber")
     protected String confirmationNumber;
+    @XmlElement(name = "Carrier")
+    protected String carrier;
+    @XmlElement(name = "CarrierPickupType")
+    protected String carrierPickupType;
     @XmlElement(name = "RequesterID")
     protected String requesterID;
     @XmlElement(name = "CertifiedIntermediary")
@@ -62,7 +70,7 @@ public class PackagePickupCancelRequest
     protected String test;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -74,7 +82,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -86,7 +94,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Gets the value of the useAddressOnFile property.
+     * Obtiene el valor de la propiedad useAddressOnFile.
      * 
      * @return
      *     possible object is
@@ -98,7 +106,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Sets the value of the useAddressOnFile property.
+     * Define el valor de la propiedad useAddressOnFile.
      * 
      * @param value
      *     allowed object is
@@ -110,7 +118,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Gets the value of the physicalPickupAddress property.
+     * Obtiene el valor de la propiedad physicalPickupAddress.
      * 
      * @return
      *     possible object is
@@ -122,7 +130,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Sets the value of the physicalPickupAddress property.
+     * Define el valor de la propiedad physicalPickupAddress.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +142,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Gets the value of the confirmationNumber property.
+     * Obtiene el valor de la propiedad confirmationNumber.
      * 
      * @return
      *     possible object is
@@ -146,7 +154,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Sets the value of the confirmationNumber property.
+     * Define el valor de la propiedad confirmationNumber.
      * 
      * @param value
      *     allowed object is
@@ -158,7 +166,55 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad carrier.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCarrier() {
+        return carrier;
+    }
+
+    /**
+     * Define el valor de la propiedad carrier.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCarrier(String value) {
+        this.carrier = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad carrierPickupType.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCarrierPickupType() {
+        return carrierPickupType;
+    }
+
+    /**
+     * Define el valor de la propiedad carrierPickupType.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCarrierPickupType(String value) {
+        this.carrierPickupType = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -170,7 +226,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -182,7 +238,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -194,7 +250,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -206,7 +262,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Gets the value of the test property.
+     * Obtiene el valor de la propiedad test.
      * 
      * @return
      *     possible object is
@@ -218,7 +274,7 @@ public class PackagePickupCancelRequest
     }
 
     /**
-     * Sets the value of the test property.
+     * Define el valor de la propiedad test.
      * 
      * @param value
      *     allowed object is

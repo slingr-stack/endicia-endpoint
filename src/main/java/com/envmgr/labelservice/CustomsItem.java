@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CustomsItem complex type.
+ * <p>Clase Java para CustomsItem complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CustomsItem"&gt;
@@ -71,7 +71,7 @@ public class CustomsItem
     protected String sku;
 
     /**
-     * Gets the value of the description property.
+     * Obtiene el valor de la propiedad description.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the description property.
+     * Define el valor de la propiedad description.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the quantity property.
+     * Obtiene el valor de la propiedad quantity.
      * 
      */
     public int getQuantity() {
@@ -103,7 +103,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the quantity property.
+     * Define el valor de la propiedad quantity.
      * 
      */
     public void setQuantity(int value) {
@@ -111,7 +111,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the weight property.
+     * Obtiene el valor de la propiedad weight.
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the weight property.
+     * Define el valor de la propiedad weight.
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the value property.
+     * Obtiene el valor de la propiedad value.
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the value property.
+     * Define el valor de la propiedad value.
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the hsTariffNumber property.
+     * Obtiene el valor de la propiedad hsTariffNumber.
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the hsTariffNumber property.
+     * Define el valor de la propiedad hsTariffNumber.
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the countryOfOrigin property.
+     * Obtiene el valor de la propiedad countryOfOrigin.
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the countryOfOrigin property.
+     * Define el valor de la propiedad countryOfOrigin.
      * 
      * @param value
      *     allowed object is
@@ -207,7 +207,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the itemCode property.
+     * Obtiene el valor de la propiedad itemCode.
      * 
      * @return
      *     possible object is
@@ -219,7 +219,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the itemCode property.
+     * Define el valor de la propiedad itemCode.
      * 
      * @param value
      *     allowed object is
@@ -231,7 +231,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the productFamilyCode property.
+     * Obtiene el valor de la propiedad productFamilyCode.
      * 
      * @return
      *     possible object is
@@ -243,7 +243,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the productFamilyCode property.
+     * Define el valor de la propiedad productFamilyCode.
      * 
      * @param value
      *     allowed object is
@@ -255,7 +255,7 @@ public class CustomsItem
     }
 
     /**
-     * Gets the value of the sku property.
+     * Obtiene el valor de la propiedad sku.
      * 
      * @return
      *     possible object is
@@ -267,7 +267,7 @@ public class CustomsItem
     }
 
     /**
-     * Sets the value of the sku property.
+     * Define el valor de la propiedad sku.
      * 
      * @param value
      *     allowed object is

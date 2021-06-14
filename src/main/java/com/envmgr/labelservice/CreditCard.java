@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CreditCard complex type.
+ * <p>Clase Java para CreditCard complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CreditCard"&gt;
@@ -77,7 +77,7 @@ public class CreditCard
     protected String creditCardCountryCode;
 
     /**
-     * Gets the value of the creditCardNumber property.
+     * Obtiene el valor de la propiedad creditCardNumber.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardNumber property.
+     * Define el valor de la propiedad creditCardNumber.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardType property.
+     * Obtiene el valor de la propiedad creditCardType.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardType property.
+     * Define el valor de la propiedad creditCardType.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardMonth property.
+     * Obtiene el valor de la propiedad creditCardMonth.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardMonth property.
+     * Define el valor de la propiedad creditCardMonth.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardYear property.
+     * Obtiene el valor de la propiedad creditCardYear.
      * 
      */
     public int getCreditCardYear() {
@@ -157,7 +157,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardYear property.
+     * Define el valor de la propiedad creditCardYear.
      * 
      */
     public void setCreditCardYear(int value) {
@@ -165,7 +165,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardAddress property.
+     * Obtiene el valor de la propiedad creditCardAddress.
      * 
      * @return
      *     possible object is
@@ -177,7 +177,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardAddress property.
+     * Define el valor de la propiedad creditCardAddress.
      * 
      * @param value
      *     allowed object is
@@ -189,7 +189,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardCity property.
+     * Obtiene el valor de la propiedad creditCardCity.
      * 
      * @return
      *     possible object is
@@ -201,7 +201,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardCity property.
+     * Define el valor de la propiedad creditCardCity.
      * 
      * @param value
      *     allowed object is
@@ -213,7 +213,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardState property.
+     * Obtiene el valor de la propiedad creditCardState.
      * 
      * @return
      *     possible object is
@@ -225,7 +225,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardState property.
+     * Define el valor de la propiedad creditCardState.
      * 
      * @param value
      *     allowed object is
@@ -237,7 +237,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardZip5 property.
+     * Obtiene el valor de la propiedad creditCardZip5.
      * 
      * @return
      *     possible object is
@@ -249,7 +249,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardZip5 property.
+     * Define el valor de la propiedad creditCardZip5.
      * 
      * @param value
      *     allowed object is
@@ -261,7 +261,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardCVV property.
+     * Obtiene el valor de la propiedad creditCardCVV.
      * 
      * @return
      *     possible object is
@@ -273,7 +273,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardCVV property.
+     * Define el valor de la propiedad creditCardCVV.
      * 
      * @param value
      *     allowed object is
@@ -285,7 +285,7 @@ public class CreditCard
     }
 
     /**
-     * Gets the value of the creditCardCountryCode property.
+     * Obtiene el valor de la propiedad creditCardCountryCode.
      * 
      * @return
      *     possible object is
@@ -297,7 +297,7 @@ public class CreditCard
     }
 
     /**
-     * Sets the value of the creditCardCountryCode property.
+     * Define el valor de la propiedad creditCardCountryCode.
      * 
      * @param value
      *     allowed object is

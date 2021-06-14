@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ChangePassPhraseRequest complex type.
+ * <p>Clase Java para ChangePassPhraseRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ChangePassPhraseRequest"&gt;
@@ -54,7 +54,7 @@ public class ChangePassPhraseRequest
     protected boolean tokenRequested;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Gets the value of the newPassPhrase property.
+     * Obtiene el valor de la propiedad newPassPhrase.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Sets the value of the newPassPhrase property.
+     * Define el valor de la propiedad newPassPhrase.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Gets the value of the tokenRequested property.
+     * Obtiene el valor de la propiedad tokenRequested.
      * 
      */
     public boolean isTokenRequested() {
@@ -158,7 +158,7 @@ public class ChangePassPhraseRequest
     }
 
     /**
-     * Sets the value of the tokenRequested property.
+     * Define el valor de la propiedad tokenRequested.
      * 
      */
     public void setTokenRequested(boolean value) {

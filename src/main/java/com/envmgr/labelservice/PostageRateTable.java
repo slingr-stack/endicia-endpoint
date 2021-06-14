@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PostageRateTable complex type.
+ * <p>Clase Java para PostageRateTable complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PostageRateTable"&gt;
@@ -54,7 +54,7 @@ public class PostageRateTable {
     protected List<PostageWeightRatePair> postage;
 
     /**
-     * Gets the value of the mailClass property.
+     * Obtiene el valor de la propiedad mailClass.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class PostageRateTable {
     }
 
     /**
-     * Sets the value of the mailClass property.
+     * Define el valor de la propiedad mailClass.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class PostageRateTable {
     }
 
     /**
-     * Gets the value of the zone property.
+     * Obtiene el valor de la propiedad zone.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class PostageRateTable {
     }
 
     /**
-     * Sets the value of the zone property.
+     * Define el valor de la propiedad zone.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class PostageRateTable {
     }
 
     /**
-     * Gets the value of the intraBMC property.
+     * Obtiene el valor de la propiedad intraBMC.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class PostageRateTable {
     }
 
     /**
-     * Sets the value of the intraBMC property.
+     * Define el valor de la propiedad intraBMC.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class PostageRateTable {
     }
 
     /**
-     * Gets the value of the pricing property.
+     * Obtiene el valor de la propiedad pricing.
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class PostageRateTable {
     }
 
     /**
-     * Sets the value of the pricing property.
+     * Define el valor de la propiedad pricing.
      * 
      * @param value
      *     allowed object is

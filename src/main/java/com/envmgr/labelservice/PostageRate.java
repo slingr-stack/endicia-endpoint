@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PostageRate complex type.
+ * <p>Clase Java para PostageRate complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PostageRate"&gt;
@@ -41,7 +41,7 @@ public class PostageRate {
     protected BigDecimal rate;
 
     /**
-     * Gets the value of the mailService property.
+     * Obtiene el valor de la propiedad mailService.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class PostageRate {
     }
 
     /**
-     * Sets the value of the mailService property.
+     * Define el valor de la propiedad mailService.
      * 
      * @param value
      *     allowed object is
@@ -65,7 +65,7 @@ public class PostageRate {
     }
 
     /**
-     * Gets the value of the rate property.
+     * Obtiene el valor de la propiedad rate.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class PostageRate {
     }
 
     /**
-     * Sets the value of the rate property.
+     * Define el valor de la propiedad rate.
      * 
      * @param value
      *     allowed object is

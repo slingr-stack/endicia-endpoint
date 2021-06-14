@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ContainerLabel complex type.
+ * <p>Clase Java para ContainerLabel complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ContainerLabel"&gt;
@@ -40,7 +40,7 @@ public class ContainerLabel {
     protected String containerLabelImage;
 
     /**
-     * Gets the value of the containerTrackingNumber property.
+     * Obtiene el valor de la propiedad containerTrackingNumber.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class ContainerLabel {
     }
 
     /**
-     * Sets the value of the containerTrackingNumber property.
+     * Define el valor de la propiedad containerTrackingNumber.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class ContainerLabel {
     }
 
     /**
-     * Gets the value of the containerLabelImage property.
+     * Obtiene el valor de la propiedad containerLabelImage.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class ContainerLabel {
     }
 
     /**
-     * Sets the value of the containerLabelImage property.
+     * Define el valor de la propiedad containerLabelImage.
      * 
      * @param value
      *     allowed object is

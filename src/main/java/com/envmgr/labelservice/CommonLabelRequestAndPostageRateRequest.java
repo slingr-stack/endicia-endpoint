@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CommonLabelRequestAndPostageRateRequest complex type.
+ * <p>Clase Java para CommonLabelRequestAndPostageRateRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CommonLabelRequestAndPostageRateRequest"&gt;
@@ -79,7 +79,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     protected Dimensions mailpieceDimensions;
 
     /**
-     * Gets the value of the mailpieceShape property.
+     * Obtiene el valor de la propiedad mailpieceShape.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the mailpieceShape property.
+     * Define el valor de la propiedad mailpieceShape.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the mailClass property.
+     * Obtiene el valor de la propiedad mailClass.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the mailClass property.
+     * Define el valor de la propiedad mailClass.
      * 
      * @param value
      *     allowed object is
@@ -127,7 +127,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the weightOz property.
+     * Obtiene el valor de la propiedad weightOz.
      * 
      */
     public double getWeightOz() {
@@ -135,7 +135,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the weightOz property.
+     * Define el valor de la propiedad weightOz.
      * 
      */
     public void setWeightOz(double value) {
@@ -143,7 +143,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the packageTypeIndicator property.
+     * Obtiene el valor de la propiedad packageTypeIndicator.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the packageTypeIndicator property.
+     * Define el valor de la propiedad packageTypeIndicator.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the dateAdvance property.
+     * Obtiene el valor de la propiedad dateAdvance.
      * 
      * @return
      *     possible object is
@@ -179,7 +179,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the dateAdvance property.
+     * Define el valor de la propiedad dateAdvance.
      * 
      * @param value
      *     allowed object is
@@ -191,7 +191,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the pricing property.
+     * Obtiene el valor de la propiedad pricing.
      * 
      * @return
      *     possible object is
@@ -203,7 +203,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the pricing property.
+     * Define el valor de la propiedad pricing.
      * 
      * @param value
      *     allowed object is
@@ -215,7 +215,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the sundayHolidayDelivery property.
+     * Obtiene el valor de la propiedad sundayHolidayDelivery.
      * 
      * @return
      *     possible object is
@@ -227,7 +227,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the sundayHolidayDelivery property.
+     * Define el valor de la propiedad sundayHolidayDelivery.
      * 
      * @param value
      *     allowed object is
@@ -239,7 +239,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the liveAnimalSurcharge property.
+     * Obtiene el valor de la propiedad liveAnimalSurcharge.
      * 
      * @return
      *     possible object is
@@ -251,7 +251,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the liveAnimalSurcharge property.
+     * Define el valor de la propiedad liveAnimalSurcharge.
      * 
      * @param value
      *     allowed object is
@@ -263,7 +263,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the extension property.
+     * Obtiene el valor de la propiedad extension.
      * 
      * @return
      *     possible object is
@@ -275,7 +275,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the extension property.
+     * Define el valor de la propiedad extension.
      * 
      * @param value
      *     allowed object is
@@ -287,7 +287,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Gets the value of the mailpieceDimensions property.
+     * Obtiene el valor de la propiedad mailpieceDimensions.
      * 
      * @return
      *     possible object is
@@ -299,7 +299,7 @@ public abstract class CommonLabelRequestAndPostageRateRequest
     }
 
     /**
-     * Sets the value of the mailpieceDimensions property.
+     * Define el valor de la propiedad mailpieceDimensions.
      * 
      * @param value
      *     allowed object is

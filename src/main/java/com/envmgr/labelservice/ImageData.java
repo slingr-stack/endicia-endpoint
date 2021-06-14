@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Java class for ImageData complex type.
+ * <p>Clase Java para ImageData complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ImageData"&gt;
@@ -37,7 +37,7 @@ public class ImageData {
     protected int partNumber;
 
     /**
-     * Gets the value of the value property.
+     * Obtiene el valor de la propiedad value.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class ImageData {
     }
 
     /**
-     * Sets the value of the value property.
+     * Define el valor de la propiedad value.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class ImageData {
     }
 
     /**
-     * Gets the value of the partNumber property.
+     * Obtiene el valor de la propiedad partNumber.
      * 
      */
     public int getPartNumber() {
@@ -69,7 +69,7 @@ public class ImageData {
     }
 
     /**
-     * Sets the value of the partNumber property.
+     * Define el valor de la propiedad partNumber.
      * 
      */
     public void setPartNumber(int value) {

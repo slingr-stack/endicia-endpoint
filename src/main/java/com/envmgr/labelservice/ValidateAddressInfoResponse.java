@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ValidateAddressInfoResponse complex type.
+ * <p>Clase Java para ValidateAddressInfoResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ValidateAddressInfoResponse"&gt;
@@ -84,7 +84,7 @@ public class ValidateAddressInfoResponse {
     protected String addressCleansedHash;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -92,7 +92,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -100,7 +100,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the address property.
+     * Obtiene el valor de la propiedad address.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the address property.
+     * Define el valor de la propiedad address.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the addressMatch property.
+     * Obtiene el valor de la propiedad addressMatch.
      * 
      */
     public boolean isAddressMatch() {
@@ -180,7 +180,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the addressMatch property.
+     * Define el valor de la propiedad addressMatch.
      * 
      */
     public void setAddressMatch(boolean value) {
@@ -188,7 +188,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the cityStateZipOK property.
+     * Obtiene el valor de la propiedad cityStateZipOK.
      * 
      */
     public boolean isCityStateZipOK() {
@@ -196,7 +196,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the cityStateZipOK property.
+     * Define el valor de la propiedad cityStateZipOK.
      * 
      */
     public void setCityStateZipOK(boolean value) {
@@ -204,7 +204,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the residentialDeliveryIndicator property.
+     * Obtiene el valor de la propiedad residentialDeliveryIndicator.
      * 
      */
     public boolean isResidentialDeliveryIndicator() {
@@ -212,7 +212,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the residentialDeliveryIndicator property.
+     * Define el valor de la propiedad residentialDeliveryIndicator.
      * 
      */
     public void setResidentialDeliveryIndicator(boolean value) {
@@ -220,7 +220,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the isPOBox property.
+     * Obtiene el valor de la propiedad isPOBox.
      * 
      */
     public boolean isIsPOBox() {
@@ -228,7 +228,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the isPOBox property.
+     * Define el valor de la propiedad isPOBox.
      * 
      */
     public void setIsPOBox(boolean value) {
@@ -236,7 +236,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the candidateAddresses property.
+     * Obtiene el valor de la propiedad candidateAddresses.
      * 
      * @return
      *     possible object is
@@ -248,7 +248,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the candidateAddresses property.
+     * Define el valor de la propiedad candidateAddresses.
      * 
      * @param value
      *     allowed object is
@@ -260,7 +260,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the statusCodes property.
+     * Obtiene el valor de la propiedad statusCodes.
      * 
      * @return
      *     possible object is
@@ -272,7 +272,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the statusCodes property.
+     * Define el valor de la propiedad statusCodes.
      * 
      * @param value
      *     allowed object is
@@ -284,7 +284,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the addressCleansingResult property.
+     * Obtiene el valor de la propiedad addressCleansingResult.
      * 
      * @return
      *     possible object is
@@ -296,7 +296,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the addressCleansingResult property.
+     * Define el valor de la propiedad addressCleansingResult.
      * 
      * @param value
      *     allowed object is
@@ -308,7 +308,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the verificationLevel property.
+     * Obtiene el valor de la propiedad verificationLevel.
      * 
      * @return
      *     possible object is
@@ -320,7 +320,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the verificationLevel property.
+     * Define el valor de la propiedad verificationLevel.
      * 
      * @param value
      *     allowed object is
@@ -332,7 +332,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Gets the value of the addressCleansedHash property.
+     * Obtiene el valor de la propiedad addressCleansedHash.
      * 
      * @return
      *     possible object is
@@ -344,7 +344,7 @@ public class ValidateAddressInfoResponse {
     }
 
     /**
-     * Sets the value of the addressCleansedHash property.
+     * Define el valor de la propiedad addressCleansedHash.
      * 
      * @param value
      *     allowed object is

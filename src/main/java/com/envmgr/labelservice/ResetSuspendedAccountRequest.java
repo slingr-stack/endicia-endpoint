@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ResetSuspendedAccountRequest complex type.
+ * <p>Clase Java para ResetSuspendedAccountRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ResetSuspendedAccountRequest"&gt;
@@ -58,7 +58,7 @@ public class ResetSuspendedAccountRequest
     protected boolean tokenRequested;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Gets the value of the challengeAnswer property.
+     * Obtiene el valor de la propiedad challengeAnswer.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Sets the value of the challengeAnswer property.
+     * Define el valor de la propiedad challengeAnswer.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Gets the value of the newPassPhrase property.
+     * Obtiene el valor de la propiedad newPassPhrase.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Sets the value of the newPassPhrase property.
+     * Define el valor de la propiedad newPassPhrase.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Gets the value of the accountID property.
+     * Obtiene el valor de la propiedad accountID.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Sets the value of the accountID property.
+     * Define el valor de la propiedad accountID.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Gets the value of the tokenRequested property.
+     * Obtiene el valor de la propiedad tokenRequested.
      * 
      */
     public boolean isTokenRequested() {
@@ -186,7 +186,7 @@ public class ResetSuspendedAccountRequest
     }
 
     /**
-     * Sets the value of the tokenRequested property.
+     * Define el valor de la propiedad tokenRequested.
      * 
      */
     public void setTokenRequested(boolean value) {

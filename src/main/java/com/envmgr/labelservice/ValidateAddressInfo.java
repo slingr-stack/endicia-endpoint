@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ValidateAddressInfo complex type.
+ * <p>Clase Java para ValidateAddressInfo complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ValidateAddressInfo"&gt;
@@ -24,7 +24,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="Address3" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="City" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="State" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
- *         &lt;element name="Zip4" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/&gt;
+ *         &lt;element name="Zip4" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="DeliveryPoint" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/&gt;
  *         &lt;element name="PostalCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="CountryCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
@@ -71,7 +71,7 @@ public class ValidateAddressInfo {
     @XmlElement(name = "State")
     protected String state;
     @XmlElement(name = "Zip4")
-    protected Integer zip4;
+    protected String zip4;
     @XmlElement(name = "DeliveryPoint")
     protected Integer deliveryPoint;
     @XmlElement(name = "PostalCode")
@@ -84,7 +84,7 @@ public class ValidateAddressInfo {
     protected String fullAddress;
 
     /**
-     * Gets the value of the name property.
+     * Obtiene el valor de la propiedad name.
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the name property.
+     * Define el valor de la propiedad name.
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the company property.
+     * Obtiene el valor de la propiedad company.
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the company property.
+     * Define el valor de la propiedad company.
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the address1 property.
+     * Obtiene el valor de la propiedad address1.
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the address1 property.
+     * Define el valor de la propiedad address1.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the address2 property.
+     * Obtiene el valor de la propiedad address2.
      * 
      * @return
      *     possible object is
@@ -168,7 +168,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the address2 property.
+     * Define el valor de la propiedad address2.
      * 
      * @param value
      *     allowed object is
@@ -180,7 +180,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the address3 property.
+     * Obtiene el valor de la propiedad address3.
      * 
      * @return
      *     possible object is
@@ -192,7 +192,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the address3 property.
+     * Define el valor de la propiedad address3.
      * 
      * @param value
      *     allowed object is
@@ -204,7 +204,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the city property.
+     * Obtiene el valor de la propiedad city.
      * 
      * @return
      *     possible object is
@@ -216,7 +216,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the city property.
+     * Define el valor de la propiedad city.
      * 
      * @param value
      *     allowed object is
@@ -228,7 +228,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the state property.
+     * Obtiene el valor de la propiedad state.
      * 
      * @return
      *     possible object is
@@ -240,7 +240,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the state property.
+     * Define el valor de la propiedad state.
      * 
      * @param value
      *     allowed object is
@@ -252,31 +252,31 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the zip4 property.
+     * Obtiene el valor de la propiedad zip4.
      * 
      * @return
      *     possible object is
-     *     {@link Integer }
+     *     {@link String }
      *     
      */
-    public Integer getZip4() {
+    public String getZip4() {
         return zip4;
     }
 
     /**
-     * Sets the value of the zip4 property.
+     * Define el valor de la propiedad zip4.
      * 
      * @param value
      *     allowed object is
-     *     {@link Integer }
+     *     {@link String }
      *     
      */
-    public void setZip4(Integer value) {
+    public void setZip4(String value) {
         this.zip4 = value;
     }
 
     /**
-     * Gets the value of the deliveryPoint property.
+     * Obtiene el valor de la propiedad deliveryPoint.
      * 
      * @return
      *     possible object is
@@ -288,7 +288,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the deliveryPoint property.
+     * Define el valor de la propiedad deliveryPoint.
      * 
      * @param value
      *     allowed object is
@@ -300,7 +300,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the postalCode property.
+     * Obtiene el valor de la propiedad postalCode.
      * 
      * @return
      *     possible object is
@@ -312,7 +312,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the postalCode property.
+     * Define el valor de la propiedad postalCode.
      * 
      * @param value
      *     allowed object is
@@ -324,7 +324,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the countryCode property.
+     * Obtiene el valor de la propiedad countryCode.
      * 
      * @return
      *     possible object is
@@ -336,7 +336,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the countryCode property.
+     * Define el valor de la propiedad countryCode.
      * 
      * @param value
      *     allowed object is
@@ -348,7 +348,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the urbanization property.
+     * Obtiene el valor de la propiedad urbanization.
      * 
      * @return
      *     possible object is
@@ -360,7 +360,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the urbanization property.
+     * Define el valor de la propiedad urbanization.
      * 
      * @param value
      *     allowed object is
@@ -372,7 +372,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Gets the value of the fullAddress property.
+     * Obtiene el valor de la propiedad fullAddress.
      * 
      * @return
      *     possible object is
@@ -384,7 +384,7 @@ public class ValidateAddressInfo {
     }
 
     /**
-     * Sets the value of the fullAddress property.
+     * Define el valor de la propiedad fullAddress.
      * 
      * @param value
      *     allowed object is

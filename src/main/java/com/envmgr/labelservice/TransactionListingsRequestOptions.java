@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for TransactionListingsRequestOptions complex type.
+ * <p>Clase Java para TransactionListingsRequestOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="TransactionListingsRequestOptions"&gt;
@@ -59,7 +59,7 @@ public class TransactionListingsRequestOptions {
     protected GetPurchaseType purchaseType;
 
     /**
-     * Gets the value of the costCenter property.
+     * Obtiene el valor de la propiedad costCenter.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the costCenter property.
+     * Define el valor de la propiedad costCenter.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the startDateTime property.
+     * Obtiene el valor de la propiedad startDateTime.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the startDateTime property.
+     * Define el valor de la propiedad startDateTime.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the endDateTime property.
+     * Obtiene el valor de la propiedad endDateTime.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the endDateTime property.
+     * Define el valor de la propiedad endDateTime.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the shipFromZip property.
+     * Obtiene el valor de la propiedad shipFromZip.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the shipFromZip property.
+     * Define el valor de la propiedad shipFromZip.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the shipToZip property.
+     * Obtiene el valor de la propiedad shipToZip.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the shipToZip property.
+     * Define el valor de la propiedad shipToZip.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the referenceID property.
+     * Obtiene el valor de la propiedad referenceID.
      * 
      * @return
      *     possible object is
@@ -191,7 +191,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the referenceID property.
+     * Define el valor de la propiedad referenceID.
      * 
      * @param value
      *     allowed object is
@@ -203,7 +203,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the transactionType property.
+     * Obtiene el valor de la propiedad transactionType.
      * 
      * @return
      *     possible object is
@@ -215,7 +215,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the transactionType property.
+     * Define el valor de la propiedad transactionType.
      * 
      * @param value
      *     allowed object is
@@ -227,7 +227,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the startingTransactionID property.
+     * Obtiene el valor de la propiedad startingTransactionID.
      * 
      * @return
      *     possible object is
@@ -239,7 +239,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the startingTransactionID property.
+     * Define el valor de la propiedad startingTransactionID.
      * 
      * @param value
      *     allowed object is
@@ -251,7 +251,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the refundStatus property.
+     * Obtiene el valor de la propiedad refundStatus.
      * 
      * @return
      *     possible object is
@@ -263,7 +263,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the refundStatus property.
+     * Define el valor de la propiedad refundStatus.
      * 
      * @param value
      *     allowed object is
@@ -275,7 +275,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Gets the value of the purchaseType property.
+     * Obtiene el valor de la propiedad purchaseType.
      * 
      * @return
      *     possible object is
@@ -287,7 +287,7 @@ public class TransactionListingsRequestOptions {
     }
 
     /**
-     * Sets the value of the purchaseType property.
+     * Define el valor de la propiedad purchaseType.
      * 
      * @param value
      *     allowed object is

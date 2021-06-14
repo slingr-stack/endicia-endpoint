@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for TransactionRefundDetails complex type.
+ * <p>Clase Java para TransactionRefundDetails complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="TransactionRefundDetails"&gt;
@@ -59,7 +59,7 @@ public class TransactionRefundDetails {
     protected String refundedAmount;
 
     /**
-     * Gets the value of the refundRequestedDateTime property.
+     * Obtiene el valor de la propiedad refundRequestedDateTime.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Sets the value of the refundRequestedDateTime property.
+     * Define el valor de la propiedad refundRequestedDateTime.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Gets the value of the refundRequestType property.
+     * Obtiene el valor de la propiedad refundRequestType.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Sets the value of the refundRequestType property.
+     * Define el valor de la propiedad refundRequestType.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Gets the value of the refundRequestedBy property.
+     * Obtiene el valor de la propiedad refundRequestedBy.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Sets the value of the refundRequestedBy property.
+     * Define el valor de la propiedad refundRequestedBy.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Gets the value of the refundStatus property.
+     * Obtiene el valor de la propiedad refundStatus.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Sets the value of the refundStatus property.
+     * Define el valor de la propiedad refundStatus.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Gets the value of the refundProcessedDateTime property.
+     * Obtiene el valor de la propiedad refundProcessedDateTime.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Sets the value of the refundProcessedDateTime property.
+     * Define el valor de la propiedad refundProcessedDateTime.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Gets the value of the refundedAmount property.
+     * Obtiene el valor de la propiedad refundedAmount.
      * 
      * @return
      *     possible object is
@@ -191,7 +191,7 @@ public class TransactionRefundDetails {
     }
 
     /**
-     * Sets the value of the refundedAmount property.
+     * Define el valor de la propiedad refundedAmount.
      * 
      * @param value
      *     allowed object is

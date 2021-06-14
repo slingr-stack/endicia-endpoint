@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for DdpRateRequest complex type.
+ * <p>Clase Java para DdpRateRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="DdpRateRequest"&gt;
@@ -82,7 +82,7 @@ public class DdpRateRequest
     protected Dimensions mailpieceDimensions;
 
     /**
-     * Gets the value of the fromState property.
+     * Obtiene el valor de la propiedad fromState.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the fromState property.
+     * Define el valor de la propiedad fromState.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the fromCity property.
+     * Obtiene el valor de la propiedad fromCity.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the fromCity property.
+     * Define el valor de la propiedad fromCity.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the fromCountryCode property.
+     * Obtiene el valor de la propiedad fromCountryCode.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the fromCountryCode property.
+     * Define el valor de la propiedad fromCountryCode.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the toState property.
+     * Obtiene el valor de la propiedad toState.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the toState property.
+     * Define el valor de la propiedad toState.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the toCity property.
+     * Obtiene el valor de la propiedad toCity.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the toCity property.
+     * Define el valor de la propiedad toCity.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the toPostalCode property.
+     * Obtiene el valor de la propiedad toPostalCode.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the toPostalCode property.
+     * Define el valor de la propiedad toPostalCode.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the toCountryCode property.
+     * Obtiene el valor de la propiedad toCountryCode.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the toCountryCode property.
+     * Define el valor de la propiedad toCountryCode.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the weightOz property.
+     * Obtiene el valor de la propiedad weightOz.
      * 
      */
     public double getWeightOz() {
@@ -258,7 +258,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the weightOz property.
+     * Define el valor de la propiedad weightOz.
      * 
      */
     public void setWeightOz(double value) {
@@ -266,7 +266,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the value property.
+     * Obtiene el valor de la propiedad value.
      * 
      */
     public double getValue() {
@@ -274,7 +274,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the value property.
+     * Define el valor de la propiedad value.
      * 
      */
     public void setValue(double value) {
@@ -282,7 +282,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the customsItems property.
+     * Obtiene el valor de la propiedad customsItems.
      * 
      * @return
      *     possible object is
@@ -294,7 +294,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the customsItems property.
+     * Define el valor de la propiedad customsItems.
      * 
      * @param value
      *     allowed object is
@@ -306,7 +306,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -318,7 +318,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -330,7 +330,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Gets the value of the mailpieceDimensions property.
+     * Obtiene el valor de la propiedad mailpieceDimensions.
      * 
      * @return
      *     possible object is
@@ -342,7 +342,7 @@ public class DdpRateRequest
     }
 
     /**
-     * Sets the value of the mailpieceDimensions property.
+     * Define el valor de la propiedad mailpieceDimensions.
      * 
      * @param value
      *     allowed object is

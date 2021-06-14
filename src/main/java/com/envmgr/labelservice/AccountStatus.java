@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for AccountStatus complex type.
+ * <p>Clase Java para AccountStatus complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="AccountStatus"&gt;
@@ -40,7 +40,7 @@ public class AccountStatus {
     protected Integer returnCode;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class AccountStatus {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class AccountStatus {
     }
 
     /**
-     * Gets the value of the returnCode property.
+     * Obtiene el valor de la propiedad returnCode.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class AccountStatus {
     }
 
     /**
-     * Sets the value of the returnCode property.
+     * Define el valor de la propiedad returnCode.
      * 
      * @param value
      *     allowed object is

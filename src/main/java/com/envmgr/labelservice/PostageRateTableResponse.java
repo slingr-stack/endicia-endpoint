@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PostageRateTableResponse complex type.
+ * <p>Clase Java para PostageRateTableResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PostageRateTableResponse"&gt;
@@ -48,7 +48,7 @@ public class PostageRateTableResponse {
     protected PostageRateTable postagePrice;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -56,7 +56,7 @@ public class PostageRateTableResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -64,7 +64,7 @@ public class PostageRateTableResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class PostageRateTableResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class PostageRateTableResponse {
     }
 
     /**
-     * Gets the value of the zone property.
+     * Obtiene el valor de la propiedad zone.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class PostageRateTableResponse {
     }
 
     /**
-     * Sets the value of the zone property.
+     * Define el valor de la propiedad zone.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class PostageRateTableResponse {
     }
 
     /**
-     * Gets the value of the postagePrice property.
+     * Obtiene el valor de la propiedad postagePrice.
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class PostageRateTableResponse {
     }
 
     /**
-     * Sets the value of the postagePrice property.
+     * Define el valor de la propiedad postagePrice.
      * 
      * @param value
      *     allowed object is

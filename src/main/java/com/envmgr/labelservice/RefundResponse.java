@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for RefundResponse complex type.
+ * <p>Clase Java para RefundResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="RefundResponse"&gt;
@@ -58,7 +58,7 @@ public class RefundResponse {
     protected String batchId;
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class RefundResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class RefundResponse {
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class RefundResponse {
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class RefundResponse {
     }
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class RefundResponse {
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class RefundResponse {
     }
 
     /**
-     * Gets the value of the formId property.
+     * Obtiene el valor de la propiedad formId.
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class RefundResponse {
     }
 
     /**
-     * Sets the value of the formId property.
+     * Define el valor de la propiedad formId.
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class RefundResponse {
     }
 
     /**
-     * Gets the value of the batchId property.
+     * Obtiene el valor de la propiedad batchId.
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class RefundResponse {
     }
 
     /**
-     * Sets the value of the batchId property.
+     * Define el valor de la propiedad batchId.
      * 
      * @param value
      *     allowed object is

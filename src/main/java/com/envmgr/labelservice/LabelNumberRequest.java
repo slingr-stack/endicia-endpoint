@@ -13,9 +13,9 @@ import core.labelnumberservice.CustomsInfo;
 
 
 /**
- * <p>Java class for LabelNumberRequest complex type.
+ * <p>Clase Java para LabelNumberRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="LabelNumberRequest"&gt;
@@ -523,7 +523,7 @@ public abstract class LabelNumberRequest
     protected boolean test;
 
     /**
-     * Gets the value of the labelNumberSource property.
+     * Obtiene el valor de la propiedad labelNumberSource.
      * 
      * @return
      *     possible object is
@@ -535,7 +535,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the labelNumberSource property.
+     * Define el valor de la propiedad labelNumberSource.
      * 
      * @param value
      *     allowed object is
@@ -547,7 +547,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the accountID property.
+     * Obtiene el valor de la propiedad accountID.
      * 
      * @return
      *     possible object is
@@ -559,7 +559,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the accountID property.
+     * Define el valor de la propiedad accountID.
      * 
      * @param value
      *     allowed object is
@@ -571,7 +571,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the passPhrase property.
+     * Obtiene el valor de la propiedad passPhrase.
      * 
      * @return
      *     possible object is
@@ -583,7 +583,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the passPhrase property.
+     * Define el valor de la propiedad passPhrase.
      * 
      * @param value
      *     allowed object is
@@ -595,7 +595,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the clientMailerID property.
+     * Obtiene el valor de la propiedad clientMailerID.
      * 
      * @return
      *     possible object is
@@ -607,7 +607,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the clientMailerID property.
+     * Define el valor de la propiedad clientMailerID.
      * 
      * @param value
      *     allowed object is
@@ -619,7 +619,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the ptsActionCode property.
+     * Obtiene el valor de la propiedad ptsActionCode.
      * 
      * @return
      *     possible object is
@@ -631,7 +631,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the ptsActionCode property.
+     * Define el valor de la propiedad ptsActionCode.
      * 
      * @param value
      *     allowed object is
@@ -643,7 +643,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the labelDate property.
+     * Obtiene el valor de la propiedad labelDate.
      * 
      * @return
      *     possible object is
@@ -655,7 +655,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the labelDate property.
+     * Define el valor de la propiedad labelDate.
      * 
      * @param value
      *     allowed object is
@@ -667,7 +667,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the mailClass property.
+     * Obtiene el valor de la propiedad mailClass.
      * 
      * @return
      *     possible object is
@@ -679,7 +679,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the mailClass property.
+     * Define el valor de la propiedad mailClass.
      * 
      * @param value
      *     allowed object is
@@ -691,7 +691,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the postage property.
+     * Obtiene el valor de la propiedad postage.
      * 
      * @return
      *     possible object is
@@ -703,7 +703,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the postage property.
+     * Define el valor de la propiedad postage.
      * 
      * @param value
      *     allowed object is
@@ -715,7 +715,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fees property.
+     * Obtiene el valor de la propiedad fees.
      * 
      * @return
      *     possible object is
@@ -727,7 +727,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fees property.
+     * Define el valor de la propiedad fees.
      * 
      * @param value
      *     allowed object is
@@ -739,7 +739,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the weight property.
+     * Obtiene el valor de la propiedad weight.
      * 
      * @return
      *     possible object is
@@ -751,7 +751,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the weight property.
+     * Define el valor de la propiedad weight.
      * 
      * @param value
      *     allowed object is
@@ -763,7 +763,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the zone property.
+     * Obtiene el valor de la propiedad zone.
      * 
      */
     public int getZone() {
@@ -771,7 +771,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the zone property.
+     * Define el valor de la propiedad zone.
      * 
      */
     public void setZone(int value) {
@@ -779,7 +779,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the pricing property.
+     * Obtiene el valor de la propiedad pricing.
      * 
      * @return
      *     possible object is
@@ -791,7 +791,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the pricing property.
+     * Define el valor de la propiedad pricing.
      * 
      * @param value
      *     allowed object is
@@ -803,7 +803,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the priceTier property.
+     * Obtiene el valor de la propiedad priceTier.
      * 
      * @return
      *     possible object is
@@ -815,7 +815,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the priceTier property.
+     * Define el valor de la propiedad priceTier.
      * 
      * @param value
      *     allowed object is
@@ -827,7 +827,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the container property.
+     * Obtiene el valor de la propiedad container.
      * 
      * @return
      *     possible object is
@@ -839,7 +839,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the container property.
+     * Define el valor de la propiedad container.
      * 
      * @param value
      *     allowed object is
@@ -851,7 +851,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the machinable property.
+     * Obtiene el valor de la propiedad machinable.
      * 
      */
     public boolean isMachinable() {
@@ -859,7 +859,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the machinable property.
+     * Define el valor de la propiedad machinable.
      * 
      */
     public void setMachinable(boolean value) {
@@ -867,7 +867,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the sortType property.
+     * Obtiene el valor de la propiedad sortType.
      * 
      * @return
      *     possible object is
@@ -879,7 +879,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the sortType property.
+     * Define el valor de la propiedad sortType.
      * 
      * @param value
      *     allowed object is
@@ -891,7 +891,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the declaredValue property.
+     * Obtiene el valor de la propiedad declaredValue.
      * 
      * @return
      *     possible object is
@@ -903,7 +903,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the declaredValue property.
+     * Define el valor de la propiedad declaredValue.
      * 
      * @param value
      *     allowed object is
@@ -915,7 +915,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the cod property.
+     * Obtiene el valor de la propiedad cod.
      * 
      */
     public boolean isCOD() {
@@ -923,7 +923,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the cod property.
+     * Define el valor de la propiedad cod.
      * 
      */
     public void setCOD(boolean value) {
@@ -931,7 +931,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the codFee property.
+     * Obtiene el valor de la propiedad codFee.
      * 
      * @return
      *     possible object is
@@ -943,7 +943,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the codFee property.
+     * Define el valor de la propiedad codFee.
      * 
      * @param value
      *     allowed object is
@@ -955,7 +955,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the codAmount property.
+     * Obtiene el valor de la propiedad codAmount.
      * 
      * @return
      *     possible object is
@@ -967,7 +967,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the codAmount property.
+     * Define el valor de la propiedad codAmount.
      * 
      * @param value
      *     allowed object is
@@ -979,7 +979,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromName property.
+     * Obtiene el valor de la propiedad fromName.
      * 
      * @return
      *     possible object is
@@ -991,7 +991,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromName property.
+     * Define el valor de la propiedad fromName.
      * 
      * @param value
      *     allowed object is
@@ -1003,7 +1003,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromCompany property.
+     * Obtiene el valor de la propiedad fromCompany.
      * 
      * @return
      *     possible object is
@@ -1015,7 +1015,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromCompany property.
+     * Define el valor de la propiedad fromCompany.
      * 
      * @param value
      *     allowed object is
@@ -1027,7 +1027,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromAddress1 property.
+     * Obtiene el valor de la propiedad fromAddress1.
      * 
      * @return
      *     possible object is
@@ -1039,7 +1039,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromAddress1 property.
+     * Define el valor de la propiedad fromAddress1.
      * 
      * @param value
      *     allowed object is
@@ -1051,7 +1051,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromAddress2 property.
+     * Obtiene el valor de la propiedad fromAddress2.
      * 
      * @return
      *     possible object is
@@ -1063,7 +1063,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromAddress2 property.
+     * Define el valor de la propiedad fromAddress2.
      * 
      * @param value
      *     allowed object is
@@ -1075,7 +1075,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromCity property.
+     * Obtiene el valor de la propiedad fromCity.
      * 
      * @return
      *     possible object is
@@ -1087,7 +1087,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromCity property.
+     * Define el valor de la propiedad fromCity.
      * 
      * @param value
      *     allowed object is
@@ -1099,7 +1099,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromState property.
+     * Obtiene el valor de la propiedad fromState.
      * 
      * @return
      *     possible object is
@@ -1111,7 +1111,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromState property.
+     * Define el valor de la propiedad fromState.
      * 
      * @param value
      *     allowed object is
@@ -1123,7 +1123,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromZip5 property.
+     * Obtiene el valor de la propiedad fromZip5.
      * 
      * @return
      *     possible object is
@@ -1135,7 +1135,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromZip5 property.
+     * Define el valor de la propiedad fromZip5.
      * 
      * @param value
      *     allowed object is
@@ -1147,7 +1147,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromZip4 property.
+     * Obtiene el valor de la propiedad fromZip4.
      * 
      * @return
      *     possible object is
@@ -1159,7 +1159,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromZip4 property.
+     * Define el valor de la propiedad fromZip4.
      * 
      * @param value
      *     allowed object is
@@ -1171,7 +1171,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromPhone property.
+     * Obtiene el valor de la propiedad fromPhone.
      * 
      * @return
      *     possible object is
@@ -1183,7 +1183,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromPhone property.
+     * Define el valor de la propiedad fromPhone.
      * 
      * @param value
      *     allowed object is
@@ -1195,7 +1195,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromEmail property.
+     * Obtiene el valor de la propiedad fromEmail.
      * 
      * @return
      *     possible object is
@@ -1207,7 +1207,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromEmail property.
+     * Define el valor de la propiedad fromEmail.
      * 
      * @param value
      *     allowed object is
@@ -1219,7 +1219,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the entryFacility property.
+     * Obtiene el valor de la propiedad entryFacility.
      * 
      * @return
      *     possible object is
@@ -1231,7 +1231,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the entryFacility property.
+     * Define el valor de la propiedad entryFacility.
      * 
      * @param value
      *     allowed object is
@@ -1243,7 +1243,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toName property.
+     * Obtiene el valor de la propiedad toName.
      * 
      * @return
      *     possible object is
@@ -1255,7 +1255,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toName property.
+     * Define el valor de la propiedad toName.
      * 
      * @param value
      *     allowed object is
@@ -1267,7 +1267,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toCompany property.
+     * Obtiene el valor de la propiedad toCompany.
      * 
      * @return
      *     possible object is
@@ -1279,7 +1279,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toCompany property.
+     * Define el valor de la propiedad toCompany.
      * 
      * @param value
      *     allowed object is
@@ -1291,7 +1291,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toAddress1 property.
+     * Obtiene el valor de la propiedad toAddress1.
      * 
      * @return
      *     possible object is
@@ -1303,7 +1303,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toAddress1 property.
+     * Define el valor de la propiedad toAddress1.
      * 
      * @param value
      *     allowed object is
@@ -1315,7 +1315,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toAddress2 property.
+     * Obtiene el valor de la propiedad toAddress2.
      * 
      * @return
      *     possible object is
@@ -1327,7 +1327,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toAddress2 property.
+     * Define el valor de la propiedad toAddress2.
      * 
      * @param value
      *     allowed object is
@@ -1339,7 +1339,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toCity property.
+     * Obtiene el valor de la propiedad toCity.
      * 
      * @return
      *     possible object is
@@ -1351,7 +1351,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toCity property.
+     * Define el valor de la propiedad toCity.
      * 
      * @param value
      *     allowed object is
@@ -1363,7 +1363,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toState property.
+     * Obtiene el valor de la propiedad toState.
      * 
      * @return
      *     possible object is
@@ -1375,7 +1375,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toState property.
+     * Define el valor de la propiedad toState.
      * 
      * @param value
      *     allowed object is
@@ -1387,7 +1387,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toPostalCode property.
+     * Obtiene el valor de la propiedad toPostalCode.
      * 
      * @return
      *     possible object is
@@ -1399,7 +1399,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toPostalCode property.
+     * Define el valor de la propiedad toPostalCode.
      * 
      * @param value
      *     allowed object is
@@ -1411,7 +1411,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toCountryCode property.
+     * Obtiene el valor de la propiedad toCountryCode.
      * 
      * @return
      *     possible object is
@@ -1423,7 +1423,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toCountryCode property.
+     * Define el valor de la propiedad toCountryCode.
      * 
      * @param value
      *     allowed object is
@@ -1435,7 +1435,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toPhone property.
+     * Obtiene el valor de la propiedad toPhone.
      * 
      * @return
      *     possible object is
@@ -1447,7 +1447,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toPhone property.
+     * Define el valor de la propiedad toPhone.
      * 
      * @param value
      *     allowed object is
@@ -1459,7 +1459,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toFax property.
+     * Obtiene el valor de la propiedad toFax.
      * 
      * @return
      *     possible object is
@@ -1471,7 +1471,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toFax property.
+     * Define el valor de la propiedad toFax.
      * 
      * @param value
      *     allowed object is
@@ -1483,7 +1483,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toEmail property.
+     * Obtiene el valor de la propiedad toEmail.
      * 
      * @return
      *     possible object is
@@ -1495,7 +1495,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toEmail property.
+     * Define el valor de la propiedad toEmail.
      * 
      * @param value
      *     allowed object is
@@ -1507,7 +1507,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toPOBox property.
+     * Obtiene el valor de la propiedad toPOBox.
      * 
      */
     public boolean isToPOBox() {
@@ -1515,7 +1515,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toPOBox property.
+     * Define el valor de la propiedad toPOBox.
      * 
      */
     public void setToPOBox(boolean value) {
@@ -1523,7 +1523,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the destinationFacility property.
+     * Obtiene el valor de la propiedad destinationFacility.
      * 
      * @return
      *     possible object is
@@ -1535,7 +1535,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the destinationFacility property.
+     * Define el valor de la propiedad destinationFacility.
      * 
      * @param value
      *     allowed object is
@@ -1547,7 +1547,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the referenceID property.
+     * Obtiene el valor de la propiedad referenceID.
      * 
      * @return
      *     possible object is
@@ -1559,7 +1559,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the referenceID property.
+     * Define el valor de la propiedad referenceID.
      * 
      * @param value
      *     allowed object is
@@ -1571,7 +1571,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the surchargeType property.
+     * Obtiene el valor de la propiedad surchargeType.
      * 
      * @return
      *     possible object is
@@ -1583,7 +1583,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the surchargeType property.
+     * Define el valor de la propiedad surchargeType.
      * 
      * @param value
      *     allowed object is
@@ -1595,7 +1595,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the surchargeAmount property.
+     * Obtiene el valor de la propiedad surchargeAmount.
      * 
      * @return
      *     possible object is
@@ -1607,7 +1607,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the surchargeAmount property.
+     * Define el valor de la propiedad surchargeAmount.
      * 
      * @param value
      *     allowed object is
@@ -1619,7 +1619,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the surchargeDescription property.
+     * Obtiene el valor de la propiedad surchargeDescription.
      * 
      * @return
      *     possible object is
@@ -1631,7 +1631,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the surchargeDescription property.
+     * Define el valor de la propiedad surchargeDescription.
      * 
      * @param value
      *     allowed object is
@@ -1643,7 +1643,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the customsInfo property.
+     * Obtiene el valor de la propiedad customsInfo.
      * 
      * @return
      *     possible object is
@@ -1655,7 +1655,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the customsInfo property.
+     * Define el valor de la propiedad customsInfo.
      * 
      * @param value
      *     allowed object is
@@ -1667,7 +1667,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the computeRDC property.
+     * Obtiene el valor de la propiedad computeRDC.
      * 
      */
     public boolean isComputeRDC() {
@@ -1675,7 +1675,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the computeRDC property.
+     * Define el valor de la propiedad computeRDC.
      * 
      */
     public void setComputeRDC(boolean value) {
@@ -1683,7 +1683,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the returnService property.
+     * Obtiene el valor de la propiedad returnService.
      * 
      */
     public boolean isReturnService() {
@@ -1691,7 +1691,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the returnService property.
+     * Define el valor de la propiedad returnService.
      * 
      */
     public void setReturnService(boolean value) {
@@ -1699,7 +1699,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the reShipment property.
+     * Obtiene el valor de la propiedad reShipment.
      * 
      */
     public boolean isReShipment() {
@@ -1707,7 +1707,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the reShipment property.
+     * Define el valor de la propiedad reShipment.
      * 
      */
     public void setReShipment(boolean value) {
@@ -1715,7 +1715,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the adultSignature property.
+     * Obtiene el valor de la propiedad adultSignature.
      * 
      */
     public boolean isAdultSignature() {
@@ -1723,7 +1723,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the adultSignature property.
+     * Define el valor de la propiedad adultSignature.
      * 
      */
     public void setAdultSignature(boolean value) {
@@ -1731,7 +1731,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the adultSignatureRestricted property.
+     * Obtiene el valor de la propiedad adultSignatureRestricted.
      * 
      */
     public boolean isAdultSignatureRestricted() {
@@ -1739,7 +1739,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the adultSignatureRestricted property.
+     * Define el valor de la propiedad adultSignatureRestricted.
      * 
      */
     public void setAdultSignatureRestricted(boolean value) {
@@ -1747,7 +1747,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the expressMailMerchandiseInsurance property.
+     * Obtiene el valor de la propiedad expressMailMerchandiseInsurance.
      * 
      */
     public boolean isExpressMailMerchandiseInsurance() {
@@ -1755,7 +1755,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the expressMailMerchandiseInsurance property.
+     * Define el valor de la propiedad expressMailMerchandiseInsurance.
      * 
      */
     public void setExpressMailMerchandiseInsurance(boolean value) {
@@ -1763,7 +1763,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the parcelAirlift property.
+     * Obtiene el valor de la propiedad parcelAirlift.
      * 
      */
     public boolean isParcelAirlift() {
@@ -1771,7 +1771,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the parcelAirlift property.
+     * Define el valor de la propiedad parcelAirlift.
      * 
      */
     public void setParcelAirlift(boolean value) {
@@ -1779,7 +1779,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the specialHandling property.
+     * Obtiene el valor de la propiedad specialHandling.
      * 
      */
     public boolean isSpecialHandling() {
@@ -1787,7 +1787,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the specialHandling property.
+     * Define el valor de la propiedad specialHandling.
      * 
      */
     public void setSpecialHandling(boolean value) {
@@ -1795,7 +1795,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the holdForPickup property.
+     * Obtiene el valor de la propiedad holdForPickup.
      * 
      */
     public boolean isHoldForPickup() {
@@ -1803,7 +1803,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the holdForPickup property.
+     * Define el valor de la propiedad holdForPickup.
      * 
      */
     public void setHoldForPickup(boolean value) {
@@ -1811,7 +1811,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the openAndDistribute property.
+     * Obtiene el valor de la propiedad openAndDistribute.
      * 
      */
     public boolean isOpenAndDistribute() {
@@ -1819,7 +1819,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the openAndDistribute property.
+     * Define el valor de la propiedad openAndDistribute.
      * 
      */
     public void setOpenAndDistribute(boolean value) {
@@ -1827,7 +1827,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the certifiedMail property.
+     * Obtiene el valor de la propiedad certifiedMail.
      * 
      */
     public boolean isCertifiedMail() {
@@ -1835,7 +1835,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the certifiedMail property.
+     * Define el valor de la propiedad certifiedMail.
      * 
      */
     public void setCertifiedMail(boolean value) {
@@ -1843,7 +1843,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the deliveryConfirmation property.
+     * Obtiene el valor de la propiedad deliveryConfirmation.
      * 
      */
     public boolean isDeliveryConfirmation() {
@@ -1851,7 +1851,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the deliveryConfirmation property.
+     * Define el valor de la propiedad deliveryConfirmation.
      * 
      */
     public void setDeliveryConfirmation(boolean value) {
@@ -1859,7 +1859,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the signatureConfirmation property.
+     * Obtiene el valor de la propiedad signatureConfirmation.
      * 
      */
     public boolean isSignatureConfirmation() {
@@ -1867,7 +1867,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the signatureConfirmation property.
+     * Define el valor de la propiedad signatureConfirmation.
      * 
      */
     public void setSignatureConfirmation(boolean value) {
@@ -1875,7 +1875,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the registeredMail property.
+     * Obtiene el valor de la propiedad registeredMail.
      * 
      */
     public boolean isRegisteredMail() {
@@ -1883,7 +1883,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the registeredMail property.
+     * Define el valor de la propiedad registeredMail.
      * 
      */
     public void setRegisteredMail(boolean value) {
@@ -1891,7 +1891,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the passiveEnrouteScan property.
+     * Obtiene el valor de la propiedad passiveEnrouteScan.
      * 
      */
     public boolean isPassiveEnrouteScan() {
@@ -1899,7 +1899,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the passiveEnrouteScan property.
+     * Define el valor de la propiedad passiveEnrouteScan.
      * 
      */
     public void setPassiveEnrouteScan(boolean value) {
@@ -1907,7 +1907,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the restrictedDelivery property.
+     * Obtiene el valor de la propiedad restrictedDelivery.
      * 
      */
     public boolean isRestrictedDelivery() {
@@ -1915,7 +1915,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the restrictedDelivery property.
+     * Define el valor de la propiedad restrictedDelivery.
      * 
      */
     public void setRestrictedDelivery(boolean value) {
@@ -1923,7 +1923,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the expressMail property.
+     * Obtiene el valor de la propiedad expressMail.
      * 
      */
     public boolean isExpressMail() {
@@ -1931,7 +1931,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the expressMail property.
+     * Define el valor de la propiedad expressMail.
      * 
      */
     public void setExpressMail(boolean value) {
@@ -1939,7 +1939,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the expeditedReturn property.
+     * Obtiene el valor de la propiedad expeditedReturn.
      * 
      */
     public boolean isExpeditedReturn() {
@@ -1947,7 +1947,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the expeditedReturn property.
+     * Define el valor de la propiedad expeditedReturn.
      * 
      */
     public void setExpeditedReturn(boolean value) {
@@ -1955,7 +1955,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the merchandiseReturn property.
+     * Obtiene el valor de la propiedad merchandiseReturn.
      * 
      */
     public boolean isMerchandiseReturn() {
@@ -1963,7 +1963,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the merchandiseReturn property.
+     * Define el valor de la propiedad merchandiseReturn.
      * 
      */
     public void setMerchandiseReturn(boolean value) {
@@ -1971,7 +1971,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the merchandiseReturnWithDeliveryConfirmation property.
+     * Obtiene el valor de la propiedad merchandiseReturnWithDeliveryConfirmation.
      * 
      */
     public boolean isMerchandiseReturnWithDeliveryConfirmation() {
@@ -1979,7 +1979,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the merchandiseReturnWithDeliveryConfirmation property.
+     * Define el valor de la propiedad merchandiseReturnWithDeliveryConfirmation.
      * 
      */
     public void setMerchandiseReturnWithDeliveryConfirmation(boolean value) {
@@ -1987,7 +1987,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the dayCertainDelivery property.
+     * Obtiene el valor de la propiedad dayCertainDelivery.
      * 
      */
     public boolean isDayCertainDelivery() {
@@ -1995,7 +1995,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the dayCertainDelivery property.
+     * Define el valor de la propiedad dayCertainDelivery.
      * 
      */
     public void setDayCertainDelivery(boolean value) {
@@ -2003,7 +2003,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the newFormat property.
+     * Obtiene el valor de la propiedad newFormat.
      * 
      */
     public boolean isNewFormat() {
@@ -2011,7 +2011,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the newFormat property.
+     * Define el valor de la propiedad newFormat.
      * 
      */
     public void setNewFormat(boolean value) {
@@ -2019,7 +2019,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the smsEmail property.
+     * Obtiene el valor de la propiedad smsEmail.
      * 
      * @return
      *     possible object is
@@ -2031,7 +2031,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the smsEmail property.
+     * Define el valor de la propiedad smsEmail.
      * 
      * @param value
      *     allowed object is
@@ -2043,7 +2043,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the smsPhone property.
+     * Obtiene el valor de la propiedad smsPhone.
      * 
      * @return
      *     possible object is
@@ -2055,7 +2055,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the smsPhone property.
+     * Define el valor de la propiedad smsPhone.
      * 
      * @param value
      *     allowed object is
@@ -2067,7 +2067,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the certifiedMailFee property.
+     * Obtiene el valor de la propiedad certifiedMailFee.
      * 
      * @return
      *     possible object is
@@ -2079,7 +2079,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the certifiedMailFee property.
+     * Define el valor de la propiedad certifiedMailFee.
      * 
      * @param value
      *     allowed object is
@@ -2091,7 +2091,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the deliveryConfirmationFee property.
+     * Obtiene el valor de la propiedad deliveryConfirmationFee.
      * 
      * @return
      *     possible object is
@@ -2103,7 +2103,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the deliveryConfirmationFee property.
+     * Define el valor de la propiedad deliveryConfirmationFee.
      * 
      * @param value
      *     allowed object is
@@ -2115,7 +2115,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the merchandiseReturnFee property.
+     * Obtiene el valor de la propiedad merchandiseReturnFee.
      * 
      * @return
      *     possible object is
@@ -2127,7 +2127,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the merchandiseReturnFee property.
+     * Define el valor de la propiedad merchandiseReturnFee.
      * 
      * @param value
      *     allowed object is
@@ -2139,7 +2139,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the dayCertainDeliveryFee property.
+     * Obtiene el valor de la propiedad dayCertainDeliveryFee.
      * 
      * @return
      *     possible object is
@@ -2151,7 +2151,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the dayCertainDeliveryFee property.
+     * Define el valor de la propiedad dayCertainDeliveryFee.
      * 
      * @param value
      *     allowed object is
@@ -2163,7 +2163,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the merchandiseReturnWithDeliveryConfirmationFee property.
+     * Obtiene el valor de la propiedad merchandiseReturnWithDeliveryConfirmationFee.
      * 
      * @return
      *     possible object is
@@ -2175,7 +2175,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the merchandiseReturnWithDeliveryConfirmationFee property.
+     * Define el valor de la propiedad merchandiseReturnWithDeliveryConfirmationFee.
      * 
      * @param value
      *     allowed object is
@@ -2187,7 +2187,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the openAndDistributeFee property.
+     * Obtiene el valor de la propiedad openAndDistributeFee.
      * 
      * @return
      *     possible object is
@@ -2199,7 +2199,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the openAndDistributeFee property.
+     * Define el valor de la propiedad openAndDistributeFee.
      * 
      * @param value
      *     allowed object is
@@ -2211,7 +2211,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the passiveEnrouteScanFee property.
+     * Obtiene el valor de la propiedad passiveEnrouteScanFee.
      * 
      * @return
      *     possible object is
@@ -2223,7 +2223,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the passiveEnrouteScanFee property.
+     * Define el valor de la propiedad passiveEnrouteScanFee.
      * 
      * @param value
      *     allowed object is
@@ -2235,7 +2235,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the registeredMailFee property.
+     * Obtiene el valor de la propiedad registeredMailFee.
      * 
      * @return
      *     possible object is
@@ -2247,7 +2247,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the registeredMailFee property.
+     * Define el valor de la propiedad registeredMailFee.
      * 
      * @param value
      *     allowed object is
@@ -2259,7 +2259,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the signatureConfirmationFee property.
+     * Obtiene el valor de la propiedad signatureConfirmationFee.
      * 
      * @return
      *     possible object is
@@ -2271,7 +2271,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the signatureConfirmationFee property.
+     * Define el valor de la propiedad signatureConfirmationFee.
      * 
      * @param value
      *     allowed object is
@@ -2283,7 +2283,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the signatureServiceFee property.
+     * Obtiene el valor de la propiedad signatureServiceFee.
      * 
      * @return
      *     possible object is
@@ -2295,7 +2295,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the signatureServiceFee property.
+     * Define el valor de la propiedad signatureServiceFee.
      * 
      * @param value
      *     allowed object is
@@ -2307,7 +2307,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the expressMailFee property.
+     * Obtiene el valor de la propiedad expressMailFee.
      * 
      * @return
      *     possible object is
@@ -2319,7 +2319,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the expressMailFee property.
+     * Define el valor de la propiedad expressMailFee.
      * 
      * @param value
      *     allowed object is
@@ -2331,7 +2331,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the expeditedReturnFee property.
+     * Obtiene el valor de la propiedad expeditedReturnFee.
      * 
      * @return
      *     possible object is
@@ -2343,7 +2343,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the expeditedReturnFee property.
+     * Define el valor de la propiedad expeditedReturnFee.
      * 
      * @param value
      *     allowed object is
@@ -2355,7 +2355,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the adultSignatureFee property.
+     * Obtiene el valor de la propiedad adultSignatureFee.
      * 
      * @return
      *     possible object is
@@ -2367,7 +2367,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the adultSignatureFee property.
+     * Define el valor de la propiedad adultSignatureFee.
      * 
      * @param value
      *     allowed object is
@@ -2379,7 +2379,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the adultSignatureRestrictedFee property.
+     * Obtiene el valor de la propiedad adultSignatureRestrictedFee.
      * 
      * @return
      *     possible object is
@@ -2391,7 +2391,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the adultSignatureRestrictedFee property.
+     * Define el valor de la propiedad adultSignatureRestrictedFee.
      * 
      * @param value
      *     allowed object is
@@ -2403,7 +2403,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the groupedExtraServicesFee property.
+     * Obtiene el valor de la propiedad groupedExtraServicesFee.
      * 
      * @return
      *     possible object is
@@ -2415,7 +2415,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the groupedExtraServicesFee property.
+     * Define el valor de la propiedad groupedExtraServicesFee.
      * 
      * @param value
      *     allowed object is
@@ -2427,7 +2427,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the isConsolidator property.
+     * Obtiene el valor de la propiedad isConsolidator.
      * 
      */
     public boolean isIsConsolidator() {
@@ -2435,7 +2435,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the isConsolidator property.
+     * Define el valor de la propiedad isConsolidator.
      * 
      */
     public void setIsConsolidator(boolean value) {
@@ -2443,7 +2443,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the isEvs property.
+     * Obtiene el valor de la propiedad isEvs.
      * 
      */
     public boolean isIsEvs() {
@@ -2451,7 +2451,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the isEvs property.
+     * Define el valor de la propiedad isEvs.
      * 
      */
     public void setIsEvs(boolean value) {
@@ -2459,7 +2459,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the consolidatorPrefId property.
+     * Obtiene el valor de la propiedad consolidatorPrefId.
      * 
      */
     public int getConsolidatorPrefId() {
@@ -2467,7 +2467,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the consolidatorPrefId property.
+     * Define el valor de la propiedad consolidatorPrefId.
      * 
      */
     public void setConsolidatorPrefId(int value) {
@@ -2475,7 +2475,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the chargedFee property.
+     * Obtiene el valor de la propiedad chargedFee.
      * 
      * @return
      *     possible object is
@@ -2487,7 +2487,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the chargedFee property.
+     * Define el valor de la propiedad chargedFee.
      * 
      * @param value
      *     allowed object is
@@ -2499,7 +2499,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the internationalPicnumberPrefix property.
+     * Obtiene el valor de la propiedad internationalPicnumberPrefix.
      * 
      * @return
      *     possible object is
@@ -2511,7 +2511,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the internationalPicnumberPrefix property.
+     * Define el valor de la propiedad internationalPicnumberPrefix.
      * 
      * @param value
      *     allowed object is
@@ -2523,7 +2523,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the scanBasedPayment property.
+     * Obtiene el valor de la propiedad scanBasedPayment.
      * 
      */
     public boolean isScanBasedPayment() {
@@ -2531,7 +2531,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the scanBasedPayment property.
+     * Define el valor de la propiedad scanBasedPayment.
      * 
      */
     public void setScanBasedPayment(boolean value) {
@@ -2539,7 +2539,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the outboundScanBasedPayment property.
+     * Obtiene el valor de la propiedad outboundScanBasedPayment.
      * 
      */
     public boolean isOutboundScanBasedPayment() {
@@ -2547,7 +2547,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the outboundScanBasedPayment property.
+     * Define el valor de la propiedad outboundScanBasedPayment.
      * 
      */
     public void setOutboundScanBasedPayment(boolean value) {
@@ -2555,7 +2555,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the signatureService property.
+     * Obtiene el valor de la propiedad signatureService.
      * 
      */
     public boolean isSignatureService() {
@@ -2563,7 +2563,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the signatureService property.
+     * Define el valor de la propiedad signatureService.
      * 
      */
     public void setSignatureService(boolean value) {
@@ -2571,7 +2571,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the length property.
+     * Obtiene el valor de la propiedad length.
      * 
      * @return
      *     possible object is
@@ -2583,7 +2583,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the length property.
+     * Define el valor de la propiedad length.
      * 
      * @param value
      *     allowed object is
@@ -2595,7 +2595,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the width property.
+     * Obtiene el valor de la propiedad width.
      * 
      * @return
      *     possible object is
@@ -2607,7 +2607,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the width property.
+     * Define el valor de la propiedad width.
      * 
      * @param value
      *     allowed object is
@@ -2619,7 +2619,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the height property.
+     * Obtiene el valor de la propiedad height.
      * 
      * @return
      *     possible object is
@@ -2631,7 +2631,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the height property.
+     * Define el valor de la propiedad height.
      * 
      * @param value
      *     allowed object is
@@ -2643,7 +2643,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the value property.
+     * Obtiene el valor de la propiedad value.
      * 
      */
     public float getValue() {
@@ -2651,7 +2651,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the value property.
+     * Define el valor de la propiedad value.
      * 
      */
     public void setValue(float value) {
@@ -2659,7 +2659,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the flagGenerate property.
+     * Obtiene el valor de la propiedad flagGenerate.
      * 
      */
     public boolean isFlagGenerate() {
@@ -2667,7 +2667,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the flagGenerate property.
+     * Define el valor de la propiedad flagGenerate.
      * 
      */
     public void setFlagGenerate(boolean value) {
@@ -2675,7 +2675,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toCarrierRoute property.
+     * Obtiene el valor de la propiedad toCarrierRoute.
      * 
      * @return
      *     possible object is
@@ -2687,7 +2687,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toCarrierRoute property.
+     * Define el valor de la propiedad toCarrierRoute.
      * 
      * @param value
      *     allowed object is
@@ -2699,7 +2699,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the specialContents property.
+     * Obtiene el valor de la propiedad specialContents.
      * 
      * @return
      *     possible object is
@@ -2711,7 +2711,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the specialContents property.
+     * Define el valor de la propiedad specialContents.
      * 
      * @param value
      *     allowed object is
@@ -2723,7 +2723,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the liveAnimalSurcharge property.
+     * Obtiene el valor de la propiedad liveAnimalSurcharge.
      * 
      * @return
      *     possible object is
@@ -2735,7 +2735,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the liveAnimalSurcharge property.
+     * Define el valor de la propiedad liveAnimalSurcharge.
      * 
      * @param value
      *     allowed object is
@@ -2747,7 +2747,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fragileHandlingSurcharge property.
+     * Obtiene el valor de la propiedad fragileHandlingSurcharge.
      * 
      * @return
      *     possible object is
@@ -2759,7 +2759,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fragileHandlingSurcharge property.
+     * Define el valor de la propiedad fragileHandlingSurcharge.
      * 
      * @param value
      *     allowed object is
@@ -2771,7 +2771,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the permitNumber property.
+     * Obtiene el valor de la propiedad permitNumber.
      * 
      * @return
      *     possible object is
@@ -2783,7 +2783,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the permitNumber property.
+     * Define el valor de la propiedad permitNumber.
      * 
      * @param value
      *     allowed object is
@@ -2795,7 +2795,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the sbpUseCommercialConstruct property.
+     * Obtiene el valor de la propiedad sbpUseCommercialConstruct.
      * 
      */
     public boolean isSbpUseCommercialConstruct() {
@@ -2803,7 +2803,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the sbpUseCommercialConstruct property.
+     * Define el valor de la propiedad sbpUseCommercialConstruct.
      * 
      */
     public void setSbpUseCommercialConstruct(boolean value) {
@@ -2811,7 +2811,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the picMailerID property.
+     * Obtiene el valor de la propiedad picMailerID.
      * 
      * @return
      *     possible object is
@@ -2823,7 +2823,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the picMailerID property.
+     * Define el valor de la propiedad picMailerID.
      * 
      * @param value
      *     allowed object is
@@ -2835,7 +2835,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the fromDeliveryPoint property.
+     * Obtiene el valor de la propiedad fromDeliveryPoint.
      * 
      * @return
      *     possible object is
@@ -2847,7 +2847,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the fromDeliveryPoint property.
+     * Define el valor de la propiedad fromDeliveryPoint.
      * 
      * @param value
      *     allowed object is
@@ -2859,7 +2859,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the toDeliveryPoint property.
+     * Obtiene el valor de la propiedad toDeliveryPoint.
      * 
      * @return
      *     possible object is
@@ -2871,7 +2871,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the toDeliveryPoint property.
+     * Define el valor de la propiedad toDeliveryPoint.
      * 
      * @param value
      *     allowed object is
@@ -2883,7 +2883,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the isBalloonRate property.
+     * Obtiene el valor de la propiedad isBalloonRate.
      * 
      */
     public boolean isIsBalloonRate() {
@@ -2891,7 +2891,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the isBalloonRate property.
+     * Define el valor de la propiedad isBalloonRate.
      * 
      */
     public void setIsBalloonRate(boolean value) {
@@ -2899,7 +2899,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the softwareID property.
+     * Obtiene el valor de la propiedad softwareID.
      * 
      */
     public long getSoftwareID() {
@@ -2907,7 +2907,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the softwareID property.
+     * Define el valor de la propiedad softwareID.
      * 
      */
     public void setSoftwareID(long value) {
@@ -2915,7 +2915,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the isTerritories property.
+     * Obtiene el valor de la propiedad isTerritories.
      * 
      */
     public boolean isIsTerritories() {
@@ -2923,7 +2923,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the isTerritories property.
+     * Define el valor de la propiedad isTerritories.
      * 
      */
     public void setIsTerritories(boolean value) {
@@ -2931,7 +2931,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the isBarcodeZIP4Enabled property.
+     * Obtiene el valor de la propiedad isBarcodeZIP4Enabled.
      * 
      */
     public boolean isIsBarcodeZIP4Enabled() {
@@ -2939,7 +2939,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the isBarcodeZIP4Enabled property.
+     * Define el valor de la propiedad isBarcodeZIP4Enabled.
      * 
      */
     public void setIsBarcodeZIP4Enabled(boolean value) {
@@ -2947,7 +2947,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the poZipCode property.
+     * Obtiene el valor de la propiedad poZipCode.
      * 
      * @return
      *     possible object is
@@ -2959,7 +2959,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the poZipCode property.
+     * Define el valor de la propiedad poZipCode.
      * 
      * @param value
      *     allowed object is
@@ -2971,7 +2971,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the returns property.
+     * Obtiene el valor de la propiedad returns.
      * 
      */
     public boolean isReturns() {
@@ -2979,7 +2979,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the returns property.
+     * Define el valor de la propiedad returns.
      * 
      */
     public void setReturns(boolean value) {
@@ -2987,7 +2987,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the consolidatorAccountId property.
+     * Obtiene el valor de la propiedad consolidatorAccountId.
      * 
      */
     public int getConsolidatorAccountId() {
@@ -2995,7 +2995,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the consolidatorAccountId property.
+     * Define el valor de la propiedad consolidatorAccountId.
      * 
      */
     public void setConsolidatorAccountId(int value) {
@@ -3003,7 +3003,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the isDimWeighted property.
+     * Obtiene el valor de la propiedad isDimWeighted.
      * 
      */
     public boolean isIsDimWeighted() {
@@ -3011,7 +3011,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the isDimWeighted property.
+     * Define el valor de la propiedad isDimWeighted.
      * 
      */
     public void setIsDimWeighted(boolean value) {
@@ -3019,7 +3019,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the marketPlacePartnerID property.
+     * Obtiene el valor de la propiedad marketPlacePartnerID.
      * 
      * @return
      *     possible object is
@@ -3031,7 +3031,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the marketPlacePartnerID property.
+     * Define el valor de la propiedad marketPlacePartnerID.
      * 
      * @param value
      *     allowed object is
@@ -3043,7 +3043,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Gets the value of the test property.
+     * Obtiene el valor de la propiedad test.
      * 
      */
     public boolean isTest() {
@@ -3051,7 +3051,7 @@ public abstract class LabelNumberRequest
     }
 
     /**
-     * Sets the value of the test property.
+     * Define el valor de la propiedad test.
      * 
      */
     public void setTest(boolean value) {

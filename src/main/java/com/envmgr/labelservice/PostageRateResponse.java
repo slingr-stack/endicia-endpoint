@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PostageRateResponse complex type.
+ * <p>Clase Java para PostageRateResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PostageRateResponse"&gt;
@@ -58,7 +58,7 @@ public class PostageRateResponse {
     protected ArrayOfCommitment priorityMailExpressCommitments;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -66,7 +66,7 @@ public class PostageRateResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -74,7 +74,7 @@ public class PostageRateResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class PostageRateResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class PostageRateResponse {
     }
 
     /**
-     * Gets the value of the zone property.
+     * Obtiene el valor de la propiedad zone.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class PostageRateResponse {
     }
 
     /**
-     * Sets the value of the zone property.
+     * Define el valor de la propiedad zone.
      * 
      * @param value
      *     allowed object is
@@ -180,7 +180,7 @@ public class PostageRateResponse {
     }
 
     /**
-     * Gets the value of the priorityMailExpressCommitments property.
+     * Obtiene el valor de la propiedad priorityMailExpressCommitments.
      * 
      * @return
      *     possible object is
@@ -192,7 +192,7 @@ public class PostageRateResponse {
     }
 
     /**
-     * Sets the value of the priorityMailExpressCommitments property.
+     * Define el valor de la propiedad priorityMailExpressCommitments.
      * 
      * @param value
      *     allowed object is

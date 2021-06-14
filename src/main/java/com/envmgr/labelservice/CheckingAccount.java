@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CheckingAccount complex type.
+ * <p>Clase Java para CheckingAccount complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CheckingAccount"&gt;
@@ -42,7 +42,7 @@ public class CheckingAccount
     protected String routingNumber;
 
     /**
-     * Gets the value of the accountNumber property.
+     * Obtiene el valor de la propiedad accountNumber.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class CheckingAccount
     }
 
     /**
-     * Sets the value of the accountNumber property.
+     * Define el valor de la propiedad accountNumber.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class CheckingAccount
     }
 
     /**
-     * Gets the value of the routingNumber property.
+     * Obtiene el valor de la propiedad routingNumber.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class CheckingAccount
     }
 
     /**
-     * Sets the value of the routingNumber property.
+     * Define el valor de la propiedad routingNumber.
      * 
      * @param value
      *     allowed object is

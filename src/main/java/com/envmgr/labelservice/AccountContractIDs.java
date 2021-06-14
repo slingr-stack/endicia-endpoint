@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for AccountContractIDs complex type.
+ * <p>Clase Java para AccountContractIDs complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="AccountContractIDs"&gt;
@@ -40,7 +40,7 @@ public class AccountContractIDs {
     protected String internationalCID;
 
     /**
-     * Gets the value of the domesticCID property.
+     * Obtiene el valor de la propiedad domesticCID.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class AccountContractIDs {
     }
 
     /**
-     * Sets the value of the domesticCID property.
+     * Define el valor de la propiedad domesticCID.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class AccountContractIDs {
     }
 
     /**
-     * Gets the value of the internationalCID property.
+     * Obtiene el valor de la propiedad internationalCID.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class AccountContractIDs {
     }
 
     /**
-     * Sets the value of the internationalCID property.
+     * Define el valor de la propiedad internationalCID.
      * 
      * @param value
      *     allowed object is

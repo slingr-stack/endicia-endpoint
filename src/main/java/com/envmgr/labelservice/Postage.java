@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Postage complex type.
+ * <p>Clase Java para Postage complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Postage"&gt;
@@ -57,7 +57,7 @@ public class Postage {
     protected BigDecimal totalAmount;
 
     /**
-     * Gets the value of the mailService property.
+     * Obtiene el valor de la propiedad mailService.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class Postage {
     }
 
     /**
-     * Sets the value of the mailService property.
+     * Define el valor de la propiedad mailService.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class Postage {
     }
 
     /**
-     * Gets the value of the zone property.
+     * Obtiene el valor de la propiedad zone.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class Postage {
     }
 
     /**
-     * Sets the value of the zone property.
+     * Define el valor de la propiedad zone.
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class Postage {
     }
 
     /**
-     * Gets the value of the intraBMC property.
+     * Obtiene el valor de la propiedad intraBMC.
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class Postage {
     }
 
     /**
-     * Sets the value of the intraBMC property.
+     * Define el valor de la propiedad intraBMC.
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class Postage {
     }
 
     /**
-     * Gets the value of the pricing property.
+     * Obtiene el valor de la propiedad pricing.
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class Postage {
     }
 
     /**
-     * Sets the value of the pricing property.
+     * Define el valor de la propiedad pricing.
      * 
      * @param value
      *     allowed object is
@@ -153,7 +153,7 @@ public class Postage {
     }
 
     /**
-     * Gets the value of the dimWeighting property.
+     * Obtiene el valor de la propiedad dimWeighting.
      * 
      */
     public boolean isDimWeighting() {
@@ -161,7 +161,7 @@ public class Postage {
     }
 
     /**
-     * Sets the value of the dimWeighting property.
+     * Define el valor de la propiedad dimWeighting.
      * 
      */
     public void setDimWeighting(boolean value) {
@@ -169,7 +169,7 @@ public class Postage {
     }
 
     /**
-     * Gets the value of the totalAmount property.
+     * Obtiene el valor de la propiedad totalAmount.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class Postage {
     }
 
     /**
-     * Sets the value of the totalAmount property.
+     * Define el valor de la propiedad totalAmount.
      * 
      * @param value
      *     allowed object is

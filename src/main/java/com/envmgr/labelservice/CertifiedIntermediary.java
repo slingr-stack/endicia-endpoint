@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CertifiedIntermediary complex type.
+ * <p>Clase Java para CertifiedIntermediary complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CertifiedIntermediary"&gt;
@@ -48,7 +48,7 @@ public class CertifiedIntermediary {
     protected String tokenTimeStamp;
 
     /**
-     * Gets the value of the accountID property.
+     * Obtiene el valor de la propiedad accountID.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class CertifiedIntermediary {
     }
 
     /**
-     * Sets the value of the accountID property.
+     * Define el valor de la propiedad accountID.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class CertifiedIntermediary {
     }
 
     /**
-     * Gets the value of the passPhrase property.
+     * Obtiene el valor de la propiedad passPhrase.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class CertifiedIntermediary {
     }
 
     /**
-     * Sets the value of the passPhrase property.
+     * Define el valor de la propiedad passPhrase.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class CertifiedIntermediary {
     }
 
     /**
-     * Gets the value of the token property.
+     * Obtiene el valor de la propiedad token.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class CertifiedIntermediary {
     }
 
     /**
-     * Sets the value of the token property.
+     * Define el valor de la propiedad token.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class CertifiedIntermediary {
     }
 
     /**
-     * Gets the value of the tokenTimeStamp property.
+     * Obtiene el valor de la propiedad tokenTimeStamp.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class CertifiedIntermediary {
     }
 
     /**
-     * Sets the value of the tokenTimeStamp property.
+     * Define el valor de la propiedad tokenTimeStamp.
      * 
      * @param value
      *     allowed object is

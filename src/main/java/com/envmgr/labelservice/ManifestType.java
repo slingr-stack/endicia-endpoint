@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ManifestType.
+ * <p>Clase Java para ManifestType.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * <p>
  * <pre>
  * &lt;simpleType name="ManifestType"&gt;
@@ -19,6 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;enumeration value="None"/&gt;
  *     &lt;enumeration value="USPS"/&gt;
  *     &lt;enumeration value="GlobalAdvantage"/&gt;
+ *     &lt;enumeration value="DriversManifest"/&gt;
  *   &lt;/restriction&gt;
  * &lt;/simpleType&gt;
  * </pre>
@@ -36,7 +37,9 @@ public enum ManifestType {
     NONE("None"),
     USPS("USPS"),
     @XmlEnumValue("GlobalAdvantage")
-    GLOBAL_ADVANTAGE("GlobalAdvantage");
+    GLOBAL_ADVANTAGE("GlobalAdvantage"),
+    @XmlEnumValue("DriversManifest")
+    DRIVERS_MANIFEST("DriversManifest");
     private final String value;
 
     ManifestType(String v) {

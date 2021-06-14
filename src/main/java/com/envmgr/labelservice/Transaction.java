@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Transaction complex type.
+ * <p>Clase Java para Transaction complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Transaction"&gt;
@@ -124,7 +124,7 @@ public class Transaction {
     protected String purchaseType;
 
     /**
-     * Gets the value of the pic property.
+     * Obtiene el valor de la propiedad pic.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the pic property.
+     * Define el valor de la propiedad pic.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the transactionID property.
+     * Obtiene el valor de la propiedad transactionID.
      * 
      */
     public long getTransactionID() {
@@ -156,7 +156,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the transactionID property.
+     * Define el valor de la propiedad transactionID.
      * 
      */
     public void setTransactionID(long value) {
@@ -164,7 +164,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the pieceID property.
+     * Obtiene el valor de la propiedad pieceID.
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the pieceID property.
+     * Define el valor de la propiedad pieceID.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +188,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the amount property.
+     * Obtiene el valor de la propiedad amount.
      * 
      * @return
      *     possible object is
@@ -200,7 +200,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the amount property.
+     * Define el valor de la propiedad amount.
      * 
      * @param value
      *     allowed object is
@@ -212,7 +212,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the weight property.
+     * Obtiene el valor de la propiedad weight.
      * 
      * @return
      *     possible object is
@@ -224,7 +224,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the weight property.
+     * Define el valor de la propiedad weight.
      * 
      * @param value
      *     allowed object is
@@ -236,7 +236,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the mailClass property.
+     * Obtiene el valor de la propiedad mailClass.
      * 
      * @return
      *     possible object is
@@ -248,7 +248,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the mailClass property.
+     * Define el valor de la propiedad mailClass.
      * 
      * @param value
      *     allowed object is
@@ -260,7 +260,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the toAddress property.
+     * Obtiene el valor de la propiedad toAddress.
      * 
      * @return
      *     possible object is
@@ -272,7 +272,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the toAddress property.
+     * Define el valor de la propiedad toAddress.
      * 
      * @param value
      *     allowed object is
@@ -284,7 +284,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the fromAddress property.
+     * Obtiene el valor de la propiedad fromAddress.
      * 
      * @return
      *     possible object is
@@ -296,7 +296,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the fromAddress property.
+     * Define el valor de la propiedad fromAddress.
      * 
      * @param value
      *     allowed object is
@@ -308,7 +308,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the costCenter property.
+     * Obtiene el valor de la propiedad costCenter.
      * 
      * @return
      *     possible object is
@@ -320,7 +320,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the costCenter property.
+     * Define el valor de la propiedad costCenter.
      * 
      * @param value
      *     allowed object is
@@ -332,7 +332,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the referenceID property.
+     * Obtiene el valor de la propiedad referenceID.
      * 
      * @return
      *     possible object is
@@ -344,7 +344,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the referenceID property.
+     * Define el valor de la propiedad referenceID.
      * 
      * @param value
      *     allowed object is
@@ -356,7 +356,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the retailAccountID property.
+     * Obtiene el valor de la propiedad retailAccountID.
      * 
      * @return
      *     possible object is
@@ -368,7 +368,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the retailAccountID property.
+     * Define el valor de la propiedad retailAccountID.
      * 
      * @param value
      *     allowed object is
@@ -380,7 +380,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the retailAmount property.
+     * Obtiene el valor de la propiedad retailAmount.
      * 
      * @return
      *     possible object is
@@ -392,7 +392,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the retailAmount property.
+     * Define el valor de la propiedad retailAmount.
      * 
      * @param value
      *     allowed object is
@@ -404,7 +404,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the contractID property.
+     * Obtiene el valor de la propiedad contractID.
      * 
      * @return
      *     possible object is
@@ -416,7 +416,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the contractID property.
+     * Define el valor de la propiedad contractID.
      * 
      * @param value
      *     allowed object is
@@ -428,7 +428,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      * @return
      *     possible object is
@@ -440,7 +440,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      * @param value
      *     allowed object is
@@ -452,7 +452,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the zone property.
+     * Obtiene el valor de la propiedad zone.
      * 
      * @return
      *     possible object is
@@ -464,7 +464,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the zone property.
+     * Define el valor de la propiedad zone.
      * 
      * @param value
      *     allowed object is
@@ -476,7 +476,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the cubicFt property.
+     * Obtiene el valor de la propiedad cubicFt.
      * 
      * @return
      *     possible object is
@@ -488,7 +488,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the cubicFt property.
+     * Define el valor de la propiedad cubicFt.
      * 
      * @param value
      *     allowed object is
@@ -500,7 +500,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the refundDetails property.
+     * Obtiene el valor de la propiedad refundDetails.
      * 
      * @return
      *     possible object is
@@ -512,7 +512,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the refundDetails property.
+     * Define el valor de la propiedad refundDetails.
      * 
      * @param value
      *     allowed object is
@@ -524,7 +524,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the adjustmentsDetails property.
+     * Obtiene el valor de la propiedad adjustmentsDetails.
      * 
      * @return
      *     possible object is
@@ -536,7 +536,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the adjustmentsDetails property.
+     * Define el valor de la propiedad adjustmentsDetails.
      * 
      * @param value
      *     allowed object is
@@ -548,7 +548,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the labelCategory property.
+     * Obtiene el valor de la propiedad labelCategory.
      * 
      * @return
      *     possible object is
@@ -560,7 +560,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the labelCategory property.
+     * Define el valor de la propiedad labelCategory.
      * 
      * @param value
      *     allowed object is
@@ -572,7 +572,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the transactionType property.
+     * Obtiene el valor de la propiedad transactionType.
      * 
      * @return
      *     possible object is
@@ -584,7 +584,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the transactionType property.
+     * Define el valor de la propiedad transactionType.
      * 
      * @param value
      *     allowed object is
@@ -596,7 +596,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the transactionDateTime property.
+     * Obtiene el valor de la propiedad transactionDateTime.
      * 
      * @return
      *     possible object is
@@ -608,7 +608,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the transactionDateTime property.
+     * Define el valor de la propiedad transactionDateTime.
      * 
      * @param value
      *     allowed object is
@@ -620,7 +620,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the postmarkDate property.
+     * Obtiene el valor de la propiedad postmarkDate.
      * 
      * @return
      *     possible object is
@@ -632,7 +632,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the postmarkDate property.
+     * Define el valor de la propiedad postmarkDate.
      * 
      * @param value
      *     allowed object is
@@ -644,7 +644,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the refundStatus property.
+     * Obtiene el valor de la propiedad refundStatus.
      * 
      * @return
      *     possible object is
@@ -656,7 +656,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the refundStatus property.
+     * Define el valor de la propiedad refundStatus.
      * 
      * @param value
      *     allowed object is
@@ -668,7 +668,7 @@ public class Transaction {
     }
 
     /**
-     * Gets the value of the purchaseType property.
+     * Obtiene el valor de la propiedad purchaseType.
      * 
      * @return
      *     possible object is
@@ -680,7 +680,7 @@ public class Transaction {
     }
 
     /**
-     * Sets the value of the purchaseType property.
+     * Define el valor de la propiedad purchaseType.
      * 
      * @param value
      *     allowed object is

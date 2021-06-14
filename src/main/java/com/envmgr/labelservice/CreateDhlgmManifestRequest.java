@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CreateDhlgmManifestRequest complex type.
+ * <p>Clase Java para CreateDhlgmManifestRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CreateDhlgmManifestRequest"&gt;
@@ -38,7 +38,7 @@ public class CreateDhlgmManifestRequest
     protected CertifiedIntermediary certifiedIntermediary;
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class CreateDhlgmManifestRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is

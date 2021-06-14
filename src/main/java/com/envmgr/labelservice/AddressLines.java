@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for AddressLines complex type.
+ * <p>Clase Java para AddressLines complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="AddressLines"&gt;
@@ -40,7 +40,7 @@ public class AddressLines {
     protected String addressLine2;
 
     /**
-     * Gets the value of the addressLine1 property.
+     * Obtiene el valor de la propiedad addressLine1.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class AddressLines {
     }
 
     /**
-     * Sets the value of the addressLine1 property.
+     * Define el valor de la propiedad addressLine1.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class AddressLines {
     }
 
     /**
-     * Gets the value of the addressLine2 property.
+     * Obtiene el valor de la propiedad addressLine2.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class AddressLines {
     }
 
     /**
-     * Sets the value of the addressLine2 property.
+     * Define el valor de la propiedad addressLine2.
      * 
      * @param value
      *     allowed object is

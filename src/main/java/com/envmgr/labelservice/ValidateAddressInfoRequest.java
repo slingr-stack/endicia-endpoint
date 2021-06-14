@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ValidateAddressInfoRequest complex type.
+ * <p>Clase Java para ValidateAddressInfoRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ValidateAddressInfoRequest"&gt;
@@ -46,7 +46,7 @@ public class ValidateAddressInfoRequest
     protected ValidateAddressInfo address;
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class ValidateAddressInfoRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class ValidateAddressInfoRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class ValidateAddressInfoRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class ValidateAddressInfoRequest
     }
 
     /**
-     * Gets the value of the address property.
+     * Obtiene el valor de la propiedad address.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class ValidateAddressInfoRequest
     }
 
     /**
-     * Sets the value of the address property.
+     * Define el valor de la propiedad address.
      * 
      * @param value
      *     allowed object is

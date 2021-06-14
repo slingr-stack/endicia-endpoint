@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for eVSOptions complex type.
+ * <p>Clase Java para eVSOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="eVSOptions"&gt;
@@ -40,7 +40,7 @@ public class EVSOptions {
     protected String evsMailerId;
 
     /**
-     * Gets the value of the permitNumber property.
+     * Obtiene el valor de la propiedad permitNumber.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class EVSOptions {
     }
 
     /**
-     * Sets the value of the permitNumber property.
+     * Define el valor de la propiedad permitNumber.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class EVSOptions {
     }
 
     /**
-     * Gets the value of the evsMailerId property.
+     * Obtiene el valor de la propiedad evsMailerId.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class EVSOptions {
     }
 
     /**
-     * Sets the value of the evsMailerId property.
+     * Define el valor de la propiedad evsMailerId.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for DiscountRates complex type.
+ * <p>Clase Java para DiscountRates complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="DiscountRates"&gt;
@@ -32,7 +32,7 @@ public class DiscountRates {
     protected MailDiscount discount;
 
     /**
-     * Gets the value of the discount property.
+     * Obtiene el valor de la propiedad discount.
      * 
      * @return
      *     possible object is
@@ -44,7 +44,7 @@ public class DiscountRates {
     }
 
     /**
-     * Sets the value of the discount property.
+     * Define el valor de la propiedad discount.
      * 
      * @param value
      *     allowed object is

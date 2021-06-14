@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Cod3816 complex type.
+ * <p>Clase Java para Cod3816 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Cod3816"&gt;
@@ -76,7 +76,7 @@ public class Cod3816 {
     protected String returnPostalCode;
 
     /**
-     * Gets the value of the as3816 property.
+     * Obtiene el valor de la propiedad as3816.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the as3816 property.
+     * Define el valor de la propiedad as3816.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the uspsca property.
+     * Obtiene el valor de la propiedad uspsca.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the uspsca property.
+     * Define el valor de la propiedad uspsca.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the pmExpressReturn property.
+     * Obtiene el valor de la propiedad pmExpressReturn.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the pmExpressReturn property.
+     * Define el valor de la propiedad pmExpressReturn.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the optionalEndorsement property.
+     * Obtiene el valor de la propiedad optionalEndorsement.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the optionalEndorsement property.
+     * Define el valor de la propiedad optionalEndorsement.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the returnName property.
+     * Obtiene el valor de la propiedad returnName.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the returnName property.
+     * Define el valor de la propiedad returnName.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the returnCompany property.
+     * Obtiene el valor de la propiedad returnCompany.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the returnCompany property.
+     * Define el valor de la propiedad returnCompany.
      * 
      * @param value
      *     allowed object is
@@ -220,7 +220,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the returnAddress1 property.
+     * Obtiene el valor de la propiedad returnAddress1.
      * 
      * @return
      *     possible object is
@@ -232,7 +232,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the returnAddress1 property.
+     * Define el valor de la propiedad returnAddress1.
      * 
      * @param value
      *     allowed object is
@@ -244,7 +244,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the returnAddress2 property.
+     * Obtiene el valor de la propiedad returnAddress2.
      * 
      * @return
      *     possible object is
@@ -256,7 +256,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the returnAddress2 property.
+     * Define el valor de la propiedad returnAddress2.
      * 
      * @param value
      *     allowed object is
@@ -268,7 +268,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the returnCity property.
+     * Obtiene el valor de la propiedad returnCity.
      * 
      * @return
      *     possible object is
@@ -280,7 +280,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the returnCity property.
+     * Define el valor de la propiedad returnCity.
      * 
      * @param value
      *     allowed object is
@@ -292,7 +292,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the returnState property.
+     * Obtiene el valor de la propiedad returnState.
      * 
      * @return
      *     possible object is
@@ -304,7 +304,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the returnState property.
+     * Define el valor de la propiedad returnState.
      * 
      * @param value
      *     allowed object is
@@ -316,7 +316,7 @@ public class Cod3816 {
     }
 
     /**
-     * Gets the value of the returnPostalCode property.
+     * Obtiene el valor de la propiedad returnPostalCode.
      * 
      * @return
      *     possible object is
@@ -328,7 +328,7 @@ public class Cod3816 {
     }
 
     /**
-     * Sets the value of the returnPostalCode property.
+     * Define el valor de la propiedad returnPostalCode.
      * 
      * @param value
      *     allowed object is

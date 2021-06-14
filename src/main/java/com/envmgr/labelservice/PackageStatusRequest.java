@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackageStatusRequest complex type.
+ * <p>Clase Java para PackageStatusRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackageStatusRequest"&gt;
@@ -19,12 +19,13 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence&gt;
  *         &lt;element name="RequestID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="RequestOptions" type="{www.envmgr.com/LabelService}PackageStatusRequestOptions" minOccurs="0"/&gt;
- *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString1" minOccurs="0"/&gt;
+ *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString" minOccurs="0"/&gt;
  *         &lt;element name="PieceNumbers" type="{www.envmgr.com/LabelService}ArrayOfString2" minOccurs="0"/&gt;
- *         &lt;element name="TransactionIds" type="{www.envmgr.com/LabelService}ArrayOfString3" minOccurs="0"/&gt;
- *         &lt;element name="ReferenceIds" type="{www.envmgr.com/LabelService}ArrayOfString4" minOccurs="0"/&gt;
+ *         &lt;element name="TransactionIds" type="{www.envmgr.com/LabelService}ArrayOfString1" minOccurs="0"/&gt;
+ *         &lt;element name="ReferenceIds" type="{www.envmgr.com/LabelService}ArrayOfString6" minOccurs="0"/&gt;
  *         &lt;element name="RequesterID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="CertifiedIntermediary" type="{www.envmgr.com/LabelService}CertifiedIntermediary" minOccurs="0"/&gt;
+ *         &lt;element name="Carrier" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/extension&gt;
  *   &lt;/complexContent&gt;
@@ -42,7 +43,8 @@ import javax.xml.bind.annotation.XmlType;
     "transactionIds",
     "referenceIds",
     "requesterID",
-    "certifiedIntermediary"
+    "certifiedIntermediary",
+    "carrier"
 })
 public class PackageStatusRequest
     extends DataValidator
@@ -53,20 +55,22 @@ public class PackageStatusRequest
     @XmlElement(name = "RequestOptions")
     protected PackageStatusRequestOptions requestOptions;
     @XmlElement(name = "PicNumbers")
-    protected ArrayOfString1 picNumbers;
+    protected ArrayOfString picNumbers;
     @XmlElement(name = "PieceNumbers")
     protected ArrayOfString2 pieceNumbers;
     @XmlElement(name = "TransactionIds")
-    protected ArrayOfString3 transactionIds;
+    protected ArrayOfString1 transactionIds;
     @XmlElement(name = "ReferenceIds")
-    protected ArrayOfString4 referenceIds;
+    protected ArrayOfString6 referenceIds;
     @XmlElement(name = "RequesterID")
     protected String requesterID;
     @XmlElement(name = "CertifiedIntermediary")
     protected CertifiedIntermediary certifiedIntermediary;
+    @XmlElement(name = "Carrier")
+    protected String carrier;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -78,7 +82,7 @@ public class PackageStatusRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +94,7 @@ public class PackageStatusRequest
     }
 
     /**
-     * Gets the value of the requestOptions property.
+     * Obtiene el valor de la propiedad requestOptions.
      * 
      * @return
      *     possible object is
@@ -102,7 +106,7 @@ public class PackageStatusRequest
     }
 
     /**
-     * Sets the value of the requestOptions property.
+     * Define el valor de la propiedad requestOptions.
      * 
      * @param value
      *     allowed object is
@@ -114,31 +118,31 @@ public class PackageStatusRequest
     }
 
     /**
-     * Gets the value of the picNumbers property.
+     * Obtiene el valor de la propiedad picNumbers.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString1 }
+     *     {@link ArrayOfString }
      *     
      */
-    public ArrayOfString1 getPicNumbers() {
+    public ArrayOfString getPicNumbers() {
         return picNumbers;
     }
 
     /**
-     * Sets the value of the picNumbers property.
+     * Define el valor de la propiedad picNumbers.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString1 }
+     *     {@link ArrayOfString }
      *     
      */
-    public void setPicNumbers(ArrayOfString1 value) {
+    public void setPicNumbers(ArrayOfString value) {
         this.picNumbers = value;
     }
 
     /**
-     * Gets the value of the pieceNumbers property.
+     * Obtiene el valor de la propiedad pieceNumbers.
      * 
      * @return
      *     possible object is
@@ -150,7 +154,7 @@ public class PackageStatusRequest
     }
 
     /**
-     * Sets the value of the pieceNumbers property.
+     * Define el valor de la propiedad pieceNumbers.
      * 
      * @param value
      *     allowed object is
@@ -162,55 +166,55 @@ public class PackageStatusRequest
     }
 
     /**
-     * Gets the value of the transactionIds property.
+     * Obtiene el valor de la propiedad transactionIds.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString3 }
+     *     {@link ArrayOfString1 }
      *     
      */
-    public ArrayOfString3 getTransactionIds() {
+    public ArrayOfString1 getTransactionIds() {
         return transactionIds;
     }
 
     /**
-     * Sets the value of the transactionIds property.
+     * Define el valor de la propiedad transactionIds.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString3 }
+     *     {@link ArrayOfString1 }
      *     
      */
-    public void setTransactionIds(ArrayOfString3 value) {
+    public void setTransactionIds(ArrayOfString1 value) {
         this.transactionIds = value;
     }
 
     /**
-     * Gets the value of the referenceIds property.
+     * Obtiene el valor de la propiedad referenceIds.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString4 }
+     *     {@link ArrayOfString6 }
      *     
      */
-    public ArrayOfString4 getReferenceIds() {
+    public ArrayOfString6 getReferenceIds() {
         return referenceIds;
     }
 
     /**
-     * Sets the value of the referenceIds property.
+     * Define el valor de la propiedad referenceIds.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString4 }
+     *     {@link ArrayOfString6 }
      *     
      */
-    public void setReferenceIds(ArrayOfString4 value) {
+    public void setReferenceIds(ArrayOfString6 value) {
         this.referenceIds = value;
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -222,7 +226,7 @@ public class PackageStatusRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +238,7 @@ public class PackageStatusRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -246,7 +250,7 @@ public class PackageStatusRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -255,6 +259,30 @@ public class PackageStatusRequest
      */
     public void setCertifiedIntermediary(CertifiedIntermediary value) {
         this.certifiedIntermediary = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad carrier.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCarrier() {
+        return carrier;
+    }
+
+    /**
+     * Define el valor de la propiedad carrier.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCarrier(String value) {
+        this.carrier = value;
     }
 
 }

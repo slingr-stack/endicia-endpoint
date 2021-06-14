@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for GetTransactionsListingRequest complex type.
+ * <p>Clase Java para GetTransactionsListingRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="GetTransactionsListingRequest"&gt;
@@ -19,10 +19,10 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence&gt;
  *         &lt;element name="RequestID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="RequestOptions" type="{www.envmgr.com/LabelService}TransactionListingsRequestOptions" minOccurs="0"/&gt;
- *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString6" minOccurs="0"/&gt;
- *         &lt;element name="PieceIDs" type="{www.envmgr.com/LabelService}ArrayOfString7" minOccurs="0"/&gt;
- *         &lt;element name="TransactionIDs" type="{www.envmgr.com/LabelService}ArrayOfString8" minOccurs="0"/&gt;
- *         &lt;element name="CostCenters" type="{www.envmgr.com/LabelService}ArrayOfString9" minOccurs="0"/&gt;
+ *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString7" minOccurs="0"/&gt;
+ *         &lt;element name="PieceIDs" type="{www.envmgr.com/LabelService}ArrayOfString8" minOccurs="0"/&gt;
+ *         &lt;element name="TransactionIDs" type="{www.envmgr.com/LabelService}ArrayOfString9" minOccurs="0"/&gt;
+ *         &lt;element name="CostCenters" type="{www.envmgr.com/LabelService}ArrayOfString10" minOccurs="0"/&gt;
  *         &lt;element name="IncludeTracking" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="IncludeFromAddress" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="IncludeAdjustmentDetails" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
@@ -59,13 +59,13 @@ public class GetTransactionsListingRequest
     @XmlElement(name = "RequestOptions")
     protected TransactionListingsRequestOptions requestOptions;
     @XmlElement(name = "PicNumbers")
-    protected ArrayOfString6 picNumbers;
+    protected ArrayOfString7 picNumbers;
     @XmlElement(name = "PieceIDs")
-    protected ArrayOfString7 pieceIDs;
+    protected ArrayOfString8 pieceIDs;
     @XmlElement(name = "TransactionIDs")
-    protected ArrayOfString8 transactionIDs;
+    protected ArrayOfString9 transactionIDs;
     @XmlElement(name = "CostCenters")
-    protected ArrayOfString9 costCenters;
+    protected ArrayOfString10 costCenters;
     @XmlElement(name = "IncludeTracking")
     protected String includeTracking;
     @XmlElement(name = "IncludeFromAddress")
@@ -78,7 +78,7 @@ public class GetTransactionsListingRequest
     protected CertifiedIntermediary certifiedIntermediary;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Gets the value of the requestOptions property.
+     * Obtiene el valor de la propiedad requestOptions.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Sets the value of the requestOptions property.
+     * Define el valor de la propiedad requestOptions.
      * 
      * @param value
      *     allowed object is
@@ -126,103 +126,103 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Gets the value of the picNumbers property.
+     * Obtiene el valor de la propiedad picNumbers.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString6 }
+     *     {@link ArrayOfString7 }
      *     
      */
-    public ArrayOfString6 getPicNumbers() {
+    public ArrayOfString7 getPicNumbers() {
         return picNumbers;
     }
 
     /**
-     * Sets the value of the picNumbers property.
+     * Define el valor de la propiedad picNumbers.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString6 }
+     *     {@link ArrayOfString7 }
      *     
      */
-    public void setPicNumbers(ArrayOfString6 value) {
+    public void setPicNumbers(ArrayOfString7 value) {
         this.picNumbers = value;
     }
 
     /**
-     * Gets the value of the pieceIDs property.
+     * Obtiene el valor de la propiedad pieceIDs.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString7 }
+     *     {@link ArrayOfString8 }
      *     
      */
-    public ArrayOfString7 getPieceIDs() {
+    public ArrayOfString8 getPieceIDs() {
         return pieceIDs;
     }
 
     /**
-     * Sets the value of the pieceIDs property.
+     * Define el valor de la propiedad pieceIDs.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString7 }
+     *     {@link ArrayOfString8 }
      *     
      */
-    public void setPieceIDs(ArrayOfString7 value) {
+    public void setPieceIDs(ArrayOfString8 value) {
         this.pieceIDs = value;
     }
 
     /**
-     * Gets the value of the transactionIDs property.
+     * Obtiene el valor de la propiedad transactionIDs.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString8 }
+     *     {@link ArrayOfString9 }
      *     
      */
-    public ArrayOfString8 getTransactionIDs() {
+    public ArrayOfString9 getTransactionIDs() {
         return transactionIDs;
     }
 
     /**
-     * Sets the value of the transactionIDs property.
+     * Define el valor de la propiedad transactionIDs.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString8 }
+     *     {@link ArrayOfString9 }
      *     
      */
-    public void setTransactionIDs(ArrayOfString8 value) {
+    public void setTransactionIDs(ArrayOfString9 value) {
         this.transactionIDs = value;
     }
 
     /**
-     * Gets the value of the costCenters property.
+     * Obtiene el valor de la propiedad costCenters.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString9 }
+     *     {@link ArrayOfString10 }
      *     
      */
-    public ArrayOfString9 getCostCenters() {
+    public ArrayOfString10 getCostCenters() {
         return costCenters;
     }
 
     /**
-     * Sets the value of the costCenters property.
+     * Define el valor de la propiedad costCenters.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString9 }
+     *     {@link ArrayOfString10 }
      *     
      */
-    public void setCostCenters(ArrayOfString9 value) {
+    public void setCostCenters(ArrayOfString10 value) {
         this.costCenters = value;
     }
 
     /**
-     * Gets the value of the includeTracking property.
+     * Obtiene el valor de la propiedad includeTracking.
      * 
      * @return
      *     possible object is
@@ -234,7 +234,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Sets the value of the includeTracking property.
+     * Define el valor de la propiedad includeTracking.
      * 
      * @param value
      *     allowed object is
@@ -246,7 +246,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Gets the value of the includeFromAddress property.
+     * Obtiene el valor de la propiedad includeFromAddress.
      * 
      * @return
      *     possible object is
@@ -258,7 +258,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Sets the value of the includeFromAddress property.
+     * Define el valor de la propiedad includeFromAddress.
      * 
      * @param value
      *     allowed object is
@@ -270,7 +270,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Gets the value of the includeAdjustmentDetails property.
+     * Obtiene el valor de la propiedad includeAdjustmentDetails.
      * 
      * @return
      *     possible object is
@@ -282,7 +282,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Sets the value of the includeAdjustmentDetails property.
+     * Define el valor de la propiedad includeAdjustmentDetails.
      * 
      * @param value
      *     allowed object is
@@ -294,7 +294,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -306,7 +306,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -318,7 +318,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -330,7 +330,7 @@ public class GetTransactionsListingRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for RetailAccountsRequest complex type.
+ * <p>Clase Java para RetailAccountsRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="RetailAccountsRequest"&gt;
@@ -50,7 +50,7 @@ public class RetailAccountsRequest
     protected String endDateTime;
 
     /**
-     * Gets the value of the accountID property.
+     * Obtiene el valor de la propiedad accountID.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class RetailAccountsRequest
     }
 
     /**
-     * Sets the value of the accountID property.
+     * Define el valor de la propiedad accountID.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class RetailAccountsRequest
     }
 
     /**
-     * Gets the value of the passPhrase property.
+     * Obtiene el valor de la propiedad passPhrase.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class RetailAccountsRequest
     }
 
     /**
-     * Sets the value of the passPhrase property.
+     * Define el valor de la propiedad passPhrase.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class RetailAccountsRequest
     }
 
     /**
-     * Gets the value of the startDateTime property.
+     * Obtiene el valor de la propiedad startDateTime.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class RetailAccountsRequest
     }
 
     /**
-     * Sets the value of the startDateTime property.
+     * Define el valor de la propiedad startDateTime.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class RetailAccountsRequest
     }
 
     /**
-     * Gets the value of the endDateTime property.
+     * Obtiene el valor de la propiedad endDateTime.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class RetailAccountsRequest
     }
 
     /**
-     * Sets the value of the endDateTime property.
+     * Define el valor de la propiedad endDateTime.
      * 
      * @param value
      *     allowed object is

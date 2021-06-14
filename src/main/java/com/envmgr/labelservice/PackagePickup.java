@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackagePickup complex type.
+ * <p>Clase Java para PackagePickup complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackagePickup"&gt;
@@ -20,6 +20,8 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="DayOfWeek" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="Date" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="CarrierRoute" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="PickupTimeEarliest" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="PickupTimeLatest" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -32,7 +34,9 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "PackagePickup", propOrder = {
     "dayOfWeek",
     "date",
-    "carrierRoute"
+    "carrierRoute",
+    "pickupTimeEarliest",
+    "pickupTimeLatest"
 })
 public class PackagePickup {
 
@@ -42,9 +46,13 @@ public class PackagePickup {
     protected String date;
     @XmlElement(name = "CarrierRoute")
     protected String carrierRoute;
+    @XmlElement(name = "PickupTimeEarliest")
+    protected String pickupTimeEarliest;
+    @XmlElement(name = "PickupTimeLatest")
+    protected String pickupTimeLatest;
 
     /**
-     * Gets the value of the dayOfWeek property.
+     * Obtiene el valor de la propiedad dayOfWeek.
      * 
      * @return
      *     possible object is
@@ -56,7 +64,7 @@ public class PackagePickup {
     }
 
     /**
-     * Sets the value of the dayOfWeek property.
+     * Define el valor de la propiedad dayOfWeek.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +76,7 @@ public class PackagePickup {
     }
 
     /**
-     * Gets the value of the date property.
+     * Obtiene el valor de la propiedad date.
      * 
      * @return
      *     possible object is
@@ -80,7 +88,7 @@ public class PackagePickup {
     }
 
     /**
-     * Sets the value of the date property.
+     * Define el valor de la propiedad date.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +100,7 @@ public class PackagePickup {
     }
 
     /**
-     * Gets the value of the carrierRoute property.
+     * Obtiene el valor de la propiedad carrierRoute.
      * 
      * @return
      *     possible object is
@@ -104,7 +112,7 @@ public class PackagePickup {
     }
 
     /**
-     * Sets the value of the carrierRoute property.
+     * Define el valor de la propiedad carrierRoute.
      * 
      * @param value
      *     allowed object is
@@ -113,6 +121,54 @@ public class PackagePickup {
      */
     public void setCarrierRoute(String value) {
         this.carrierRoute = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad pickupTimeEarliest.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getPickupTimeEarliest() {
+        return pickupTimeEarliest;
+    }
+
+    /**
+     * Define el valor de la propiedad pickupTimeEarliest.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setPickupTimeEarliest(String value) {
+        this.pickupTimeEarliest = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad pickupTimeLatest.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getPickupTimeLatest() {
+        return pickupTimeLatest;
+    }
+
+    /**
+     * Define el valor de la propiedad pickupTimeLatest.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setPickupTimeLatest(String value) {
+        this.pickupTimeLatest = value;
     }
 
 }

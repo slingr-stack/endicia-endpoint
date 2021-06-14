@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Feature complex type.
+ * <p>Clase Java para Feature complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Feature"&gt;
@@ -52,7 +52,7 @@ public class Feature {
     protected String termsAndConditionsLink;
 
     /**
-     * Gets the value of the code property.
+     * Obtiene el valor de la propiedad code.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class Feature {
     }
 
     /**
-     * Sets the value of the code property.
+     * Define el valor de la propiedad code.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class Feature {
     }
 
     /**
-     * Gets the value of the name property.
+     * Obtiene el valor de la propiedad name.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Feature {
     }
 
     /**
-     * Sets the value of the name property.
+     * Define el valor de la propiedad name.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class Feature {
     }
 
     /**
-     * Gets the value of the isEligible property.
+     * Obtiene el valor de la propiedad isEligible.
      * 
      */
     public boolean isIsEligible() {
@@ -108,7 +108,7 @@ public class Feature {
     }
 
     /**
-     * Sets the value of the isEligible property.
+     * Define el valor de la propiedad isEligible.
      * 
      */
     public void setIsEligible(boolean value) {
@@ -116,7 +116,7 @@ public class Feature {
     }
 
     /**
-     * Gets the value of the isActive property.
+     * Obtiene el valor de la propiedad isActive.
      * 
      */
     public boolean isIsActive() {
@@ -124,7 +124,7 @@ public class Feature {
     }
 
     /**
-     * Sets the value of the isActive property.
+     * Define el valor de la propiedad isActive.
      * 
      */
     public void setIsActive(boolean value) {
@@ -132,7 +132,7 @@ public class Feature {
     }
 
     /**
-     * Gets the value of the termsAndConditionsLink property.
+     * Obtiene el valor de la propiedad termsAndConditionsLink.
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class Feature {
     }
 
     /**
-     * Sets the value of the termsAndConditionsLink property.
+     * Define el valor de la propiedad termsAndConditionsLink.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Clase Java para anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -38,7 +38,7 @@ public class GetPackagePickupCancelXMLResponse {
     protected PackagePickupCancelResponse packagePickupCancelResponse;
 
     /**
-     * Gets the value of the packagePickupCancelResponse property.
+     * Obtiene el valor de la propiedad packagePickupCancelResponse.
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class GetPackagePickupCancelXMLResponse {
     }
 
     /**
-     * Sets the value of the packagePickupCancelResponse property.
+     * Define el valor de la propiedad packagePickupCancelResponse.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for RefundRequest complex type.
+ * <p>Clase Java para RefundRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="RefundRequest"&gt;
@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;extension base="{www.envmgr.com/LabelService}DataValidator"&gt;
  *       &lt;sequence&gt;
  *         &lt;element name="RequestID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
- *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString1" minOccurs="0"/&gt;
+ *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString" minOccurs="0"/&gt;
  *         &lt;element name="TransactionIds" type="{www.envmgr.com/LabelService}ArrayOfLong" minOccurs="0"/&gt;
  *         &lt;element name="PieceNumbers" type="{www.envmgr.com/LabelService}ArrayOfInt" minOccurs="0"/&gt;
  *         &lt;element name="RequesterID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
@@ -47,7 +47,7 @@ public class RefundRequest
     @XmlElement(name = "RequestID")
     protected String requestID;
     @XmlElement(name = "PicNumbers")
-    protected ArrayOfString1 picNumbers;
+    protected ArrayOfString picNumbers;
     @XmlElement(name = "TransactionIds")
     protected ArrayOfLong transactionIds;
     @XmlElement(name = "PieceNumbers")
@@ -58,7 +58,7 @@ public class RefundRequest
     protected CertifiedIntermediary certifiedIntermediary;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class RefundRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -82,31 +82,31 @@ public class RefundRequest
     }
 
     /**
-     * Gets the value of the picNumbers property.
+     * Obtiene el valor de la propiedad picNumbers.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString1 }
+     *     {@link ArrayOfString }
      *     
      */
-    public ArrayOfString1 getPicNumbers() {
+    public ArrayOfString getPicNumbers() {
         return picNumbers;
     }
 
     /**
-     * Sets the value of the picNumbers property.
+     * Define el valor de la propiedad picNumbers.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString1 }
+     *     {@link ArrayOfString }
      *     
      */
-    public void setPicNumbers(ArrayOfString1 value) {
+    public void setPicNumbers(ArrayOfString value) {
         this.picNumbers = value;
     }
 
     /**
-     * Gets the value of the transactionIds property.
+     * Obtiene el valor de la propiedad transactionIds.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class RefundRequest
     }
 
     /**
-     * Sets the value of the transactionIds property.
+     * Define el valor de la propiedad transactionIds.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class RefundRequest
     }
 
     /**
-     * Gets the value of the pieceNumbers property.
+     * Obtiene el valor de la propiedad pieceNumbers.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class RefundRequest
     }
 
     /**
-     * Sets the value of the pieceNumbers property.
+     * Define el valor de la propiedad pieceNumbers.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class RefundRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class RefundRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class RefundRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class RefundRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is

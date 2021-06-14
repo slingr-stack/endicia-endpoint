@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ResponseOptions complex type.
+ * <p>Clase Java para ResponseOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ResponseOptions"&gt;
@@ -32,7 +32,7 @@ public class ResponseOptions {
     protected String postagePrice;
 
     /**
-     * Gets the value of the postagePrice property.
+     * Obtiene el valor de la propiedad postagePrice.
      * 
      * @return
      *     possible object is
@@ -44,7 +44,7 @@ public class ResponseOptions {
     }
 
     /**
-     * Sets the value of the postagePrice property.
+     * Define el valor de la propiedad postagePrice.
      * 
      * @param value
      *     allowed object is

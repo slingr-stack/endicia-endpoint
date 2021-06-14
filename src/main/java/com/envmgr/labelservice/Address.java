@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Address complex type.
+ * <p>Clase Java para Address complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Address"&gt;
@@ -66,7 +66,7 @@ public class Address
     protected String phoneNumber;
 
     /**
-     * Gets the value of the firstName property.
+     * Obtiene el valor de la propiedad firstName.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the firstName property.
+     * Define el valor de la propiedad firstName.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class Address
     }
 
     /**
-     * Gets the value of the lastName property.
+     * Obtiene el valor de la propiedad lastName.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the lastName property.
+     * Define el valor de la propiedad lastName.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class Address
     }
 
     /**
-     * Gets the value of the address1 property.
+     * Obtiene el valor de la propiedad address1.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the address1 property.
+     * Define el valor de la propiedad address1.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class Address
     }
 
     /**
-     * Gets the value of the city property.
+     * Obtiene el valor de la propiedad city.
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the city property.
+     * Define el valor de la propiedad city.
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class Address
     }
 
     /**
-     * Gets the value of the state property.
+     * Obtiene el valor de la propiedad state.
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the state property.
+     * Define el valor de la propiedad state.
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class Address
     }
 
     /**
-     * Gets the value of the zipCode property.
+     * Obtiene el valor de la propiedad zipCode.
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the zipCode property.
+     * Define el valor de la propiedad zipCode.
      * 
      * @param value
      *     allowed object is
@@ -210,7 +210,7 @@ public class Address
     }
 
     /**
-     * Gets the value of the zipCodeAddOn property.
+     * Obtiene el valor de la propiedad zipCodeAddOn.
      * 
      * @return
      *     possible object is
@@ -222,7 +222,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the zipCodeAddOn property.
+     * Define el valor de la propiedad zipCodeAddOn.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +234,7 @@ public class Address
     }
 
     /**
-     * Gets the value of the phoneNumber property.
+     * Obtiene el valor de la propiedad phoneNumber.
      * 
      * @return
      *     possible object is
@@ -246,7 +246,7 @@ public class Address
     }
 
     /**
-     * Sets the value of the phoneNumber property.
+     * Define el valor de la propiedad phoneNumber.
      * 
      * @param value
      *     allowed object is

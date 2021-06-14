@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PostageWeightRatePair complex type.
+ * <p>Clase Java para PostageWeightRatePair complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PostageWeightRatePair"&gt;
@@ -41,7 +41,7 @@ public class PostageWeightRatePair {
     protected BigDecimal rate;
 
     /**
-     * Gets the value of the weight property.
+     * Obtiene el valor de la propiedad weight.
      * 
      */
     public double getWeight() {
@@ -49,7 +49,7 @@ public class PostageWeightRatePair {
     }
 
     /**
-     * Sets the value of the weight property.
+     * Define el valor de la propiedad weight.
      * 
      */
     public void setWeight(double value) {
@@ -57,7 +57,7 @@ public class PostageWeightRatePair {
     }
 
     /**
-     * Gets the value of the rate property.
+     * Obtiene el valor de la propiedad rate.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class PostageWeightRatePair {
     }
 
     /**
-     * Sets the value of the rate property.
+     * Define el valor de la propiedad rate.
      * 
      * @param value
      *     allowed object is

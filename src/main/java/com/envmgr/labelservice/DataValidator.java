@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for DataValidator complex type.
+ * <p>Clase Java para DataValidator complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="DataValidator"&gt;
@@ -26,39 +26,51 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "DataValidator")
 @XmlSeeAlso({
-    ValidateAddressInfoRequest.class,
-    VoidLabelRequest.class,
-    RecreditRequest.class,
-    DdpRateRequest.class,
-    GetExtraServiceRatesRequest.class,
-    SetAccountFeatureOptInRequest.class,
-    UpdatePaymentInfoRequest.class,
-    ChangePassPhraseRequest.class,
-    PostageRatesRequest.class,
-    CloseAccountRequest.class,
-    CreateDhlgmManifestRequest.class,
-    DHLeCManifestRequest.class,
-    PackageStatusRequest.class,
-    RetailAccountsRequest.class,
-    UserSignUpRequest.class,
-    GetTransactionsListingRequest.class,
-    PackagePickupAvailabilityRequest.class,
-    PackagePickupRequest.class,
     PackagePickupCancelRequest.class,
     SCANRequest.class,
     RefundRequest.class,
     ResetSuspendedAccountRequest.class,
     ChallengeQuestionRequest.class,
     AccountStatusRequest.class,
-    CustomsItem.class,
+    UserSignUpRequest.class,
+    ValidateAddressInfoRequest.class,
+    VoidLabelRequest.class,
+    AddCarrierRequest.class,
+    RecreditRequest.class,
+    DdpRateRequest.class,
+    CreateNotificationSettingRequest.class,
+    DeleteNotificationSettingRequest.class,
+    DeleteBrandingRequest.class,
+    GetUrlRequest.class,
+    GetNotificationSettingRequest.class,
+    UpdateNotificationSettingRequest.class,
+    UpdateBrandingRequest.class,
+    GetBrandingRequest.class,
+    CreateManifestRequest.class,
+    DeleteCarrierRequest.class,
+    GetExtraServiceRatesRequest.class,
+    CreateBrandingRequest.class,
+    PackagePickupListRequest.class,
+    SetAccountFeatureOptInRequest.class,
+    UpdatePaymentInfoRequest.class,
+    ChangePassPhraseRequest.class,
+    PostageRatesRequest.class,
+    CloseAccountRequest.class,
+    CreateDhlgmManifestRequest.class,
+    PackageStatusRequest.class,
+    RetailAccountsRequest.class,
+    GetTransactionsListingRequest.class,
+    PackagePickupAvailabilityRequest.class,
+    PackagePickupRequest.class,
+    PhysicalPickupAddress.class,
     CommonLabelRequestAndPostageRateRequest.class,
-    LabelNumberRequest.class,
+    Address.class,
+    CustomsInfo.class,
+    CustomsItem.class,
     AccountCredentials.class,
     CreditCard.class,
     CheckingAccount.class,
-    PhysicalPickupAddress.class,
-    Address.class,
-    CustomsInfo.class
+    LabelNumberRequest.class
 })
 public class DataValidator {
 

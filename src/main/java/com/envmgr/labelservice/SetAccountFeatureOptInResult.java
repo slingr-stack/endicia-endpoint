@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for SetAccountFeatureOptInResult complex type.
+ * <p>Clase Java para SetAccountFeatureOptInResult complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="SetAccountFeatureOptInResult"&gt;
@@ -52,7 +52,7 @@ public class SetAccountFeatureOptInResult {
     protected String termsAndConditionsLink;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -60,7 +60,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -68,7 +68,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Gets the value of the success property.
+     * Obtiene el valor de la propiedad success.
      * 
      */
     public boolean isSuccess() {
@@ -100,7 +100,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Sets the value of the success property.
+     * Define el valor de la propiedad success.
      * 
      */
     public void setSuccess(boolean value) {
@@ -108,7 +108,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Gets the value of the message property.
+     * Obtiene el valor de la propiedad message.
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Sets the value of the message property.
+     * Define el valor de la propiedad message.
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Gets the value of the termsAndConditionsLink property.
+     * Obtiene el valor de la propiedad termsAndConditionsLink.
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class SetAccountFeatureOptInResult {
     }
 
     /**
-     * Sets the value of the termsAndConditionsLink property.
+     * Define el valor de la propiedad termsAndConditionsLink.
      * 
      * @param value
      *     allowed object is

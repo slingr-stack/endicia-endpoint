@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for GetVersionResults complex type.
+ * <p>Clase Java para GetVersionResults complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="GetVersionResults"&gt;
@@ -56,7 +56,7 @@ public class GetVersionResults {
     protected String version;
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Gets the value of the mode property.
+     * Obtiene el valor de la propiedad mode.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Define el valor de la propiedad mode.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Gets the value of the postalSystem property.
+     * Obtiene el valor de la propiedad postalSystem.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Sets the value of the postalSystem property.
+     * Define el valor de la propiedad postalSystem.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Gets the value of the serverName property.
+     * Obtiene el valor de la propiedad serverName.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Sets the value of the serverName property.
+     * Define el valor de la propiedad serverName.
      * 
      * @param value
      *     allowed object is
@@ -152,7 +152,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -160,7 +160,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -168,7 +168,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Gets the value of the version property.
+     * Obtiene el valor de la propiedad version.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class GetVersionResults {
     }
 
     /**
-     * Sets the value of the version property.
+     * Define el valor de la propiedad version.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Dimensions complex type.
+ * <p>Clase Java para Dimensions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Dimensions"&gt;
@@ -44,7 +44,7 @@ public class Dimensions {
     protected double height;
 
     /**
-     * Gets the value of the length property.
+     * Obtiene el valor de la propiedad length.
      * 
      */
     public double getLength() {
@@ -52,7 +52,7 @@ public class Dimensions {
     }
 
     /**
-     * Sets the value of the length property.
+     * Define el valor de la propiedad length.
      * 
      */
     public void setLength(double value) {
@@ -60,7 +60,7 @@ public class Dimensions {
     }
 
     /**
-     * Gets the value of the width property.
+     * Obtiene el valor de la propiedad width.
      * 
      */
     public double getWidth() {
@@ -68,7 +68,7 @@ public class Dimensions {
     }
 
     /**
-     * Sets the value of the width property.
+     * Define el valor de la propiedad width.
      * 
      */
     public void setWidth(double value) {
@@ -76,7 +76,7 @@ public class Dimensions {
     }
 
     /**
-     * Gets the value of the height property.
+     * Obtiene el valor de la propiedad height.
      * 
      */
     public double getHeight() {
@@ -84,7 +84,7 @@ public class Dimensions {
     }
 
     /**
-     * Sets the value of the height property.
+     * Define el valor de la propiedad height.
      * 
      */
     public void setHeight(double value) {

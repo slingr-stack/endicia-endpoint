@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for GetExtraServiceRatesRequest complex type.
+ * <p>Clase Java para GetExtraServiceRatesRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="GetExtraServiceRatesRequest"&gt;
@@ -54,7 +54,7 @@ public class GetExtraServiceRatesRequest
     protected String responseVersion;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Gets the value of the dateAdvance property.
+     * Obtiene el valor de la propiedad dateAdvance.
      * 
      */
     public int getDateAdvance() {
@@ -86,7 +86,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Sets the value of the dateAdvance property.
+     * Define el valor de la propiedad dateAdvance.
      * 
      */
     public void setDateAdvance(int value) {
@@ -94,7 +94,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Gets the value of the responseVersion property.
+     * Obtiene el valor de la propiedad responseVersion.
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class GetExtraServiceRatesRequest
     }
 
     /**
-     * Sets the value of the responseVersion property.
+     * Define el valor de la propiedad responseVersion.
      * 
      * @param value
      *     allowed object is

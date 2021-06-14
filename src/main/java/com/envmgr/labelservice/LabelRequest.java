@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for LabelRequest complex type.
+ * <p>Clase Java para LabelRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="LabelRequest"&gt;
@@ -95,6 +95,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="InsuredValue" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="ProfileType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="AddressCleansedHash" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="FullAddress" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="FromName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="FromCompany" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="ReturnAddress1" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
@@ -159,6 +160,23 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="ToCarrierRoute" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="HazardousMaterial" type="{www.envmgr.com/LabelService}HazMat" minOccurs="0"/&gt;
  *         &lt;element name="FromCountryCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="OutboundTransactionID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="OrderDetails" type="{www.envmgr.com/LabelService}OrderDetails" minOccurs="0"/&gt;
+ *         &lt;element name="BrandingID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="NotificationSettingID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToCompany" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToAddress1" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToAddress2" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToAddress3" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToAddress4" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToCity" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToState" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToPostalCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToZIP4" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToCountryCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToPhone" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReturnToEMail" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *       &lt;attribute name="Test" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *       &lt;attribute name="LabelType" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
@@ -253,6 +271,7 @@ import javax.xml.bind.annotation.XmlType;
     "insuredValue",
     "profileType",
     "addressCleansedHash",
+    "fullAddress",
     "fromName",
     "fromCompany",
     "returnAddress1",
@@ -316,7 +335,24 @@ import javax.xml.bind.annotation.XmlType;
     "costCenterAlphaNumeric",
     "toCarrierRoute",
     "hazardousMaterial",
-    "fromCountryCode"
+    "fromCountryCode",
+    "outboundTransactionID",
+    "orderDetails",
+    "brandingID",
+    "notificationSettingID",
+    "returnToName",
+    "returnToCompany",
+    "returnToAddress1",
+    "returnToAddress2",
+    "returnToAddress3",
+    "returnToAddress4",
+    "returnToCity",
+    "returnToState",
+    "returnToPostalCode",
+    "returnToZIP4",
+    "returnToCountryCode",
+    "returnToPhone",
+    "returnToEMail"
 })
 public class LabelRequest
     extends CommonLabelRequestAndPostageRateRequest
@@ -474,6 +510,8 @@ public class LabelRequest
     protected String profileType;
     @XmlElement(name = "AddressCleansedHash")
     protected String addressCleansedHash;
+    @XmlElement(name = "FullAddress")
+    protected String fullAddress;
     @XmlElement(name = "FromName")
     protected String fromName;
     @XmlElement(name = "FromCompany")
@@ -612,6 +650,40 @@ public class LabelRequest
     protected HazMat hazardousMaterial;
     @XmlElement(name = "FromCountryCode")
     protected String fromCountryCode;
+    @XmlElement(name = "OutboundTransactionID")
+    protected String outboundTransactionID;
+    @XmlElement(name = "OrderDetails")
+    protected OrderDetails orderDetails;
+    @XmlElement(name = "BrandingID")
+    protected String brandingID;
+    @XmlElement(name = "NotificationSettingID")
+    protected String notificationSettingID;
+    @XmlElement(name = "ReturnToName")
+    protected String returnToName;
+    @XmlElement(name = "ReturnToCompany")
+    protected String returnToCompany;
+    @XmlElement(name = "ReturnToAddress1")
+    protected String returnToAddress1;
+    @XmlElement(name = "ReturnToAddress2")
+    protected String returnToAddress2;
+    @XmlElement(name = "ReturnToAddress3")
+    protected String returnToAddress3;
+    @XmlElement(name = "ReturnToAddress4")
+    protected String returnToAddress4;
+    @XmlElement(name = "ReturnToCity")
+    protected String returnToCity;
+    @XmlElement(name = "ReturnToState")
+    protected String returnToState;
+    @XmlElement(name = "ReturnToPostalCode")
+    protected String returnToPostalCode;
+    @XmlElement(name = "ReturnToZIP4")
+    protected String returnToZIP4;
+    @XmlElement(name = "ReturnToCountryCode")
+    protected String returnToCountryCode;
+    @XmlElement(name = "ReturnToPhone")
+    protected String returnToPhone;
+    @XmlElement(name = "ReturnToEMail")
+    protected String returnToEMail;
     @XmlAttribute(name = "Test")
     protected String test;
     @XmlAttribute(name = "LabelType")
@@ -630,7 +702,7 @@ public class LabelRequest
     protected String labelTemplate;
 
     /**
-     * Gets the value of the passPhrase property.
+     * Obtiene el valor de la propiedad passPhrase.
      * 
      * @return
      *     possible object is
@@ -642,7 +714,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the passPhrase property.
+     * Define el valor de la propiedad passPhrase.
      * 
      * @param value
      *     allowed object is
@@ -654,7 +726,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the automationRate property.
+     * Obtiene el valor de la propiedad automationRate.
      * 
      * @return
      *     possible object is
@@ -666,7 +738,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the automationRate property.
+     * Define el valor de la propiedad automationRate.
      * 
      * @param value
      *     allowed object is
@@ -678,7 +750,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the machinable property.
+     * Obtiene el valor de la propiedad machinable.
      * 
      * @return
      *     possible object is
@@ -690,7 +762,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the machinable property.
+     * Define el valor de la propiedad machinable.
      * 
      * @param value
      *     allowed object is
@@ -702,7 +774,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the serviceLevel property.
+     * Obtiene el valor de la propiedad serviceLevel.
      * 
      * @return
      *     possible object is
@@ -714,7 +786,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the serviceLevel property.
+     * Define el valor de la propiedad serviceLevel.
      * 
      * @param value
      *     allowed object is
@@ -726,7 +798,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the sortType property.
+     * Obtiene el valor de la propiedad sortType.
      * 
      * @return
      *     possible object is
@@ -738,7 +810,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the sortType property.
+     * Define el valor de la propiedad sortType.
      * 
      * @param value
      *     allowed object is
@@ -750,7 +822,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the includePostage property.
+     * Obtiene el valor de la propiedad includePostage.
      * 
      * @return
      *     possible object is
@@ -762,7 +834,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the includePostage property.
+     * Define el valor de la propiedad includePostage.
      * 
      * @param value
      *     allowed object is
@@ -774,7 +846,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the replyPostage property.
+     * Obtiene el valor de la propiedad replyPostage.
      * 
      * @return
      *     possible object is
@@ -786,7 +858,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the replyPostage property.
+     * Define el valor de la propiedad replyPostage.
      * 
      * @param value
      *     allowed object is
@@ -798,7 +870,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the showReturnAddress property.
+     * Obtiene el valor de la propiedad showReturnAddress.
      * 
      * @return
      *     possible object is
@@ -810,7 +882,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the showReturnAddress property.
+     * Define el valor de la propiedad showReturnAddress.
      * 
      * @param value
      *     allowed object is
@@ -822,7 +894,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the stealth property.
+     * Obtiene el valor de la propiedad stealth.
      * 
      * @return
      *     possible object is
@@ -834,7 +906,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the stealth property.
+     * Define el valor de la propiedad stealth.
      * 
      * @param value
      *     allowed object is
@@ -846,7 +918,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the validateAddress property.
+     * Obtiene el valor de la propiedad validateAddress.
      * 
      * @return
      *     possible object is
@@ -858,7 +930,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the validateAddress property.
+     * Define el valor de la propiedad validateAddress.
      * 
      * @param value
      *     allowed object is
@@ -870,7 +942,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the signatureWaiver property.
+     * Obtiene el valor de la propiedad signatureWaiver.
      * 
      * @return
      *     possible object is
@@ -882,7 +954,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the signatureWaiver property.
+     * Define el valor de la propiedad signatureWaiver.
      * 
      * @param value
      *     allowed object is
@@ -894,7 +966,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the noWeekendDelivery property.
+     * Obtiene el valor de la propiedad noWeekendDelivery.
      * 
      * @return
      *     possible object is
@@ -906,7 +978,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the noWeekendDelivery property.
+     * Define el valor de la propiedad noWeekendDelivery.
      * 
      * @param value
      *     allowed object is
@@ -918,7 +990,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the services property.
+     * Obtiene el valor de la propiedad services.
      * 
      * @return
      *     possible object is
@@ -930,7 +1002,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the services property.
+     * Define el valor de la propiedad services.
      * 
      * @param value
      *     allowed object is
@@ -942,7 +1014,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the costCenter property.
+     * Obtiene el valor de la propiedad costCenter.
      * 
      */
     public int getCostCenter() {
@@ -950,7 +1022,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the costCenter property.
+     * Define el valor de la propiedad costCenter.
      * 
      */
     public void setCostCenter(int value) {
@@ -958,7 +1030,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the value property.
+     * Obtiene el valor de la propiedad value.
      * 
      */
     public float getValue() {
@@ -966,7 +1038,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the value property.
+     * Define el valor de la propiedad value.
      * 
      */
     public void setValue(float value) {
@@ -974,7 +1046,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the codAmount property.
+     * Obtiene el valor de la propiedad codAmount.
      * 
      * @return
      *     possible object is
@@ -986,7 +1058,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the codAmount property.
+     * Define el valor de la propiedad codAmount.
      * 
      * @param value
      *     allowed object is
@@ -998,7 +1070,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the registeredMailValue property.
+     * Obtiene el valor de la propiedad registeredMailValue.
      * 
      * @return
      *     possible object is
@@ -1010,7 +1082,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the registeredMailValue property.
+     * Define el valor de la propiedad registeredMailValue.
      * 
      * @param value
      *     allowed object is
@@ -1022,7 +1094,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the description property.
+     * Obtiene el valor de la propiedad description.
      * 
      * @return
      *     possible object is
@@ -1034,7 +1106,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the description property.
+     * Define el valor de la propiedad description.
      * 
      * @param value
      *     allowed object is
@@ -1046,7 +1118,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the integratedFormType property.
+     * Obtiene el valor de la propiedad integratedFormType.
      * 
      * @return
      *     possible object is
@@ -1058,7 +1130,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the integratedFormType property.
+     * Define el valor de la propiedad integratedFormType.
      * 
      * @param value
      *     allowed object is
@@ -1070,7 +1142,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsFormType property.
+     * Obtiene el valor de la propiedad customsFormType.
      * 
      * @return
      *     possible object is
@@ -1082,7 +1154,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsFormType property.
+     * Define el valor de la propiedad customsFormType.
      * 
      * @param value
      *     allowed object is
@@ -1094,7 +1166,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsFormImageFormat property.
+     * Obtiene el valor de la propiedad customsFormImageFormat.
      * 
      * @return
      *     possible object is
@@ -1106,7 +1178,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsFormImageFormat property.
+     * Define el valor de la propiedad customsFormImageFormat.
      * 
      * @param value
      *     allowed object is
@@ -1118,7 +1190,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsFormImageResolution property.
+     * Obtiene el valor de la propiedad customsFormImageResolution.
      * 
      * @return
      *     possible object is
@@ -1130,7 +1202,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsFormImageResolution property.
+     * Define el valor de la propiedad customsFormImageResolution.
      * 
      * @param value
      *     allowed object is
@@ -1142,7 +1214,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the originCountry property.
+     * Obtiene el valor de la propiedad originCountry.
      * 
      * @return
      *     possible object is
@@ -1154,7 +1226,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the originCountry property.
+     * Define el valor de la propiedad originCountry.
      * 
      * @param value
      *     allowed object is
@@ -1166,7 +1238,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the contentsType property.
+     * Obtiene el valor de la propiedad contentsType.
      * 
      * @return
      *     possible object is
@@ -1178,7 +1250,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the contentsType property.
+     * Define el valor de la propiedad contentsType.
      * 
      * @param value
      *     allowed object is
@@ -1190,7 +1262,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the contentsExplanation property.
+     * Obtiene el valor de la propiedad contentsExplanation.
      * 
      * @return
      *     possible object is
@@ -1202,7 +1274,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the contentsExplanation property.
+     * Define el valor de la propiedad contentsExplanation.
      * 
      * @param value
      *     allowed object is
@@ -1214,7 +1286,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the nonDeliveryOption property.
+     * Obtiene el valor de la propiedad nonDeliveryOption.
      * 
      * @return
      *     possible object is
@@ -1226,7 +1298,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the nonDeliveryOption property.
+     * Define el valor de la propiedad nonDeliveryOption.
      * 
      * @param value
      *     allowed object is
@@ -1238,7 +1310,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the referenceID property.
+     * Obtiene el valor de la propiedad referenceID.
      * 
      * @return
      *     possible object is
@@ -1250,7 +1322,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the referenceID property.
+     * Define el valor de la propiedad referenceID.
      * 
      * @param value
      *     allowed object is
@@ -1262,7 +1334,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the referenceID2 property.
+     * Obtiene el valor de la propiedad referenceID2.
      * 
      * @return
      *     possible object is
@@ -1274,7 +1346,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the referenceID2 property.
+     * Define el valor de la propiedad referenceID2.
      * 
      * @param value
      *     allowed object is
@@ -1286,7 +1358,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the referenceID3 property.
+     * Obtiene el valor de la propiedad referenceID3.
      * 
      * @return
      *     possible object is
@@ -1298,7 +1370,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the referenceID3 property.
+     * Define el valor de la propiedad referenceID3.
      * 
      * @param value
      *     allowed object is
@@ -1310,7 +1382,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the referenceID4 property.
+     * Obtiene el valor de la propiedad referenceID4.
      * 
      * @return
      *     possible object is
@@ -1322,7 +1394,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the referenceID4 property.
+     * Define el valor de la propiedad referenceID4.
      * 
      * @param value
      *     allowed object is
@@ -1334,7 +1406,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the partnerCustomerID property.
+     * Obtiene el valor de la propiedad partnerCustomerID.
      * 
      * @return
      *     possible object is
@@ -1346,7 +1418,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the partnerCustomerID property.
+     * Define el valor de la propiedad partnerCustomerID.
      * 
      * @param value
      *     allowed object is
@@ -1358,7 +1430,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the partnerTransactionID property.
+     * Obtiene el valor de la propiedad partnerTransactionID.
      * 
      * @return
      *     possible object is
@@ -1370,7 +1442,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the partnerTransactionID property.
+     * Define el valor de la propiedad partnerTransactionID.
      * 
      * @param value
      *     allowed object is
@@ -1382,7 +1454,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the bpodClientDunsNumber property.
+     * Obtiene el valor de la propiedad bpodClientDunsNumber.
      * 
      * @return
      *     possible object is
@@ -1394,7 +1466,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the bpodClientDunsNumber property.
+     * Define el valor de la propiedad bpodClientDunsNumber.
      * 
      * @param value
      *     allowed object is
@@ -1406,7 +1478,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the rubberStamp1 property.
+     * Obtiene el valor de la propiedad rubberStamp1.
      * 
      * @return
      *     possible object is
@@ -1418,7 +1490,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the rubberStamp1 property.
+     * Define el valor de la propiedad rubberStamp1.
      * 
      * @param value
      *     allowed object is
@@ -1430,7 +1502,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the rubberStamp2 property.
+     * Obtiene el valor de la propiedad rubberStamp2.
      * 
      * @return
      *     possible object is
@@ -1442,7 +1514,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the rubberStamp2 property.
+     * Define el valor de la propiedad rubberStamp2.
      * 
      * @param value
      *     allowed object is
@@ -1454,7 +1526,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the rubberStamp3 property.
+     * Obtiene el valor de la propiedad rubberStamp3.
      * 
      * @return
      *     possible object is
@@ -1466,7 +1538,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the rubberStamp3 property.
+     * Define el valor de la propiedad rubberStamp3.
      * 
      * @param value
      *     allowed object is
@@ -1478,7 +1550,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the entryFacility property.
+     * Obtiene el valor de la propiedad entryFacility.
      * 
      * @return
      *     possible object is
@@ -1490,7 +1562,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the entryFacility property.
+     * Define el valor de la propiedad entryFacility.
      * 
      * @param value
      *     allowed object is
@@ -1502,7 +1574,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the poZipCode property.
+     * Obtiene el valor de la propiedad poZipCode.
      * 
      * @return
      *     possible object is
@@ -1514,7 +1586,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the poZipCode property.
+     * Define el valor de la propiedad poZipCode.
      * 
      * @param value
      *     allowed object is
@@ -1526,7 +1598,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the shipDate property.
+     * Obtiene el valor de la propiedad shipDate.
      * 
      * @return
      *     possible object is
@@ -1538,7 +1610,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the shipDate property.
+     * Define el valor de la propiedad shipDate.
      * 
      * @param value
      *     allowed object is
@@ -1550,7 +1622,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the shipTime property.
+     * Obtiene el valor de la propiedad shipTime.
      * 
      * @return
      *     possible object is
@@ -1562,7 +1634,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the shipTime property.
+     * Define el valor de la propiedad shipTime.
      * 
      * @param value
      *     allowed object is
@@ -1574,7 +1646,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsInfo property.
+     * Obtiene el valor de la propiedad customsInfo.
      * 
      * @return
      *     possible object is
@@ -1586,7 +1658,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsInfo property.
+     * Define el valor de la propiedad customsInfo.
      * 
      * @param value
      *     allowed object is
@@ -1598,7 +1670,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsCertify property.
+     * Obtiene el valor de la propiedad customsCertify.
      * 
      * @return
      *     possible object is
@@ -1610,7 +1682,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsCertify property.
+     * Define el valor de la propiedad customsCertify.
      * 
      * @param value
      *     allowed object is
@@ -1622,7 +1694,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsSigner property.
+     * Obtiene el valor de la propiedad customsSigner.
      * 
      * @return
      *     possible object is
@@ -1634,7 +1706,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsSigner property.
+     * Define el valor de la propiedad customsSigner.
      * 
      * @param value
      *     allowed object is
@@ -1646,7 +1718,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpEmailAddress property.
+     * Obtiene el valor de la propiedad hfpEmailAddress.
      * 
      * @return
      *     possible object is
@@ -1658,7 +1730,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpEmailAddress property.
+     * Define el valor de la propiedad hfpEmailAddress.
      * 
      * @param value
      *     allowed object is
@@ -1670,7 +1742,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpSMS property.
+     * Obtiene el valor de la propiedad hfpSMS.
      * 
      * @return
      *     possible object is
@@ -1682,7 +1754,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpSMS property.
+     * Define el valor de la propiedad hfpSMS.
      * 
      * @param value
      *     allowed object is
@@ -1694,7 +1766,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpFacilityID property.
+     * Obtiene el valor de la propiedad hfpFacilityID.
      * 
      * @return
      *     possible object is
@@ -1706,7 +1778,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpFacilityID property.
+     * Define el valor de la propiedad hfpFacilityID.
      * 
      * @param value
      *     allowed object is
@@ -1718,7 +1790,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the mrsPermitNo property.
+     * Obtiene el valor de la propiedad mrsPermitNo.
      * 
      * @return
      *     possible object is
@@ -1730,7 +1802,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the mrsPermitNo property.
+     * Define el valor de la propiedad mrsPermitNo.
      * 
      * @param value
      *     allowed object is
@@ -1742,7 +1814,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the mrsPermitCityStateZIP property.
+     * Obtiene el valor de la propiedad mrsPermitCityStateZIP.
      * 
      * @return
      *     possible object is
@@ -1754,7 +1826,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the mrsPermitCityStateZIP property.
+     * Define el valor de la propiedad mrsPermitCityStateZIP.
      * 
      * @param value
      *     allowed object is
@@ -1766,7 +1838,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the mrsPermitFirm property.
+     * Obtiene el valor de la propiedad mrsPermitFirm.
      * 
      * @return
      *     possible object is
@@ -1778,7 +1850,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the mrsPermitFirm property.
+     * Define el valor de la propiedad mrsPermitFirm.
      * 
      * @param value
      *     allowed object is
@@ -1790,7 +1862,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the mrsPermitStreet property.
+     * Obtiene el valor de la propiedad mrsPermitStreet.
      * 
      * @return
      *     possible object is
@@ -1802,7 +1874,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the mrsPermitStreet property.
+     * Define el valor de la propiedad mrsPermitStreet.
      * 
      * @param value
      *     allowed object is
@@ -1814,7 +1886,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the mrsrmaNumber property.
+     * Obtiene el valor de la propiedad mrsrmaNumber.
      * 
      * @return
      *     possible object is
@@ -1826,7 +1898,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the mrsrmaNumber property.
+     * Define el valor de la propiedad mrsrmaNumber.
      * 
      * @param value
      *     allowed object is
@@ -1838,7 +1910,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the openAndDistributeFacilityType property.
+     * Obtiene el valor de la propiedad openAndDistributeFacilityType.
      * 
      * @return
      *     possible object is
@@ -1850,7 +1922,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the openAndDistributeFacilityType property.
+     * Define el valor de la propiedad openAndDistributeFacilityType.
      * 
      * @param value
      *     allowed object is
@@ -1862,7 +1934,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the openAndDistributeFacilityName property.
+     * Obtiene el valor de la propiedad openAndDistributeFacilityName.
      * 
      * @return
      *     possible object is
@@ -1874,7 +1946,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the openAndDistributeFacilityName property.
+     * Define el valor de la propiedad openAndDistributeFacilityName.
      * 
      * @param value
      *     allowed object is
@@ -1886,7 +1958,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the openAndDistributeTray property.
+     * Obtiene el valor de la propiedad openAndDistributeTray.
      * 
      * @return
      *     possible object is
@@ -1898,7 +1970,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the openAndDistributeTray property.
+     * Define el valor de la propiedad openAndDistributeTray.
      * 
      * @param value
      *     allowed object is
@@ -1910,7 +1982,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the openAndDistributeMailClassEnclosed property.
+     * Obtiene el valor de la propiedad openAndDistributeMailClassEnclosed.
      * 
      * @return
      *     possible object is
@@ -1922,7 +1994,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the openAndDistributeMailClassEnclosed property.
+     * Define el valor de la propiedad openAndDistributeMailClassEnclosed.
      * 
      * @param value
      *     allowed object is
@@ -1934,7 +2006,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the openAndDistributeMailClassOther property.
+     * Obtiene el valor de la propiedad openAndDistributeMailClassOther.
      * 
      * @return
      *     possible object is
@@ -1946,7 +2018,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the openAndDistributeMailClassOther property.
+     * Define el valor de la propiedad openAndDistributeMailClassOther.
      * 
      * @param value
      *     allowed object is
@@ -1958,7 +2030,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the gxgFedexTrackingNumber property.
+     * Obtiene el valor de la propiedad gxgFedexTrackingNumber.
      * 
      * @return
      *     possible object is
@@ -1970,7 +2042,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the gxgFedexTrackingNumber property.
+     * Define el valor de la propiedad gxgFedexTrackingNumber.
      * 
      * @param value
      *     allowed object is
@@ -1982,7 +2054,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the gxguspsTrackingNumber property.
+     * Obtiene el valor de la propiedad gxguspsTrackingNumber.
      * 
      * @return
      *     possible object is
@@ -1994,7 +2066,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the gxguspsTrackingNumber property.
+     * Define el valor de la propiedad gxguspsTrackingNumber.
      * 
      * @param value
      *     allowed object is
@@ -2006,7 +2078,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the printConsolidatorLabel property.
+     * Obtiene el valor de la propiedad printConsolidatorLabel.
      * 
      * @return
      *     possible object is
@@ -2018,7 +2090,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the printConsolidatorLabel property.
+     * Define el valor de la propiedad printConsolidatorLabel.
      * 
      * @param value
      *     allowed object is
@@ -2030,7 +2102,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the responseOptions property.
+     * Obtiene el valor de la propiedad responseOptions.
      * 
      * @return
      *     possible object is
@@ -2042,7 +2114,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the responseOptions property.
+     * Define el valor de la propiedad responseOptions.
      * 
      * @param value
      *     allowed object is
@@ -2054,7 +2126,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the token property.
+     * Obtiene el valor de la propiedad token.
      * 
      * @return
      *     possible object is
@@ -2066,7 +2138,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the token property.
+     * Define el valor de la propiedad token.
      * 
      * @param value
      *     allowed object is
@@ -2078,7 +2150,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsSendersCopy property.
+     * Obtiene el valor de la propiedad customsSendersCopy.
      * 
      * @return
      *     possible object is
@@ -2090,7 +2162,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsSendersCopy property.
+     * Define el valor de la propiedad customsSendersCopy.
      * 
      * @param value
      *     allowed object is
@@ -2102,7 +2174,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the noDate property.
+     * Obtiene el valor de la propiedad noDate.
      * 
      * @return
      *     possible object is
@@ -2114,7 +2186,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the noDate property.
+     * Define el valor de la propiedad noDate.
      * 
      * @param value
      *     allowed object is
@@ -2126,7 +2198,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the merchantID property.
+     * Obtiene el valor de la propiedad merchantID.
      * 
      * @return
      *     possible object is
@@ -2138,7 +2210,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the merchantID property.
+     * Define el valor de la propiedad merchantID.
      * 
      * @param value
      *     allowed object is
@@ -2150,7 +2222,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the printScanBasedPaymentLabel property.
+     * Obtiene el valor de la propiedad printScanBasedPaymentLabel.
      * 
      * @return
      *     possible object is
@@ -2162,7 +2234,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the printScanBasedPaymentLabel property.
+     * Define el valor de la propiedad printScanBasedPaymentLabel.
      * 
      * @param value
      *     allowed object is
@@ -2174,7 +2246,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the specialContents property.
+     * Obtiene el valor de la propiedad specialContents.
      * 
      * @return
      *     possible object is
@@ -2186,7 +2258,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the specialContents property.
+     * Define el valor de la propiedad specialContents.
      * 
      * @param value
      *     allowed object is
@@ -2198,7 +2270,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the evsOptions property.
+     * Obtiene el valor de la propiedad evsOptions.
      * 
      * @return
      *     possible object is
@@ -2210,7 +2282,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the evsOptions property.
+     * Define el valor de la propiedad evsOptions.
      * 
      * @param value
      *     allowed object is
@@ -2222,7 +2294,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the cod3816 property.
+     * Obtiene el valor de la propiedad cod3816.
      * 
      * @return
      *     possible object is
@@ -2234,7 +2306,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the cod3816 property.
+     * Define el valor de la propiedad cod3816.
      * 
      * @param value
      *     allowed object is
@@ -2246,7 +2318,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the emailMiscNotes property.
+     * Obtiene el valor de la propiedad emailMiscNotes.
      * 
      * @return
      *     possible object is
@@ -2258,7 +2330,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the emailMiscNotes property.
+     * Define el valor de la propiedad emailMiscNotes.
      * 
      * @param value
      *     allowed object is
@@ -2270,7 +2342,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the estimatedDeliveryDate property.
+     * Obtiene el valor de la propiedad estimatedDeliveryDate.
      * 
      * @return
      *     possible object is
@@ -2282,7 +2354,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the estimatedDeliveryDate property.
+     * Define el valor de la propiedad estimatedDeliveryDate.
      * 
      * @param value
      *     allowed object is
@@ -2294,7 +2366,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the ancillaryServiceEndorsement property.
+     * Obtiene el valor de la propiedad ancillaryServiceEndorsement.
      * 
      * @return
      *     possible object is
@@ -2306,7 +2378,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the ancillaryServiceEndorsement property.
+     * Define el valor de la propiedad ancillaryServiceEndorsement.
      * 
      * @param value
      *     allowed object is
@@ -2318,7 +2390,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -2330,7 +2402,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -2342,7 +2414,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the accountID property.
+     * Obtiene el valor de la propiedad accountID.
      * 
      * @return
      *     possible object is
@@ -2354,7 +2426,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the accountID property.
+     * Define el valor de la propiedad accountID.
      * 
      * @param value
      *     allowed object is
@@ -2366,7 +2438,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the insuredValue property.
+     * Obtiene el valor de la propiedad insuredValue.
      * 
      * @return
      *     possible object is
@@ -2378,7 +2450,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the insuredValue property.
+     * Define el valor de la propiedad insuredValue.
      * 
      * @param value
      *     allowed object is
@@ -2390,7 +2462,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the profileType property.
+     * Obtiene el valor de la propiedad profileType.
      * 
      * @return
      *     possible object is
@@ -2402,7 +2474,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the profileType property.
+     * Define el valor de la propiedad profileType.
      * 
      * @param value
      *     allowed object is
@@ -2414,7 +2486,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the addressCleansedHash property.
+     * Obtiene el valor de la propiedad addressCleansedHash.
      * 
      * @return
      *     possible object is
@@ -2426,7 +2498,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the addressCleansedHash property.
+     * Define el valor de la propiedad addressCleansedHash.
      * 
      * @param value
      *     allowed object is
@@ -2438,7 +2510,31 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromName property.
+     * Obtiene el valor de la propiedad fullAddress.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getFullAddress() {
+        return fullAddress;
+    }
+
+    /**
+     * Define el valor de la propiedad fullAddress.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setFullAddress(String value) {
+        this.fullAddress = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad fromName.
      * 
      * @return
      *     possible object is
@@ -2450,7 +2546,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromName property.
+     * Define el valor de la propiedad fromName.
      * 
      * @param value
      *     allowed object is
@@ -2462,7 +2558,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromCompany property.
+     * Obtiene el valor de la propiedad fromCompany.
      * 
      * @return
      *     possible object is
@@ -2474,7 +2570,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromCompany property.
+     * Define el valor de la propiedad fromCompany.
      * 
      * @param value
      *     allowed object is
@@ -2486,7 +2582,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the returnAddress1 property.
+     * Obtiene el valor de la propiedad returnAddress1.
      * 
      * @return
      *     possible object is
@@ -2498,7 +2594,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the returnAddress1 property.
+     * Define el valor de la propiedad returnAddress1.
      * 
      * @param value
      *     allowed object is
@@ -2510,7 +2606,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the returnAddress2 property.
+     * Obtiene el valor de la propiedad returnAddress2.
      * 
      * @return
      *     possible object is
@@ -2522,7 +2618,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the returnAddress2 property.
+     * Define el valor de la propiedad returnAddress2.
      * 
      * @param value
      *     allowed object is
@@ -2534,7 +2630,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the returnAddress3 property.
+     * Obtiene el valor de la propiedad returnAddress3.
      * 
      * @return
      *     possible object is
@@ -2546,7 +2642,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the returnAddress3 property.
+     * Define el valor de la propiedad returnAddress3.
      * 
      * @param value
      *     allowed object is
@@ -2558,7 +2654,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the returnAddress4 property.
+     * Obtiene el valor de la propiedad returnAddress4.
      * 
      * @return
      *     possible object is
@@ -2570,7 +2666,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the returnAddress4 property.
+     * Define el valor de la propiedad returnAddress4.
      * 
      * @param value
      *     allowed object is
@@ -2582,7 +2678,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromCity property.
+     * Obtiene el valor de la propiedad fromCity.
      * 
      * @return
      *     possible object is
@@ -2594,7 +2690,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromCity property.
+     * Define el valor de la propiedad fromCity.
      * 
      * @param value
      *     allowed object is
@@ -2606,7 +2702,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromState property.
+     * Obtiene el valor de la propiedad fromState.
      * 
      * @return
      *     possible object is
@@ -2618,7 +2714,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromState property.
+     * Define el valor de la propiedad fromState.
      * 
      * @param value
      *     allowed object is
@@ -2630,7 +2726,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromPostalCode property.
+     * Obtiene el valor de la propiedad fromPostalCode.
      * 
      * @return
      *     possible object is
@@ -2642,7 +2738,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromPostalCode property.
+     * Define el valor de la propiedad fromPostalCode.
      * 
      * @param value
      *     allowed object is
@@ -2654,7 +2750,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromZIP4 property.
+     * Obtiene el valor de la propiedad fromZIP4.
      * 
      * @return
      *     possible object is
@@ -2666,7 +2762,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromZIP4 property.
+     * Define el valor de la propiedad fromZIP4.
      * 
      * @param value
      *     allowed object is
@@ -2678,7 +2774,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromCountry property.
+     * Obtiene el valor de la propiedad fromCountry.
      * 
      * @return
      *     possible object is
@@ -2690,7 +2786,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromCountry property.
+     * Define el valor de la propiedad fromCountry.
      * 
      * @param value
      *     allowed object is
@@ -2702,7 +2798,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromPhone property.
+     * Obtiene el valor de la propiedad fromPhone.
      * 
      * @return
      *     possible object is
@@ -2714,7 +2810,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromPhone property.
+     * Define el valor de la propiedad fromPhone.
      * 
      * @param value
      *     allowed object is
@@ -2726,7 +2822,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromEMail property.
+     * Obtiene el valor de la propiedad fromEMail.
      * 
      * @return
      *     possible object is
@@ -2738,7 +2834,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromEMail property.
+     * Define el valor de la propiedad fromEMail.
      * 
      * @param value
      *     allowed object is
@@ -2750,7 +2846,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toName property.
+     * Obtiene el valor de la propiedad toName.
      * 
      * @return
      *     possible object is
@@ -2762,7 +2858,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toName property.
+     * Define el valor de la propiedad toName.
      * 
      * @param value
      *     allowed object is
@@ -2774,7 +2870,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toCompany property.
+     * Obtiene el valor de la propiedad toCompany.
      * 
      * @return
      *     possible object is
@@ -2786,7 +2882,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toCompany property.
+     * Define el valor de la propiedad toCompany.
      * 
      * @param value
      *     allowed object is
@@ -2798,7 +2894,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toAddress1 property.
+     * Obtiene el valor de la propiedad toAddress1.
      * 
      * @return
      *     possible object is
@@ -2810,7 +2906,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toAddress1 property.
+     * Define el valor de la propiedad toAddress1.
      * 
      * @param value
      *     allowed object is
@@ -2822,7 +2918,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toAddress2 property.
+     * Obtiene el valor de la propiedad toAddress2.
      * 
      * @return
      *     possible object is
@@ -2834,7 +2930,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toAddress2 property.
+     * Define el valor de la propiedad toAddress2.
      * 
      * @param value
      *     allowed object is
@@ -2846,7 +2942,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toAddress3 property.
+     * Obtiene el valor de la propiedad toAddress3.
      * 
      * @return
      *     possible object is
@@ -2858,7 +2954,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toAddress3 property.
+     * Define el valor de la propiedad toAddress3.
      * 
      * @param value
      *     allowed object is
@@ -2870,7 +2966,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toAddress4 property.
+     * Obtiene el valor de la propiedad toAddress4.
      * 
      * @return
      *     possible object is
@@ -2882,7 +2978,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toAddress4 property.
+     * Define el valor de la propiedad toAddress4.
      * 
      * @param value
      *     allowed object is
@@ -2894,7 +2990,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toCity property.
+     * Obtiene el valor de la propiedad toCity.
      * 
      * @return
      *     possible object is
@@ -2906,7 +3002,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toCity property.
+     * Define el valor de la propiedad toCity.
      * 
      * @param value
      *     allowed object is
@@ -2918,7 +3014,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toState property.
+     * Obtiene el valor de la propiedad toState.
      * 
      * @return
      *     possible object is
@@ -2930,7 +3026,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toState property.
+     * Define el valor de la propiedad toState.
      * 
      * @param value
      *     allowed object is
@@ -2942,7 +3038,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toPostalCode property.
+     * Obtiene el valor de la propiedad toPostalCode.
      * 
      * @return
      *     possible object is
@@ -2954,7 +3050,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toPostalCode property.
+     * Define el valor de la propiedad toPostalCode.
      * 
      * @param value
      *     allowed object is
@@ -2966,7 +3062,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toZIP4 property.
+     * Obtiene el valor de la propiedad toZIP4.
      * 
      * @return
      *     possible object is
@@ -2978,7 +3074,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toZIP4 property.
+     * Define el valor de la propiedad toZIP4.
      * 
      * @param value
      *     allowed object is
@@ -2990,7 +3086,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toDeliveryPoint property.
+     * Obtiene el valor de la propiedad toDeliveryPoint.
      * 
      * @return
      *     possible object is
@@ -3002,7 +3098,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toDeliveryPoint property.
+     * Define el valor de la propiedad toDeliveryPoint.
      * 
      * @param value
      *     allowed object is
@@ -3014,7 +3110,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toCountry property.
+     * Obtiene el valor de la propiedad toCountry.
      * 
      * @return
      *     possible object is
@@ -3026,7 +3122,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toCountry property.
+     * Define el valor de la propiedad toCountry.
      * 
      * @param value
      *     allowed object is
@@ -3038,7 +3134,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toCountryCode property.
+     * Obtiene el valor de la propiedad toCountryCode.
      * 
      * @return
      *     possible object is
@@ -3050,7 +3146,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toCountryCode property.
+     * Define el valor de la propiedad toCountryCode.
      * 
      * @param value
      *     allowed object is
@@ -3062,7 +3158,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toPhone property.
+     * Obtiene el valor de la propiedad toPhone.
      * 
      * @return
      *     possible object is
@@ -3074,7 +3170,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toPhone property.
+     * Define el valor de la propiedad toPhone.
      * 
      * @param value
      *     allowed object is
@@ -3086,7 +3182,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toEMail property.
+     * Obtiene el valor de la propiedad toEMail.
      * 
      * @return
      *     possible object is
@@ -3098,7 +3194,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toEMail property.
+     * Define el valor de la propiedad toEMail.
      * 
      * @param value
      *     allowed object is
@@ -3110,7 +3206,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsCountry1 property.
+     * Obtiene el valor de la propiedad customsCountry1.
      * 
      * @return
      *     possible object is
@@ -3122,7 +3218,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsCountry1 property.
+     * Define el valor de la propiedad customsCountry1.
      * 
      * @param value
      *     allowed object is
@@ -3134,7 +3230,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsDescription1 property.
+     * Obtiene el valor de la propiedad customsDescription1.
      * 
      * @return
      *     possible object is
@@ -3146,7 +3242,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsDescription1 property.
+     * Define el valor de la propiedad customsDescription1.
      * 
      * @param value
      *     allowed object is
@@ -3158,7 +3254,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsQuantity1 property.
+     * Obtiene el valor de la propiedad customsQuantity1.
      * 
      * @return
      *     possible object is
@@ -3170,7 +3266,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsQuantity1 property.
+     * Define el valor de la propiedad customsQuantity1.
      * 
      * @param value
      *     allowed object is
@@ -3182,7 +3278,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsValue1 property.
+     * Obtiene el valor de la propiedad customsValue1.
      * 
      * @return
      *     possible object is
@@ -3194,7 +3290,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsValue1 property.
+     * Define el valor de la propiedad customsValue1.
      * 
      * @param value
      *     allowed object is
@@ -3206,7 +3302,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsWeight1 property.
+     * Obtiene el valor de la propiedad customsWeight1.
      * 
      * @return
      *     possible object is
@@ -3218,7 +3314,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsWeight1 property.
+     * Define el valor de la propiedad customsWeight1.
      * 
      * @param value
      *     allowed object is
@@ -3230,7 +3326,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsCountry2 property.
+     * Obtiene el valor de la propiedad customsCountry2.
      * 
      * @return
      *     possible object is
@@ -3242,7 +3338,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsCountry2 property.
+     * Define el valor de la propiedad customsCountry2.
      * 
      * @param value
      *     allowed object is
@@ -3254,7 +3350,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsDescription2 property.
+     * Obtiene el valor de la propiedad customsDescription2.
      * 
      * @return
      *     possible object is
@@ -3266,7 +3362,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsDescription2 property.
+     * Define el valor de la propiedad customsDescription2.
      * 
      * @param value
      *     allowed object is
@@ -3278,7 +3374,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsQuantity2 property.
+     * Obtiene el valor de la propiedad customsQuantity2.
      * 
      * @return
      *     possible object is
@@ -3290,7 +3386,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsQuantity2 property.
+     * Define el valor de la propiedad customsQuantity2.
      * 
      * @param value
      *     allowed object is
@@ -3302,7 +3398,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsValue2 property.
+     * Obtiene el valor de la propiedad customsValue2.
      * 
      * @return
      *     possible object is
@@ -3314,7 +3410,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsValue2 property.
+     * Define el valor de la propiedad customsValue2.
      * 
      * @param value
      *     allowed object is
@@ -3326,7 +3422,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsWeight2 property.
+     * Obtiene el valor de la propiedad customsWeight2.
      * 
      * @return
      *     possible object is
@@ -3338,7 +3434,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsWeight2 property.
+     * Define el valor de la propiedad customsWeight2.
      * 
      * @param value
      *     allowed object is
@@ -3350,7 +3446,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsCountry3 property.
+     * Obtiene el valor de la propiedad customsCountry3.
      * 
      * @return
      *     possible object is
@@ -3362,7 +3458,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsCountry3 property.
+     * Define el valor de la propiedad customsCountry3.
      * 
      * @param value
      *     allowed object is
@@ -3374,7 +3470,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsDescription3 property.
+     * Obtiene el valor de la propiedad customsDescription3.
      * 
      * @return
      *     possible object is
@@ -3386,7 +3482,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsDescription3 property.
+     * Define el valor de la propiedad customsDescription3.
      * 
      * @param value
      *     allowed object is
@@ -3398,7 +3494,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsQuantity3 property.
+     * Obtiene el valor de la propiedad customsQuantity3.
      * 
      * @return
      *     possible object is
@@ -3410,7 +3506,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsQuantity3 property.
+     * Define el valor de la propiedad customsQuantity3.
      * 
      * @param value
      *     allowed object is
@@ -3422,7 +3518,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsValue3 property.
+     * Obtiene el valor de la propiedad customsValue3.
      * 
      * @return
      *     possible object is
@@ -3434,7 +3530,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsValue3 property.
+     * Define el valor de la propiedad customsValue3.
      * 
      * @param value
      *     allowed object is
@@ -3446,7 +3542,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsWeight3 property.
+     * Obtiene el valor de la propiedad customsWeight3.
      * 
      * @return
      *     possible object is
@@ -3458,7 +3554,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsWeight3 property.
+     * Define el valor de la propiedad customsWeight3.
      * 
      * @param value
      *     allowed object is
@@ -3470,7 +3566,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsCountry4 property.
+     * Obtiene el valor de la propiedad customsCountry4.
      * 
      * @return
      *     possible object is
@@ -3482,7 +3578,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsCountry4 property.
+     * Define el valor de la propiedad customsCountry4.
      * 
      * @param value
      *     allowed object is
@@ -3494,7 +3590,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsDescription4 property.
+     * Obtiene el valor de la propiedad customsDescription4.
      * 
      * @return
      *     possible object is
@@ -3506,7 +3602,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsDescription4 property.
+     * Define el valor de la propiedad customsDescription4.
      * 
      * @param value
      *     allowed object is
@@ -3518,7 +3614,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsQuantity4 property.
+     * Obtiene el valor de la propiedad customsQuantity4.
      * 
      * @return
      *     possible object is
@@ -3530,7 +3626,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsQuantity4 property.
+     * Define el valor de la propiedad customsQuantity4.
      * 
      * @param value
      *     allowed object is
@@ -3542,7 +3638,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsValue4 property.
+     * Obtiene el valor de la propiedad customsValue4.
      * 
      * @return
      *     possible object is
@@ -3554,7 +3650,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsValue4 property.
+     * Define el valor de la propiedad customsValue4.
      * 
      * @param value
      *     allowed object is
@@ -3566,7 +3662,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsWeight4 property.
+     * Obtiene el valor de la propiedad customsWeight4.
      * 
      * @return
      *     possible object is
@@ -3578,7 +3674,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsWeight4 property.
+     * Define el valor de la propiedad customsWeight4.
      * 
      * @param value
      *     allowed object is
@@ -3590,7 +3686,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsCountry5 property.
+     * Obtiene el valor de la propiedad customsCountry5.
      * 
      * @return
      *     possible object is
@@ -3602,7 +3698,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsCountry5 property.
+     * Define el valor de la propiedad customsCountry5.
      * 
      * @param value
      *     allowed object is
@@ -3614,7 +3710,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsDescription5 property.
+     * Obtiene el valor de la propiedad customsDescription5.
      * 
      * @return
      *     possible object is
@@ -3626,7 +3722,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsDescription5 property.
+     * Define el valor de la propiedad customsDescription5.
      * 
      * @param value
      *     allowed object is
@@ -3638,7 +3734,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsQuantity5 property.
+     * Obtiene el valor de la propiedad customsQuantity5.
      * 
      * @return
      *     possible object is
@@ -3650,7 +3746,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsQuantity5 property.
+     * Define el valor de la propiedad customsQuantity5.
      * 
      * @param value
      *     allowed object is
@@ -3662,7 +3758,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsValue5 property.
+     * Obtiene el valor de la propiedad customsValue5.
      * 
      * @return
      *     possible object is
@@ -3674,7 +3770,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsValue5 property.
+     * Define el valor de la propiedad customsValue5.
      * 
      * @param value
      *     allowed object is
@@ -3686,7 +3782,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the customsWeight5 property.
+     * Obtiene el valor de la propiedad customsWeight5.
      * 
      * @return
      *     possible object is
@@ -3698,7 +3794,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the customsWeight5 property.
+     * Define el valor de la propiedad customsWeight5.
      * 
      * @param value
      *     allowed object is
@@ -3710,7 +3806,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the eelPfc property.
+     * Obtiene el valor de la propiedad eelPfc.
      * 
      * @return
      *     possible object is
@@ -3722,7 +3818,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the eelPfc property.
+     * Define el valor de la propiedad eelPfc.
      * 
      * @param value
      *     allowed object is
@@ -3734,7 +3830,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpFacilityName property.
+     * Obtiene el valor de la propiedad hfpFacilityName.
      * 
      * @return
      *     possible object is
@@ -3746,7 +3842,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpFacilityName property.
+     * Define el valor de la propiedad hfpFacilityName.
      * 
      * @param value
      *     allowed object is
@@ -3758,7 +3854,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpFacilityAddress1 property.
+     * Obtiene el valor de la propiedad hfpFacilityAddress1.
      * 
      * @return
      *     possible object is
@@ -3770,7 +3866,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpFacilityAddress1 property.
+     * Define el valor de la propiedad hfpFacilityAddress1.
      * 
      * @param value
      *     allowed object is
@@ -3782,7 +3878,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpFacilityCity property.
+     * Obtiene el valor de la propiedad hfpFacilityCity.
      * 
      * @return
      *     possible object is
@@ -3794,7 +3890,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpFacilityCity property.
+     * Define el valor de la propiedad hfpFacilityCity.
      * 
      * @param value
      *     allowed object is
@@ -3806,7 +3902,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpFacilityState property.
+     * Obtiene el valor de la propiedad hfpFacilityState.
      * 
      * @return
      *     possible object is
@@ -3818,7 +3914,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpFacilityState property.
+     * Define el valor de la propiedad hfpFacilityState.
      * 
      * @param value
      *     allowed object is
@@ -3830,7 +3926,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpFacilityPostalCode property.
+     * Obtiene el valor de la propiedad hfpFacilityPostalCode.
      * 
      * @return
      *     possible object is
@@ -3842,7 +3938,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpFacilityPostalCode property.
+     * Define el valor de la propiedad hfpFacilityPostalCode.
      * 
      * @param value
      *     allowed object is
@@ -3854,7 +3950,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hfpFacilityZIP4 property.
+     * Obtiene el valor de la propiedad hfpFacilityZIP4.
      * 
      * @return
      *     possible object is
@@ -3866,7 +3962,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hfpFacilityZIP4 property.
+     * Define el valor de la propiedad hfpFacilityZIP4.
      * 
      * @param value
      *     allowed object is
@@ -3878,7 +3974,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the costCenterAlphaNumeric property.
+     * Obtiene el valor de la propiedad costCenterAlphaNumeric.
      * 
      * @return
      *     possible object is
@@ -3890,7 +3986,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the costCenterAlphaNumeric property.
+     * Define el valor de la propiedad costCenterAlphaNumeric.
      * 
      * @param value
      *     allowed object is
@@ -3902,7 +3998,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the toCarrierRoute property.
+     * Obtiene el valor de la propiedad toCarrierRoute.
      * 
      * @return
      *     possible object is
@@ -3914,7 +4010,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the toCarrierRoute property.
+     * Define el valor de la propiedad toCarrierRoute.
      * 
      * @param value
      *     allowed object is
@@ -3926,7 +4022,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the hazardousMaterial property.
+     * Obtiene el valor de la propiedad hazardousMaterial.
      * 
      * @return
      *     possible object is
@@ -3938,7 +4034,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the hazardousMaterial property.
+     * Define el valor de la propiedad hazardousMaterial.
      * 
      * @param value
      *     allowed object is
@@ -3950,7 +4046,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the fromCountryCode property.
+     * Obtiene el valor de la propiedad fromCountryCode.
      * 
      * @return
      *     possible object is
@@ -3962,7 +4058,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the fromCountryCode property.
+     * Define el valor de la propiedad fromCountryCode.
      * 
      * @param value
      *     allowed object is
@@ -3974,7 +4070,415 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the test property.
+     * Obtiene el valor de la propiedad outboundTransactionID.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getOutboundTransactionID() {
+        return outboundTransactionID;
+    }
+
+    /**
+     * Define el valor de la propiedad outboundTransactionID.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setOutboundTransactionID(String value) {
+        this.outboundTransactionID = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad orderDetails.
+     * 
+     * @return
+     *     possible object is
+     *     {@link OrderDetails }
+     *     
+     */
+    public OrderDetails getOrderDetails() {
+        return orderDetails;
+    }
+
+    /**
+     * Define el valor de la propiedad orderDetails.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link OrderDetails }
+     *     
+     */
+    public void setOrderDetails(OrderDetails value) {
+        this.orderDetails = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad brandingID.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getBrandingID() {
+        return brandingID;
+    }
+
+    /**
+     * Define el valor de la propiedad brandingID.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setBrandingID(String value) {
+        this.brandingID = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad notificationSettingID.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getNotificationSettingID() {
+        return notificationSettingID;
+    }
+
+    /**
+     * Define el valor de la propiedad notificationSettingID.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setNotificationSettingID(String value) {
+        this.notificationSettingID = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToName.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToName() {
+        return returnToName;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToName.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToName(String value) {
+        this.returnToName = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToCompany.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToCompany() {
+        return returnToCompany;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToCompany.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToCompany(String value) {
+        this.returnToCompany = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToAddress1.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToAddress1() {
+        return returnToAddress1;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToAddress1.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToAddress1(String value) {
+        this.returnToAddress1 = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToAddress2.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToAddress2() {
+        return returnToAddress2;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToAddress2.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToAddress2(String value) {
+        this.returnToAddress2 = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToAddress3.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToAddress3() {
+        return returnToAddress3;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToAddress3.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToAddress3(String value) {
+        this.returnToAddress3 = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToAddress4.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToAddress4() {
+        return returnToAddress4;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToAddress4.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToAddress4(String value) {
+        this.returnToAddress4 = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToCity.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToCity() {
+        return returnToCity;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToCity.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToCity(String value) {
+        this.returnToCity = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToState.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToState() {
+        return returnToState;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToState.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToState(String value) {
+        this.returnToState = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToPostalCode.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToPostalCode() {
+        return returnToPostalCode;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToPostalCode.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToPostalCode(String value) {
+        this.returnToPostalCode = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToZIP4.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToZIP4() {
+        return returnToZIP4;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToZIP4.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToZIP4(String value) {
+        this.returnToZIP4 = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToCountryCode.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToCountryCode() {
+        return returnToCountryCode;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToCountryCode.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToCountryCode(String value) {
+        this.returnToCountryCode = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToPhone.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToPhone() {
+        return returnToPhone;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToPhone.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToPhone(String value) {
+        this.returnToPhone = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad returnToEMail.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getReturnToEMail() {
+        return returnToEMail;
+    }
+
+    /**
+     * Define el valor de la propiedad returnToEMail.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setReturnToEMail(String value) {
+        this.returnToEMail = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad test.
      * 
      * @return
      *     possible object is
@@ -3986,7 +4490,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the test property.
+     * Define el valor de la propiedad test.
      * 
      * @param value
      *     allowed object is
@@ -3998,7 +4502,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the labelType property.
+     * Obtiene el valor de la propiedad labelType.
      * 
      * @return
      *     possible object is
@@ -4010,7 +4514,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the labelType property.
+     * Define el valor de la propiedad labelType.
      * 
      * @param value
      *     allowed object is
@@ -4022,7 +4526,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the labelSubtype property.
+     * Obtiene el valor de la propiedad labelSubtype.
      * 
      * @return
      *     possible object is
@@ -4034,7 +4538,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the labelSubtype property.
+     * Define el valor de la propiedad labelSubtype.
      * 
      * @param value
      *     allowed object is
@@ -4046,7 +4550,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the labelSize property.
+     * Obtiene el valor de la propiedad labelSize.
      * 
      * @return
      *     possible object is
@@ -4058,7 +4562,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the labelSize property.
+     * Define el valor de la propiedad labelSize.
      * 
      * @param value
      *     allowed object is
@@ -4070,7 +4574,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the imageFormat property.
+     * Obtiene el valor de la propiedad imageFormat.
      * 
      * @return
      *     possible object is
@@ -4082,7 +4586,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the imageFormat property.
+     * Define el valor de la propiedad imageFormat.
      * 
      * @param value
      *     allowed object is
@@ -4094,7 +4598,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the imageResolution property.
+     * Obtiene el valor de la propiedad imageResolution.
      * 
      * @return
      *     possible object is
@@ -4106,7 +4610,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the imageResolution property.
+     * Define el valor de la propiedad imageResolution.
      * 
      * @param value
      *     allowed object is
@@ -4118,7 +4622,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the imageRotation property.
+     * Obtiene el valor de la propiedad imageRotation.
      * 
      * @return
      *     possible object is
@@ -4130,7 +4634,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the imageRotation property.
+     * Define el valor de la propiedad imageRotation.
      * 
      * @param value
      *     allowed object is
@@ -4142,7 +4646,7 @@ public class LabelRequest
     }
 
     /**
-     * Gets the value of the labelTemplate property.
+     * Obtiene el valor de la propiedad labelTemplate.
      * 
      * @return
      *     possible object is
@@ -4154,7 +4658,7 @@ public class LabelRequest
     }
 
     /**
-     * Sets the value of the labelTemplate property.
+     * Define el valor de la propiedad labelTemplate.
      * 
      * @param value
      *     allowed object is

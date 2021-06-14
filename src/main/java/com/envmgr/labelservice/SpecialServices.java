@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for SpecialServices complex type.
+ * <p>Clase Java para SpecialServices complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="SpecialServices"&gt;
@@ -34,6 +34,10 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;attribute name="AdultSignatureRestrictedDelivery" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *       &lt;attribute name="AMDelivery" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *       &lt;attribute name="PayOnUse" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="PayOnUseReturn" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="ResidentialDelivery" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="DeliveredDutyPaid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="InstaLabel" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
@@ -81,9 +85,17 @@ public class SpecialServices {
     protected String amDelivery;
     @XmlAttribute(name = "PayOnUse")
     protected String payOnUse;
+    @XmlAttribute(name = "PayOnUseReturn")
+    protected String payOnUseReturn;
+    @XmlAttribute(name = "ResidentialDelivery")
+    protected String residentialDelivery;
+    @XmlAttribute(name = "DeliveredDutyPaid")
+    protected String deliveredDutyPaid;
+    @XmlAttribute(name = "InstaLabel")
+    protected String instaLabel;
 
     /**
-     * Gets the value of the deliveryConfirmation property.
+     * Obtiene el valor de la propiedad deliveryConfirmation.
      * 
      * @return
      *     possible object is
@@ -95,7 +107,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the deliveryConfirmation property.
+     * Define el valor de la propiedad deliveryConfirmation.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +119,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the mailClassOnly property.
+     * Obtiene el valor de la propiedad mailClassOnly.
      * 
      * @return
      *     possible object is
@@ -119,7 +131,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the mailClassOnly property.
+     * Define el valor de la propiedad mailClassOnly.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +143,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the certifiedMail property.
+     * Obtiene el valor de la propiedad certifiedMail.
      * 
      * @return
      *     possible object is
@@ -143,7 +155,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the certifiedMail property.
+     * Define el valor de la propiedad certifiedMail.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +167,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the cod property.
+     * Obtiene el valor de la propiedad cod.
      * 
      * @return
      *     possible object is
@@ -167,7 +179,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the cod property.
+     * Define el valor de la propiedad cod.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +191,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the electronicReturnReceipt property.
+     * Obtiene el valor de la propiedad electronicReturnReceipt.
      * 
      * @return
      *     possible object is
@@ -191,7 +203,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the electronicReturnReceipt property.
+     * Define el valor de la propiedad electronicReturnReceipt.
      * 
      * @param value
      *     allowed object is
@@ -203,7 +215,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the insuredMail property.
+     * Obtiene el valor de la propiedad insuredMail.
      * 
      * @return
      *     possible object is
@@ -215,7 +227,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the insuredMail property.
+     * Define el valor de la propiedad insuredMail.
      * 
      * @param value
      *     allowed object is
@@ -227,7 +239,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the registeredMail property.
+     * Obtiene el valor de la propiedad registeredMail.
      * 
      * @return
      *     possible object is
@@ -239,7 +251,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the registeredMail property.
+     * Define el valor de la propiedad registeredMail.
      * 
      * @param value
      *     allowed object is
@@ -251,7 +263,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the restrictedDelivery property.
+     * Obtiene el valor de la propiedad restrictedDelivery.
      * 
      * @return
      *     possible object is
@@ -263,7 +275,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the restrictedDelivery property.
+     * Define el valor de la propiedad restrictedDelivery.
      * 
      * @param value
      *     allowed object is
@@ -275,7 +287,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the returnReceipt property.
+     * Obtiene el valor de la propiedad returnReceipt.
      * 
      * @return
      *     possible object is
@@ -287,7 +299,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the returnReceipt property.
+     * Define el valor de la propiedad returnReceipt.
      * 
      * @param value
      *     allowed object is
@@ -299,7 +311,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the signatureConfirmation property.
+     * Obtiene el valor de la propiedad signatureConfirmation.
      * 
      * @return
      *     possible object is
@@ -311,7 +323,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the signatureConfirmation property.
+     * Define el valor de la propiedad signatureConfirmation.
      * 
      * @param value
      *     allowed object is
@@ -323,7 +335,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the signatureService property.
+     * Obtiene el valor de la propiedad signatureService.
      * 
      * @return
      *     possible object is
@@ -335,7 +347,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the signatureService property.
+     * Define el valor de la propiedad signatureService.
      * 
      * @param value
      *     allowed object is
@@ -347,7 +359,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the holdForPickup property.
+     * Obtiene el valor de la propiedad holdForPickup.
      * 
      * @return
      *     possible object is
@@ -359,7 +371,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the holdForPickup property.
+     * Define el valor de la propiedad holdForPickup.
      * 
      * @param value
      *     allowed object is
@@ -371,7 +383,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the merchandiseReturnService property.
+     * Obtiene el valor de la propiedad merchandiseReturnService.
      * 
      * @return
      *     possible object is
@@ -383,7 +395,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the merchandiseReturnService property.
+     * Define el valor de la propiedad merchandiseReturnService.
      * 
      * @param value
      *     allowed object is
@@ -395,7 +407,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the openAndDistribute property.
+     * Obtiene el valor de la propiedad openAndDistribute.
      * 
      * @return
      *     possible object is
@@ -407,7 +419,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the openAndDistribute property.
+     * Define el valor de la propiedad openAndDistribute.
      * 
      * @param value
      *     allowed object is
@@ -419,7 +431,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the adultSignature property.
+     * Obtiene el valor de la propiedad adultSignature.
      * 
      * @return
      *     possible object is
@@ -431,7 +443,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the adultSignature property.
+     * Define el valor de la propiedad adultSignature.
      * 
      * @param value
      *     allowed object is
@@ -443,7 +455,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the adultSignatureRestrictedDelivery property.
+     * Obtiene el valor de la propiedad adultSignatureRestrictedDelivery.
      * 
      * @return
      *     possible object is
@@ -455,7 +467,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the adultSignatureRestrictedDelivery property.
+     * Define el valor de la propiedad adultSignatureRestrictedDelivery.
      * 
      * @param value
      *     allowed object is
@@ -467,7 +479,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the amDelivery property.
+     * Obtiene el valor de la propiedad amDelivery.
      * 
      * @return
      *     possible object is
@@ -479,7 +491,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the amDelivery property.
+     * Define el valor de la propiedad amDelivery.
      * 
      * @param value
      *     allowed object is
@@ -491,7 +503,7 @@ public class SpecialServices {
     }
 
     /**
-     * Gets the value of the payOnUse property.
+     * Obtiene el valor de la propiedad payOnUse.
      * 
      * @return
      *     possible object is
@@ -503,7 +515,7 @@ public class SpecialServices {
     }
 
     /**
-     * Sets the value of the payOnUse property.
+     * Define el valor de la propiedad payOnUse.
      * 
      * @param value
      *     allowed object is
@@ -512,6 +524,102 @@ public class SpecialServices {
      */
     public void setPayOnUse(String value) {
         this.payOnUse = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad payOnUseReturn.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getPayOnUseReturn() {
+        return payOnUseReturn;
+    }
+
+    /**
+     * Define el valor de la propiedad payOnUseReturn.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setPayOnUseReturn(String value) {
+        this.payOnUseReturn = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad residentialDelivery.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getResidentialDelivery() {
+        return residentialDelivery;
+    }
+
+    /**
+     * Define el valor de la propiedad residentialDelivery.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setResidentialDelivery(String value) {
+        this.residentialDelivery = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad deliveredDutyPaid.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getDeliveredDutyPaid() {
+        return deliveredDutyPaid;
+    }
+
+    /**
+     * Define el valor de la propiedad deliveredDutyPaid.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setDeliveredDutyPaid(String value) {
+        this.deliveredDutyPaid = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad instaLabel.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getInstaLabel() {
+        return instaLabel;
+    }
+
+    /**
+     * Define el valor de la propiedad instaLabel.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setInstaLabel(String value) {
+        this.instaLabel = value;
     }
 
 }

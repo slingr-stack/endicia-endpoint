@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for EndOfDayManifest complex type.
+ * <p>Clase Java para EndOfDayManifest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="EndOfDayManifest"&gt;
@@ -54,7 +54,7 @@ public class EndOfDayManifest {
     protected ArrayOfContainerLabel containerLabels;
 
     /**
-     * Gets the value of the manifestType property.
+     * Obtiene el valor de la propiedad manifestType.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Sets the value of the manifestType property.
+     * Define el valor de la propiedad manifestType.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Gets the value of the pickUpCarrier property.
+     * Obtiene el valor de la propiedad pickUpCarrier.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Sets the value of the pickUpCarrier property.
+     * Define el valor de la propiedad pickUpCarrier.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Gets the value of the manifestID property.
+     * Obtiene el valor de la propiedad manifestID.
      * 
      */
     public int getManifestID() {
@@ -110,7 +110,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Sets the value of the manifestID property.
+     * Define el valor de la propiedad manifestID.
      * 
      */
     public void setManifestID(int value) {
@@ -118,7 +118,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Gets the value of the manifestUrl property.
+     * Obtiene el valor de la propiedad manifestUrl.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Sets the value of the manifestUrl property.
+     * Define el valor de la propiedad manifestUrl.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Gets the value of the containerLabels property.
+     * Obtiene el valor de la propiedad containerLabels.
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class EndOfDayManifest {
     }
 
     /**
-     * Sets the value of the containerLabels property.
+     * Define el valor de la propiedad containerLabels.
      * 
      * @param value
      *     allowed object is

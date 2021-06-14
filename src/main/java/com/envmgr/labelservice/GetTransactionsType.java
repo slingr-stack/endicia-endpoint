@@ -6,9 +6,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for GetTransactionsType.
+ * <p>Clase Java para GetTransactionsType.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * <p>
  * <pre>
  * &lt;simpleType name="GetTransactionsType"&gt;
@@ -19,6 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;enumeration value="ADJUSTMENTS"/&gt;
  *     &lt;enumeration value="OUTSTANDING"/&gt;
  *     &lt;enumeration value="PAYONUSE"/&gt;
+ *     &lt;enumeration value="PAYONUSERETURN"/&gt;
  *   &lt;/restriction&gt;
  * &lt;/simpleType&gt;
  * </pre>
@@ -33,7 +34,8 @@ public enum GetTransactionsType {
     PURCHASES,
     ADJUSTMENTS,
     OUTSTANDING,
-    PAYONUSE;
+    PAYONUSE,
+    PAYONUSERETURN;
 
     public String value() {
         return name();

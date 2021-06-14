@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Location complex type.
+ * <p>Clase Java para Location complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Location"&gt;
@@ -56,7 +56,7 @@ public class Location {
     protected String zip;
 
     /**
-     * Gets the value of the cutOff property.
+     * Obtiene el valor de la propiedad cutOff.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class Location {
     }
 
     /**
-     * Sets the value of the cutOff property.
+     * Define el valor de la propiedad cutOff.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class Location {
     }
 
     /**
-     * Gets the value of the facility property.
+     * Obtiene el valor de la propiedad facility.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class Location {
     }
 
     /**
-     * Sets the value of the facility property.
+     * Define el valor de la propiedad facility.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class Location {
     }
 
     /**
-     * Gets the value of the street property.
+     * Obtiene el valor de la propiedad street.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class Location {
     }
 
     /**
-     * Sets the value of the street property.
+     * Define el valor de la propiedad street.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class Location {
     }
 
     /**
-     * Gets the value of the city property.
+     * Obtiene el valor de la propiedad city.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class Location {
     }
 
     /**
-     * Sets the value of the city property.
+     * Define el valor de la propiedad city.
      * 
      * @param value
      *     allowed object is
@@ -152,7 +152,7 @@ public class Location {
     }
 
     /**
-     * Gets the value of the state property.
+     * Obtiene el valor de la propiedad state.
      * 
      * @return
      *     possible object is
@@ -164,7 +164,7 @@ public class Location {
     }
 
     /**
-     * Sets the value of the state property.
+     * Define el valor de la propiedad state.
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class Location {
     }
 
     /**
-     * Gets the value of the zip property.
+     * Obtiene el valor de la propiedad zip.
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class Location {
     }
 
     /**
-     * Sets the value of the zip property.
+     * Define el valor de la propiedad zip.
      * 
      * @param value
      *     allowed object is

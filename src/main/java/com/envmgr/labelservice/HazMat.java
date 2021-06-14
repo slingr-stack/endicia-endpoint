@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for HazMat complex type.
+ * <p>Clase Java para HazMat complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="HazMat"&gt;
@@ -40,7 +40,7 @@ public class HazMat {
     protected String hazMatPhone;
 
     /**
-     * Gets the value of the hazMatDescription property.
+     * Obtiene el valor de la propiedad hazMatDescription.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class HazMat {
     }
 
     /**
-     * Sets the value of the hazMatDescription property.
+     * Define el valor de la propiedad hazMatDescription.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class HazMat {
     }
 
     /**
-     * Gets the value of the hazMatPhone property.
+     * Obtiene el valor de la propiedad hazMatPhone.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class HazMat {
     }
 
     /**
-     * Sets the value of the hazMatPhone property.
+     * Define el valor de la propiedad hazMatPhone.
      * 
      * @param value
      *     allowed object is

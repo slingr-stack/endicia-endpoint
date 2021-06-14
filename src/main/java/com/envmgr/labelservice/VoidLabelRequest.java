@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for VoidLabelRequest complex type.
+ * <p>Clase Java para VoidLabelRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="VoidLabelRequest"&gt;
@@ -50,7 +50,7 @@ public class VoidLabelRequest
     protected CertifiedIntermediary certifiedIntermediary;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class VoidLabelRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class VoidLabelRequest
     }
 
     /**
-     * Gets the value of the trackingNumber property.
+     * Obtiene el valor de la propiedad trackingNumber.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class VoidLabelRequest
     }
 
     /**
-     * Sets the value of the trackingNumber property.
+     * Define el valor de la propiedad trackingNumber.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class VoidLabelRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class VoidLabelRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class VoidLabelRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class VoidLabelRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is

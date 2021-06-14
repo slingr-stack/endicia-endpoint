@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ResellerInformation complex type.
+ * <p>Clase Java para ResellerInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ResellerInformation"&gt;
@@ -44,7 +44,7 @@ public class ResellerInformation {
     protected int customerEndUserId;
 
     /**
-     * Gets the value of the accountId property.
+     * Obtiene el valor de la propiedad accountId.
      * 
      */
     public long getAccountId() {
@@ -52,7 +52,7 @@ public class ResellerInformation {
     }
 
     /**
-     * Sets the value of the accountId property.
+     * Define el valor de la propiedad accountId.
      * 
      */
     public void setAccountId(long value) {
@@ -60,7 +60,7 @@ public class ResellerInformation {
     }
 
     /**
-     * Gets the value of the deviceId property.
+     * Obtiene el valor de la propiedad deviceId.
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class ResellerInformation {
     }
 
     /**
-     * Sets the value of the deviceId property.
+     * Define el valor de la propiedad deviceId.
      * 
      * @param value
      *     allowed object is
@@ -84,7 +84,7 @@ public class ResellerInformation {
     }
 
     /**
-     * Gets the value of the customerEndUserId property.
+     * Obtiene el valor de la propiedad customerEndUserId.
      * 
      */
     public int getCustomerEndUserId() {
@@ -92,7 +92,7 @@ public class ResellerInformation {
     }
 
     /**
-     * Sets the value of the customerEndUserId property.
+     * Define el valor de la propiedad customerEndUserId.
      * 
      */
     public void setCustomerEndUserId(int value) {

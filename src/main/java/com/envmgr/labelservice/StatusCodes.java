@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for StatusCodes complex type.
+ * <p>Clase Java para StatusCodes complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="StatusCodes"&gt;
@@ -42,7 +42,7 @@ public class StatusCodes {
     protected int returnCode;
 
     /**
-     * Gets the value of the footnotes property.
+     * Obtiene el valor de la propiedad footnotes.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class StatusCodes {
     }
 
     /**
-     * Sets the value of the footnotes property.
+     * Define el valor de la propiedad footnotes.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class StatusCodes {
     }
 
     /**
-     * Gets the value of the dpvFootnotes property.
+     * Obtiene el valor de la propiedad dpvFootnotes.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class StatusCodes {
     }
 
     /**
-     * Sets the value of the dpvFootnotes property.
+     * Define el valor de la propiedad dpvFootnotes.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class StatusCodes {
     }
 
     /**
-     * Gets the value of the returnCode property.
+     * Obtiene el valor de la propiedad returnCode.
      * 
      */
     public int getReturnCode() {
@@ -98,7 +98,7 @@ public class StatusCodes {
     }
 
     /**
-     * Sets the value of the returnCode property.
+     * Define el valor de la propiedad returnCode.
      * 
      */
     public void setReturnCode(int value) {

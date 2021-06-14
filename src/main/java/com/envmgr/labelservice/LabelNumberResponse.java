@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for LabelNumberResponse complex type.
+ * <p>Clase Java para LabelNumberResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="LabelNumberResponse"&gt;
@@ -93,7 +93,7 @@ public class LabelNumberResponse {
     protected int deliveryTimeDays;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -101,7 +101,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -109,7 +109,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the labelNumber property.
+     * Obtiene el valor de la propiedad labelNumber.
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the labelNumber property.
+     * Define el valor de la propiedad labelNumber.
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the labelNumberType property.
+     * Obtiene el valor de la propiedad labelNumberType.
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the labelNumberType property.
+     * Define el valor de la propiedad labelNumberType.
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the labelNumberSource property.
+     * Obtiene el valor de la propiedad labelNumberSource.
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the labelNumberSource property.
+     * Define el valor de la propiedad labelNumberSource.
      * 
      * @param value
      *     allowed object is
@@ -205,7 +205,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the rdc property.
+     * Obtiene el valor de la propiedad rdc.
      * 
      * @return
      *     possible object is
@@ -217,7 +217,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the rdc property.
+     * Define el valor de la propiedad rdc.
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the serverName property.
+     * Obtiene el valor de la propiedad serverName.
      * 
      * @return
      *     possible object is
@@ -241,7 +241,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the serverName property.
+     * Define el valor de la propiedad serverName.
      * 
      * @param value
      *     allowed object is
@@ -253,7 +253,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the serverDateTime property.
+     * Obtiene el valor de la propiedad serverDateTime.
      * 
      * @return
      *     possible object is
@@ -265,7 +265,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the serverDateTime property.
+     * Define el valor de la propiedad serverDateTime.
      * 
      * @param value
      *     allowed object is
@@ -277,7 +277,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the barcodeNumber property.
+     * Obtiene el valor de la propiedad barcodeNumber.
      * 
      * @return
      *     possible object is
@@ -289,7 +289,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the barcodeNumber property.
+     * Define el valor de la propiedad barcodeNumber.
      * 
      * @param value
      *     allowed object is
@@ -301,7 +301,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the banner property.
+     * Obtiene el valor de la propiedad banner.
      * 
      * @return
      *     possible object is
@@ -313,7 +313,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the banner property.
+     * Define el valor de la propiedad banner.
      * 
      * @param value
      *     allowed object is
@@ -325,7 +325,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the mailerID property.
+     * Obtiene el valor de la propiedad mailerID.
      * 
      * @return
      *     possible object is
@@ -337,7 +337,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the mailerID property.
+     * Define el valor de la propiedad mailerID.
      * 
      * @param value
      *     allowed object is
@@ -349,7 +349,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the displayLabelNumber property.
+     * Obtiene el valor de la propiedad displayLabelNumber.
      * 
      * @return
      *     possible object is
@@ -361,7 +361,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the displayLabelNumber property.
+     * Define el valor de la propiedad displayLabelNumber.
      * 
      * @param value
      *     allowed object is
@@ -373,7 +373,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the picId property.
+     * Obtiene el valor de la propiedad picId.
      * 
      */
     public long getPicId() {
@@ -381,7 +381,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the picId property.
+     * Define el valor de la propiedad picId.
      * 
      */
     public void setPicId(long value) {
@@ -389,7 +389,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the sdrValue property.
+     * Obtiene el valor de la propiedad sdrValue.
      * 
      * @return
      *     possible object is
@@ -401,7 +401,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the sdrValue property.
+     * Define el valor de la propiedad sdrValue.
      * 
      * @param value
      *     allowed object is
@@ -413,7 +413,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Gets the value of the deliveryTimeDays property.
+     * Obtiene el valor de la propiedad deliveryTimeDays.
      * 
      */
     public int getDeliveryTimeDays() {
@@ -421,7 +421,7 @@ public class LabelNumberResponse {
     }
 
     /**
-     * Sets the value of the deliveryTimeDays property.
+     * Define el valor de la propiedad deliveryTimeDays.
      * 
      */
     public void setDeliveryTimeDays(int value) {

@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PostagePrice complex type.
+ * <p>Clase Java para PostagePrice complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PostagePrice"&gt;
@@ -26,6 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="EstimatedDeliveryDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="DdpRate" type="{http://www.w3.org/2001/XMLSchema}decimal"/&gt;
  *         &lt;element name="LabelCategory" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="Surcharge" type="{www.envmgr.com/LabelService}Surcharge" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *       &lt;attribute name="TotalAmount" use="required" type="{http://www.w3.org/2001/XMLSchema}decimal" /&gt;
  *     &lt;/restriction&gt;
@@ -43,7 +44,8 @@ import javax.xml.bind.annotation.XmlType;
     "deliveryTimeDays",
     "estimatedDeliveryDate",
     "ddpRate",
-    "labelCategory"
+    "labelCategory",
+    "surcharge"
 })
 public class PostagePrice {
 
@@ -61,11 +63,13 @@ public class PostagePrice {
     protected BigDecimal ddpRate;
     @XmlElement(name = "LabelCategory")
     protected String labelCategory;
+    @XmlElement(name = "Surcharge")
+    protected Surcharge surcharge;
     @XmlAttribute(name = "TotalAmount", required = true)
     protected BigDecimal totalAmount;
 
     /**
-     * Gets the value of the mailClass property.
+     * Obtiene el valor de la propiedad mailClass.
      * 
      * @return
      *     possible object is
@@ -77,7 +81,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the mailClass property.
+     * Define el valor de la propiedad mailClass.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +93,7 @@ public class PostagePrice {
     }
 
     /**
-     * Gets the value of the postage property.
+     * Obtiene el valor de la propiedad postage.
      * 
      * @return
      *     possible object is
@@ -101,7 +105,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the postage property.
+     * Define el valor de la propiedad postage.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +117,7 @@ public class PostagePrice {
     }
 
     /**
-     * Gets the value of the fees property.
+     * Obtiene el valor de la propiedad fees.
      * 
      * @return
      *     possible object is
@@ -125,7 +129,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the fees property.
+     * Define el valor de la propiedad fees.
      * 
      * @param value
      *     allowed object is
@@ -137,7 +141,7 @@ public class PostagePrice {
     }
 
     /**
-     * Gets the value of the deliveryTimeDays property.
+     * Obtiene el valor de la propiedad deliveryTimeDays.
      * 
      * @return
      *     possible object is
@@ -149,7 +153,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the deliveryTimeDays property.
+     * Define el valor de la propiedad deliveryTimeDays.
      * 
      * @param value
      *     allowed object is
@@ -161,7 +165,7 @@ public class PostagePrice {
     }
 
     /**
-     * Gets the value of the estimatedDeliveryDate property.
+     * Obtiene el valor de la propiedad estimatedDeliveryDate.
      * 
      * @return
      *     possible object is
@@ -173,7 +177,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the estimatedDeliveryDate property.
+     * Define el valor de la propiedad estimatedDeliveryDate.
      * 
      * @param value
      *     allowed object is
@@ -185,7 +189,7 @@ public class PostagePrice {
     }
 
     /**
-     * Gets the value of the ddpRate property.
+     * Obtiene el valor de la propiedad ddpRate.
      * 
      * @return
      *     possible object is
@@ -197,7 +201,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the ddpRate property.
+     * Define el valor de la propiedad ddpRate.
      * 
      * @param value
      *     allowed object is
@@ -209,7 +213,7 @@ public class PostagePrice {
     }
 
     /**
-     * Gets the value of the labelCategory property.
+     * Obtiene el valor de la propiedad labelCategory.
      * 
      * @return
      *     possible object is
@@ -221,7 +225,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the labelCategory property.
+     * Define el valor de la propiedad labelCategory.
      * 
      * @param value
      *     allowed object is
@@ -233,7 +237,31 @@ public class PostagePrice {
     }
 
     /**
-     * Gets the value of the totalAmount property.
+     * Obtiene el valor de la propiedad surcharge.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Surcharge }
+     *     
+     */
+    public Surcharge getSurcharge() {
+        return surcharge;
+    }
+
+    /**
+     * Define el valor de la propiedad surcharge.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Surcharge }
+     *     
+     */
+    public void setSurcharge(Surcharge value) {
+        this.surcharge = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad totalAmount.
      * 
      * @return
      *     possible object is
@@ -245,7 +273,7 @@ public class PostagePrice {
     }
 
     /**
-     * Sets the value of the totalAmount property.
+     * Define el valor de la propiedad totalAmount.
      * 
      * @param value
      *     allowed object is

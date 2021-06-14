@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Clase Java para anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -38,7 +38,7 @@ public class GetRetailAccounts {
     protected RetailAccountsRequest retailAccountsRequest;
 
     /**
-     * Gets the value of the retailAccountsRequest property.
+     * Obtiene el valor de la propiedad retailAccountsRequest.
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class GetRetailAccounts {
     }
 
     /**
-     * Sets the value of the retailAccountsRequest property.
+     * Define el valor de la propiedad retailAccountsRequest.
      * 
      * @param value
      *     allowed object is

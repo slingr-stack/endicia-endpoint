@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for RetailAccountsResponse complex type.
+ * <p>Clase Java para RetailAccountsResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="RetailAccountsResponse"&gt;
@@ -43,7 +43,7 @@ public class RetailAccountsResponse {
     protected String errorMessage;
 
     /**
-     * Gets the value of the retailAccounts property.
+     * Obtiene el valor de la propiedad retailAccounts.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class RetailAccountsResponse {
     }
 
     /**
-     * Sets the value of the retailAccounts property.
+     * Define el valor de la propiedad retailAccounts.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class RetailAccountsResponse {
     }
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -75,7 +75,7 @@ public class RetailAccountsResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -83,7 +83,7 @@ public class RetailAccountsResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class RetailAccountsResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is

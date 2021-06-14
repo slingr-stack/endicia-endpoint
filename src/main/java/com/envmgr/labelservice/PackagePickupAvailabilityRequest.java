@@ -4,13 +4,15 @@ package com.envmgr.labelservice;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
+import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for PackagePickupAvailabilityRequest complex type.
+ * <p>Clase Java para PackagePickupAvailabilityRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackagePickupAvailabilityRequest"&gt;
@@ -20,6 +22,8 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="RequestID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="UseAddressOnFile" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="PhysicalPickupAddress" type="{www.envmgr.com/LabelService}PhysicalPickupAddress" minOccurs="0"/&gt;
+ *         &lt;element name="Carrier" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="PickupDate" type="{http://www.w3.org/2001/XMLSchema}dateTime"/&gt;
  *         &lt;element name="RequesterID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="CertifiedIntermediary" type="{www.envmgr.com/LabelService}CertifiedIntermediary" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
@@ -35,6 +39,8 @@ import javax.xml.bind.annotation.XmlType;
     "requestID",
     "useAddressOnFile",
     "physicalPickupAddress",
+    "carrier",
+    "pickupDate",
     "requesterID",
     "certifiedIntermediary"
 })
@@ -48,13 +54,18 @@ public class PackagePickupAvailabilityRequest
     protected String useAddressOnFile;
     @XmlElement(name = "PhysicalPickupAddress")
     protected PhysicalPickupAddress physicalPickupAddress;
+    @XmlElement(name = "Carrier")
+    protected String carrier;
+    @XmlElement(name = "PickupDate", required = true)
+    @XmlSchemaType(name = "dateTime")
+    protected XMLGregorianCalendar pickupDate;
     @XmlElement(name = "RequesterID")
     protected String requesterID;
     @XmlElement(name = "CertifiedIntermediary")
     protected CertifiedIntermediary certifiedIntermediary;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -66,7 +77,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +89,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Gets the value of the useAddressOnFile property.
+     * Obtiene el valor de la propiedad useAddressOnFile.
      * 
      * @return
      *     possible object is
@@ -90,7 +101,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Sets the value of the useAddressOnFile property.
+     * Define el valor de la propiedad useAddressOnFile.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +113,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Gets the value of the physicalPickupAddress property.
+     * Obtiene el valor de la propiedad physicalPickupAddress.
      * 
      * @return
      *     possible object is
@@ -114,7 +125,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Sets the value of the physicalPickupAddress property.
+     * Define el valor de la propiedad physicalPickupAddress.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +137,55 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad carrier.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCarrier() {
+        return carrier;
+    }
+
+    /**
+     * Define el valor de la propiedad carrier.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCarrier(String value) {
+        this.carrier = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad pickupDate.
+     * 
+     * @return
+     *     possible object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public XMLGregorianCalendar getPickupDate() {
+        return pickupDate;
+    }
+
+    /**
+     * Define el valor de la propiedad pickupDate.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public void setPickupDate(XMLGregorianCalendar value) {
+        this.pickupDate = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -138,7 +197,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +209,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -162,7 +221,7 @@ public class PackagePickupAvailabilityRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is

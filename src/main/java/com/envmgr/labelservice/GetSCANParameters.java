@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for GetSCANParameters complex type.
+ * <p>Clase Java para GetSCANParameters complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="GetSCANParameters"&gt;
@@ -81,7 +81,7 @@ public class GetSCANParameters {
     protected String labelSize;
 
     /**
-     * Gets the value of the fromName property.
+     * Obtiene el valor de la propiedad fromName.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the fromName property.
+     * Define el valor de la propiedad fromName.
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the fromCompany property.
+     * Obtiene el valor de la propiedad fromCompany.
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the fromCompany property.
+     * Define el valor de la propiedad fromCompany.
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the fromAddress property.
+     * Obtiene el valor de la propiedad fromAddress.
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the fromAddress property.
+     * Define el valor de la propiedad fromAddress.
      * 
      * @param value
      *     allowed object is
@@ -153,7 +153,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the fromCity property.
+     * Obtiene el valor de la propiedad fromCity.
      * 
      * @return
      *     possible object is
@@ -165,7 +165,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the fromCity property.
+     * Define el valor de la propiedad fromCity.
      * 
      * @param value
      *     allowed object is
@@ -177,7 +177,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the fromState property.
+     * Obtiene el valor de la propiedad fromState.
      * 
      * @return
      *     possible object is
@@ -189,7 +189,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the fromState property.
+     * Define el valor de la propiedad fromState.
      * 
      * @param value
      *     allowed object is
@@ -201,7 +201,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the fromZip property.
+     * Obtiene el valor de la propiedad fromZip.
      * 
      * @return
      *     possible object is
@@ -213,7 +213,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the fromZip property.
+     * Define el valor de la propiedad fromZip.
      * 
      * @param value
      *     allowed object is
@@ -225,7 +225,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the imageResolution property.
+     * Obtiene el valor de la propiedad imageResolution.
      * 
      * @return
      *     possible object is
@@ -237,7 +237,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the imageResolution property.
+     * Define el valor de la propiedad imageResolution.
      * 
      * @param value
      *     allowed object is
@@ -249,7 +249,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the imageFormat property.
+     * Obtiene el valor de la propiedad imageFormat.
      * 
      * @return
      *     possible object is
@@ -261,7 +261,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the imageFormat property.
+     * Define el valor de la propiedad imageFormat.
      * 
      * @param value
      *     allowed object is
@@ -273,7 +273,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the submissionID property.
+     * Obtiene el valor de la propiedad submissionID.
      * 
      * @return
      *     possible object is
@@ -285,7 +285,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the submissionID property.
+     * Define el valor de la propiedad submissionID.
      * 
      * @param value
      *     allowed object is
@@ -297,7 +297,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the costCenter property.
+     * Obtiene el valor de la propiedad costCenter.
      * 
      * @return
      *     possible object is
@@ -309,7 +309,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the costCenter property.
+     * Define el valor de la propiedad costCenter.
      * 
      * @param value
      *     allowed object is
@@ -321,7 +321,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the formType property.
+     * Obtiene el valor de la propiedad formType.
      * 
      * @return
      *     possible object is
@@ -333,7 +333,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the formType property.
+     * Define el valor de la propiedad formType.
      * 
      * @param value
      *     allowed object is
@@ -345,7 +345,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the referenceID property.
+     * Obtiene el valor de la propiedad referenceID.
      * 
      * @return
      *     possible object is
@@ -357,7 +357,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the referenceID property.
+     * Define el valor de la propiedad referenceID.
      * 
      * @param value
      *     allowed object is
@@ -369,7 +369,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the searchZip property.
+     * Obtiene el valor de la propiedad searchZip.
      * 
      * @return
      *     possible object is
@@ -381,7 +381,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the searchZip property.
+     * Define el valor de la propiedad searchZip.
      * 
      * @param value
      *     allowed object is
@@ -393,7 +393,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Gets the value of the labelSize property.
+     * Obtiene el valor de la propiedad labelSize.
      * 
      * @return
      *     possible object is
@@ -405,7 +405,7 @@ public class GetSCANParameters {
     }
 
     /**
-     * Sets the value of the labelSize property.
+     * Define el valor de la propiedad labelSize.
      * 
      * @param value
      *     allowed object is

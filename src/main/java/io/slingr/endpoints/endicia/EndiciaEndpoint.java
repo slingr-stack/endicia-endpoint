@@ -67,9 +67,9 @@ public class EndiciaEndpoint extends Endpoint {
 
         String picNumber = params.string("picNumber");
 
-        ArrayOfString1 arrayOfString1 = new ArrayOfString1();
-        arrayOfString1.getPicNumber().add(picNumber);
-        packageStatusReq.setPicNumbers(arrayOfString1);
+        ArrayOfString arrayOfString = new ArrayOfString();
+        arrayOfString.getPicNumber().add(picNumber);
+        packageStatusReq.setPicNumbers(arrayOfString);
 
         PackageStatusResponse response = ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
         return Json.parse(JSONUtils.toJson(response, true));
@@ -96,9 +96,9 @@ public class EndiciaEndpoint extends Endpoint {
         PackageStatusRequest packageStatusReq = getPackageStatusRequest();
 
         String transactionId = params.string("transactionId");
-        ArrayOfString3 arrayOfString3 = new ArrayOfString3();
-        arrayOfString3.getTransactionId().add(transactionId);
-        packageStatusReq.setTransactionIds(arrayOfString3);
+        ArrayOfString1 arrayOfString1 = new ArrayOfString1();
+        arrayOfString1.getTransactionId().add(transactionId);
+        packageStatusReq.setTransactionIds(arrayOfString1);
 
         PackageStatusResponse response = ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
         return Json.parse(JSONUtils.toJson(response, true));
@@ -110,9 +110,9 @@ public class EndiciaEndpoint extends Endpoint {
         PackageStatusRequest packageStatusReq = getPackageStatusRequest();
 
         String referenceId = params.string("referenceId");
-        ArrayOfString4 arrayOfString4 = new ArrayOfString4();
-        arrayOfString4.getReferenceId().add(referenceId);
-        packageStatusReq.setReferenceIds(arrayOfString4);
+        ArrayOfString6 arrayOfString6 = new ArrayOfString6();
+        arrayOfString6.getReferenceId().add(referenceId);
+        packageStatusReq.setReferenceIds(arrayOfString6);
 
         PackageStatusResponse response = ewsLabelService.getEwsLabelServiceSoap().statusRequest(packageStatusReq);
         return Json.parse(JSONUtils.toJson(response, true));

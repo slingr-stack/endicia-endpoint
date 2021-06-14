@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Adjustment complex type.
+ * <p>Clase Java para Adjustment complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Adjustment"&gt;
@@ -82,7 +82,7 @@ public class Adjustment {
     protected ActualService actualService;
 
     /**
-     * Gets the value of the adjustmentStatus property.
+     * Obtiene el valor de la propiedad adjustmentStatus.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the adjustmentStatus property.
+     * Define el valor de la propiedad adjustmentStatus.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the dateAdjustmentProcessed property.
+     * Obtiene el valor de la propiedad dateAdjustmentProcessed.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the dateAdjustmentProcessed property.
+     * Define el valor de la propiedad dateAdjustmentProcessed.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the dateRecorded property.
+     * Obtiene el valor de la propiedad dateRecorded.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the dateRecorded property.
+     * Define el valor de la propiedad dateRecorded.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the actualTrackingNumber property.
+     * Obtiene el valor de la propiedad actualTrackingNumber.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the actualTrackingNumber property.
+     * Define el valor de la propiedad actualTrackingNumber.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the actualFromZIPCode property.
+     * Obtiene el valor de la propiedad actualFromZIPCode.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the actualFromZIPCode property.
+     * Define el valor de la propiedad actualFromZIPCode.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the actualToCountry property.
+     * Obtiene el valor de la propiedad actualToCountry.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the actualToCountry property.
+     * Define el valor de la propiedad actualToCountry.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the actualToZip property.
+     * Obtiene el valor de la propiedad actualToZip.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the actualToZip property.
+     * Define el valor de la propiedad actualToZip.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the actualMailClass property.
+     * Obtiene el valor de la propiedad actualMailClass.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the actualMailClass property.
+     * Define el valor de la propiedad actualMailClass.
      * 
      * @param value
      *     allowed object is
@@ -274,7 +274,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the adjustedAmount property.
+     * Obtiene el valor de la propiedad adjustedAmount.
      * 
      * @return
      *     possible object is
@@ -286,7 +286,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the adjustedAmount property.
+     * Define el valor de la propiedad adjustedAmount.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +298,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the actualPackageInfo property.
+     * Obtiene el valor de la propiedad actualPackageInfo.
      * 
      * @return
      *     possible object is
@@ -310,7 +310,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the actualPackageInfo property.
+     * Define el valor de la propiedad actualPackageInfo.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +322,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the dispute property.
+     * Obtiene el valor de la propiedad dispute.
      * 
      * @return
      *     possible object is
@@ -334,7 +334,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the dispute property.
+     * Define el valor de la propiedad dispute.
      * 
      * @param value
      *     allowed object is
@@ -346,7 +346,7 @@ public class Adjustment {
     }
 
     /**
-     * Gets the value of the actualService property.
+     * Obtiene el valor de la propiedad actualService.
      * 
      * @return
      *     possible object is
@@ -358,7 +358,7 @@ public class Adjustment {
     }
 
     /**
-     * Sets the value of the actualService property.
+     * Define el valor de la propiedad actualService.
      * 
      * @param value
      *     allowed object is

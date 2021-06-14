@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for TransactionsListingResponse complex type.
+ * <p>Clase Java para TransactionsListingResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="TransactionsListingResponse"&gt;
@@ -66,7 +66,7 @@ public class TransactionsListingResponse {
     protected boolean completeDataSet;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -74,7 +74,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -82,7 +82,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the transactionsResults property.
+     * Obtiene el valor de la propiedad transactionsResults.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the transactionsResults property.
+     * Define el valor de la propiedad transactionsResults.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the responseOptions property.
+     * Obtiene el valor de la propiedad responseOptions.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the responseOptions property.
+     * Define el valor de la propiedad responseOptions.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the startingTransactionID property.
+     * Obtiene el valor de la propiedad startingTransactionID.
      * 
      */
     public long getStartingTransactionID() {
@@ -210,7 +210,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the startingTransactionID property.
+     * Define el valor de la propiedad startingTransactionID.
      * 
      */
     public void setStartingTransactionID(long value) {
@@ -218,7 +218,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the endingTransactionID property.
+     * Obtiene el valor de la propiedad endingTransactionID.
      * 
      */
     public long getEndingTransactionID() {
@@ -226,7 +226,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the endingTransactionID property.
+     * Define el valor de la propiedad endingTransactionID.
      * 
      */
     public void setEndingTransactionID(long value) {
@@ -234,7 +234,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Gets the value of the completeDataSet property.
+     * Obtiene el valor de la propiedad completeDataSet.
      * 
      */
     public boolean isCompleteDataSet() {
@@ -242,7 +242,7 @@ public class TransactionsListingResponse {
     }
 
     /**
-     * Sets the value of the completeDataSet property.
+     * Define el valor de la propiedad completeDataSet.
      * 
      */
     public void setCompleteDataSet(boolean value) {

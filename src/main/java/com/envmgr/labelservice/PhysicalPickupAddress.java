@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PhysicalPickupAddress complex type.
+ * <p>Clase Java para PhysicalPickupAddress complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PhysicalPickupAddress"&gt;
@@ -28,6 +28,9 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="Zip4" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="Phone" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="Extension" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="Address2" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="Address3" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="Email" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/extension&gt;
  *   &lt;/complexContent&gt;
@@ -48,7 +51,10 @@ import javax.xml.bind.annotation.XmlType;
     "zip5",
     "zip4",
     "phone",
-    "extension"
+    "extension",
+    "address2",
+    "address3",
+    "email"
 })
 public class PhysicalPickupAddress
     extends DataValidator
@@ -76,9 +82,15 @@ public class PhysicalPickupAddress
     protected String phone;
     @XmlElement(name = "Extension")
     protected String extension;
+    @XmlElement(name = "Address2")
+    protected String address2;
+    @XmlElement(name = "Address3")
+    protected String address3;
+    @XmlElement(name = "Email")
+    protected String email;
 
     /**
-     * Gets the value of the firstName property.
+     * Obtiene el valor de la propiedad firstName.
      * 
      * @return
      *     possible object is
@@ -90,7 +102,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the firstName property.
+     * Define el valor de la propiedad firstName.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +114,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the lastName property.
+     * Obtiene el valor de la propiedad lastName.
      * 
      * @return
      *     possible object is
@@ -114,7 +126,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the lastName property.
+     * Define el valor de la propiedad lastName.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +138,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the companyName property.
+     * Obtiene el valor de la propiedad companyName.
      * 
      * @return
      *     possible object is
@@ -138,7 +150,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the companyName property.
+     * Define el valor de la propiedad companyName.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +162,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the suiteOrApt property.
+     * Obtiene el valor de la propiedad suiteOrApt.
      * 
      * @return
      *     possible object is
@@ -162,7 +174,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the suiteOrApt property.
+     * Define el valor de la propiedad suiteOrApt.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +186,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the address property.
+     * Obtiene el valor de la propiedad address.
      * 
      * @return
      *     possible object is
@@ -186,7 +198,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the address property.
+     * Define el valor de la propiedad address.
      * 
      * @param value
      *     allowed object is
@@ -198,7 +210,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the city property.
+     * Obtiene el valor de la propiedad city.
      * 
      * @return
      *     possible object is
@@ -210,7 +222,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the city property.
+     * Define el valor de la propiedad city.
      * 
      * @param value
      *     allowed object is
@@ -222,7 +234,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the state property.
+     * Obtiene el valor de la propiedad state.
      * 
      * @return
      *     possible object is
@@ -234,7 +246,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the state property.
+     * Define el valor de la propiedad state.
      * 
      * @param value
      *     allowed object is
@@ -246,7 +258,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the zip5 property.
+     * Obtiene el valor de la propiedad zip5.
      * 
      * @return
      *     possible object is
@@ -258,7 +270,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the zip5 property.
+     * Define el valor de la propiedad zip5.
      * 
      * @param value
      *     allowed object is
@@ -270,7 +282,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the zip4 property.
+     * Obtiene el valor de la propiedad zip4.
      * 
      * @return
      *     possible object is
@@ -282,7 +294,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the zip4 property.
+     * Define el valor de la propiedad zip4.
      * 
      * @param value
      *     allowed object is
@@ -294,7 +306,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the phone property.
+     * Obtiene el valor de la propiedad phone.
      * 
      * @return
      *     possible object is
@@ -306,7 +318,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the phone property.
+     * Define el valor de la propiedad phone.
      * 
      * @param value
      *     allowed object is
@@ -318,7 +330,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Gets the value of the extension property.
+     * Obtiene el valor de la propiedad extension.
      * 
      * @return
      *     possible object is
@@ -330,7 +342,7 @@ public class PhysicalPickupAddress
     }
 
     /**
-     * Sets the value of the extension property.
+     * Define el valor de la propiedad extension.
      * 
      * @param value
      *     allowed object is
@@ -339,6 +351,78 @@ public class PhysicalPickupAddress
      */
     public void setExtension(String value) {
         this.extension = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad address2.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getAddress2() {
+        return address2;
+    }
+
+    /**
+     * Define el valor de la propiedad address2.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setAddress2(String value) {
+        this.address2 = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad address3.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getAddress3() {
+        return address3;
+    }
+
+    /**
+     * Define el valor de la propiedad address3.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setAddress3(String value) {
+        this.address3 = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad email.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * Define el valor de la propiedad email.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setEmail(String value) {
+        this.email = value;
     }
 
 }

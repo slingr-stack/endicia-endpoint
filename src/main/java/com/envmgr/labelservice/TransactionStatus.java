@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for TransactionStatus complex type.
+ * <p>Clase Java para TransactionStatus complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="TransactionStatus"&gt;
@@ -44,7 +44,7 @@ public class TransactionStatus {
     protected String deliveryDateTime;
 
     /**
-     * Gets the value of the statusEvent property.
+     * Obtiene el valor de la propiedad statusEvent.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class TransactionStatus {
     }
 
     /**
-     * Sets the value of the statusEvent property.
+     * Define el valor de la propiedad statusEvent.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class TransactionStatus {
     }
 
     /**
-     * Gets the value of the statusDescription property.
+     * Obtiene el valor de la propiedad statusDescription.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class TransactionStatus {
     }
 
     /**
-     * Sets the value of the statusDescription property.
+     * Define el valor de la propiedad statusDescription.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class TransactionStatus {
     }
 
     /**
-     * Gets the value of the deliveryDateTime property.
+     * Obtiene el valor de la propiedad deliveryDateTime.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class TransactionStatus {
     }
 
     /**
-     * Sets the value of the deliveryDateTime property.
+     * Define el valor de la propiedad deliveryDateTime.
      * 
      * @param value
      *     allowed object is

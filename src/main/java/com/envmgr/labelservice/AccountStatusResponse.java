@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for AccountStatusResponse complex type.
+ * <p>Clase Java para AccountStatusResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="AccountStatusResponse"&gt;
@@ -36,6 +36,8 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="LicenseZip5" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="Address" type="{www.envmgr.com/LabelService}Address" minOccurs="0"/&gt;
  *         &lt;element name="AccountFeatures" type="{www.envmgr.com/LabelService}AccountFeatures" minOccurs="0"/&gt;
+ *         &lt;element name="PayOnUse" type="{www.envmgr.com/LabelService}PayOnUse" minOccurs="0"/&gt;
+ *         &lt;element name="ConfiguredCarriers" type="{www.envmgr.com/LabelService}ConfiguredCarriers" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -62,7 +64,9 @@ import javax.xml.bind.annotation.XmlType;
     "controlRegister",
     "licenseZip5",
     "address",
-    "accountFeatures"
+    "accountFeatures",
+    "payOnUse",
+    "configuredCarriers"
 })
 public class AccountStatusResponse {
 
@@ -101,9 +105,13 @@ public class AccountStatusResponse {
     protected Address address;
     @XmlElement(name = "AccountFeatures")
     protected AccountFeatures accountFeatures;
+    @XmlElement(name = "PayOnUse")
+    protected PayOnUse payOnUse;
+    @XmlElement(name = "ConfiguredCarriers")
+    protected ConfiguredCarriers configuredCarriers;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -111,7 +119,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -119,7 +127,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -131,7 +139,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +151,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -155,7 +163,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +175,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -179,7 +187,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -191,7 +199,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -203,7 +211,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -215,7 +223,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the discounts property.
+     * Obtiene el valor de la propiedad discounts.
      * 
      * @return
      *     possible object is
@@ -227,7 +235,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the discounts property.
+     * Define el valor de la propiedad discounts.
      * 
      * @param value
      *     allowed object is
@@ -239,7 +247,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the accountType property.
+     * Obtiene el valor de la propiedad accountType.
      * 
      * @return
      *     possible object is
@@ -251,7 +259,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the accountType property.
+     * Define el valor de la propiedad accountType.
      * 
      * @param value
      *     allowed object is
@@ -263,7 +271,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the approvedShipper property.
+     * Obtiene el valor de la propiedad approvedShipper.
      * 
      */
     public boolean isApprovedShipper() {
@@ -271,7 +279,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the approvedShipper property.
+     * Define el valor de la propiedad approvedShipper.
      * 
      */
     public void setApprovedShipper(boolean value) {
@@ -279,7 +287,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the consolidatorServices property.
+     * Obtiene el valor de la propiedad consolidatorServices.
      * 
      */
     public boolean isConsolidatorServices() {
@@ -287,7 +295,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the consolidatorServices property.
+     * Define el valor de la propiedad consolidatorServices.
      * 
      */
     public void setConsolidatorServices(boolean value) {
@@ -295,7 +303,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the consolidatorServiceDetail property.
+     * Obtiene el valor de la propiedad consolidatorServiceDetail.
      * 
      * @return
      *     possible object is
@@ -307,7 +315,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the consolidatorServiceDetail property.
+     * Define el valor de la propiedad consolidatorServiceDetail.
      * 
      * @param value
      *     allowed object is
@@ -319,7 +327,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the contractID property.
+     * Obtiene el valor de la propiedad contractID.
      * 
      * @return
      *     possible object is
@@ -331,7 +339,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the contractID property.
+     * Define el valor de la propiedad contractID.
      * 
      * @param value
      *     allowed object is
@@ -343,7 +351,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the insuranceAgreement property.
+     * Obtiene el valor de la propiedad insuranceAgreement.
      * 
      */
     public boolean isInsuranceAgreement() {
@@ -351,7 +359,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the insuranceAgreement property.
+     * Define el valor de la propiedad insuranceAgreement.
      * 
      */
     public void setInsuranceAgreement(boolean value) {
@@ -359,7 +367,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the accountStatus property.
+     * Obtiene el valor de la propiedad accountStatus.
      * 
      * @return
      *     possible object is
@@ -371,7 +379,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the accountStatus property.
+     * Define el valor de la propiedad accountStatus.
      * 
      * @param value
      *     allowed object is
@@ -383,7 +391,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the controlRegister property.
+     * Obtiene el valor de la propiedad controlRegister.
      * 
      * @return
      *     possible object is
@@ -395,7 +403,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the controlRegister property.
+     * Define el valor de la propiedad controlRegister.
      * 
      * @param value
      *     allowed object is
@@ -407,7 +415,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the licenseZip5 property.
+     * Obtiene el valor de la propiedad licenseZip5.
      * 
      * @return
      *     possible object is
@@ -419,7 +427,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the licenseZip5 property.
+     * Define el valor de la propiedad licenseZip5.
      * 
      * @param value
      *     allowed object is
@@ -431,7 +439,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the address property.
+     * Obtiene el valor de la propiedad address.
      * 
      * @return
      *     possible object is
@@ -443,7 +451,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the address property.
+     * Define el valor de la propiedad address.
      * 
      * @param value
      *     allowed object is
@@ -455,7 +463,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Gets the value of the accountFeatures property.
+     * Obtiene el valor de la propiedad accountFeatures.
      * 
      * @return
      *     possible object is
@@ -467,7 +475,7 @@ public class AccountStatusResponse {
     }
 
     /**
-     * Sets the value of the accountFeatures property.
+     * Define el valor de la propiedad accountFeatures.
      * 
      * @param value
      *     allowed object is
@@ -476,6 +484,54 @@ public class AccountStatusResponse {
      */
     public void setAccountFeatures(AccountFeatures value) {
         this.accountFeatures = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad payOnUse.
+     * 
+     * @return
+     *     possible object is
+     *     {@link PayOnUse }
+     *     
+     */
+    public PayOnUse getPayOnUse() {
+        return payOnUse;
+    }
+
+    /**
+     * Define el valor de la propiedad payOnUse.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link PayOnUse }
+     *     
+     */
+    public void setPayOnUse(PayOnUse value) {
+        this.payOnUse = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad configuredCarriers.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ConfiguredCarriers }
+     *     
+     */
+    public ConfiguredCarriers getConfiguredCarriers() {
+        return configuredCarriers;
+    }
+
+    /**
+     * Define el valor de la propiedad configuredCarriers.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ConfiguredCarriers }
+     *     
+     */
+    public void setConfiguredCarriers(ConfiguredCarriers value) {
+        this.configuredCarriers = value;
     }
 
 }

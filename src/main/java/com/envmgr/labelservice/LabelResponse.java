@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for LabelResponse complex type.
+ * <p>Clase Java para LabelResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="LabelResponse"&gt;
@@ -52,7 +52,7 @@ public class LabelResponse {
     protected int pieceNumber;
 
     /**
-     * Gets the value of the refundStatus property.
+     * Obtiene el valor de la propiedad refundStatus.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class LabelResponse {
     }
 
     /**
-     * Sets the value of the refundStatus property.
+     * Define el valor de la propiedad refundStatus.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class LabelResponse {
     }
 
     /**
-     * Gets the value of the refundStatusMessage property.
+     * Obtiene el valor de la propiedad refundStatusMessage.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class LabelResponse {
     }
 
     /**
-     * Sets the value of the refundStatusMessage property.
+     * Define el valor de la propiedad refundStatusMessage.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class LabelResponse {
     }
 
     /**
-     * Gets the value of the picNumber property.
+     * Obtiene el valor de la propiedad picNumber.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class LabelResponse {
     }
 
     /**
-     * Sets the value of the picNumber property.
+     * Define el valor de la propiedad picNumber.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class LabelResponse {
     }
 
     /**
-     * Gets the value of the transactionId property.
+     * Obtiene el valor de la propiedad transactionId.
      * 
      */
     public long getTransactionId() {
@@ -132,7 +132,7 @@ public class LabelResponse {
     }
 
     /**
-     * Sets the value of the transactionId property.
+     * Define el valor de la propiedad transactionId.
      * 
      */
     public void setTransactionId(long value) {
@@ -140,7 +140,7 @@ public class LabelResponse {
     }
 
     /**
-     * Gets the value of the pieceNumber property.
+     * Obtiene el valor de la propiedad pieceNumber.
      * 
      */
     public int getPieceNumber() {
@@ -148,7 +148,7 @@ public class LabelResponse {
     }
 
     /**
-     * Sets the value of the pieceNumber property.
+     * Define el valor de la propiedad pieceNumber.
      * 
      */
     public void setPieceNumber(int value) {

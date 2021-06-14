@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for StatusResponse complex type.
+ * <p>Clase Java para StatusResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="StatusResponse"&gt;
@@ -48,7 +48,7 @@ public class StatusResponse {
     protected ArrayOfStatusEventList packageStatusEventList;
 
     /**
-     * Gets the value of the picNumber property.
+     * Obtiene el valor de la propiedad picNumber.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class StatusResponse {
     }
 
     /**
-     * Sets the value of the picNumber property.
+     * Define el valor de la propiedad picNumber.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class StatusResponse {
     }
 
     /**
-     * Gets the value of the pieceId property.
+     * Obtiene el valor de la propiedad pieceId.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class StatusResponse {
     }
 
     /**
-     * Sets the value of the pieceId property.
+     * Define el valor de la propiedad pieceId.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class StatusResponse {
     }
 
     /**
-     * Gets the value of the transactionID property.
+     * Obtiene el valor de la propiedad transactionID.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class StatusResponse {
     }
 
     /**
-     * Sets the value of the transactionID property.
+     * Define el valor de la propiedad transactionID.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class StatusResponse {
     }
 
     /**
-     * Gets the value of the packageStatusEventList property.
+     * Obtiene el valor de la propiedad packageStatusEventList.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class StatusResponse {
     }
 
     /**
-     * Sets the value of the packageStatusEventList property.
+     * Define el valor de la propiedad packageStatusEventList.
      * 
      * @param value
      *     allowed object is

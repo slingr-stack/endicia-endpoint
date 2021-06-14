@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackageInfo complex type.
+ * <p>Clase Java para PackageInfo complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackageInfo"&gt;
@@ -52,7 +52,7 @@ public class PackageInfo {
     protected String actualHeight;
 
     /**
-     * Gets the value of the actualPackageType property.
+     * Obtiene el valor de la propiedad actualPackageType.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class PackageInfo {
     }
 
     /**
-     * Sets the value of the actualPackageType property.
+     * Define el valor de la propiedad actualPackageType.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class PackageInfo {
     }
 
     /**
-     * Gets the value of the actualWeight property.
+     * Obtiene el valor de la propiedad actualWeight.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class PackageInfo {
     }
 
     /**
-     * Sets the value of the actualWeight property.
+     * Define el valor de la propiedad actualWeight.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class PackageInfo {
     }
 
     /**
-     * Gets the value of the actualLength property.
+     * Obtiene el valor de la propiedad actualLength.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class PackageInfo {
     }
 
     /**
-     * Sets the value of the actualLength property.
+     * Define el valor de la propiedad actualLength.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class PackageInfo {
     }
 
     /**
-     * Gets the value of the actualWidth property.
+     * Obtiene el valor de la propiedad actualWidth.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class PackageInfo {
     }
 
     /**
-     * Sets the value of the actualWidth property.
+     * Define el valor de la propiedad actualWidth.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class PackageInfo {
     }
 
     /**
-     * Gets the value of the actualHeight property.
+     * Obtiene el valor de la propiedad actualHeight.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class PackageInfo {
     }
 
     /**
-     * Sets the value of the actualHeight property.
+     * Define el valor de la propiedad actualHeight.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for UpdatePaymentInfoRequest complex type.
+ * <p>Clase Java para UpdatePaymentInfoRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="UpdatePaymentInfoRequest"&gt;
@@ -58,7 +58,7 @@ public class UpdatePaymentInfoRequest
     protected String responseVersion;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Gets the value of the updateCreditCardInfo property.
+     * Obtiene el valor de la propiedad updateCreditCardInfo.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Sets the value of the updateCreditCardInfo property.
+     * Define el valor de la propiedad updateCreditCardInfo.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Gets the value of the updateACHInfo property.
+     * Obtiene el valor de la propiedad updateACHInfo.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Sets the value of the updateACHInfo property.
+     * Define el valor de la propiedad updateACHInfo.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Gets the value of the responseVersion property.
+     * Obtiene el valor de la propiedad responseVersion.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class UpdatePaymentInfoRequest
     }
 
     /**
-     * Sets the value of the responseVersion property.
+     * Define el valor de la propiedad responseVersion.
      * 
      * @param value
      *     allowed object is

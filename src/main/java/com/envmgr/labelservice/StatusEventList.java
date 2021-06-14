@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for StatusEventList complex type.
+ * <p>Clase Java para StatusEventList complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="StatusEventList"&gt;
@@ -52,7 +52,7 @@ public class StatusEventList {
     protected ArrayOfTrackingResult trackingResults;
 
     /**
-     * Gets the value of the statusCode property.
+     * Obtiene el valor de la propiedad statusCode.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class StatusEventList {
     }
 
     /**
-     * Sets the value of the statusCode property.
+     * Define el valor de la propiedad statusCode.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class StatusEventList {
     }
 
     /**
-     * Gets the value of the statusDescription property.
+     * Obtiene el valor de la propiedad statusDescription.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class StatusEventList {
     }
 
     /**
-     * Sets the value of the statusDescription property.
+     * Define el valor de la propiedad statusDescription.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class StatusEventList {
     }
 
     /**
-     * Gets the value of the eventDateTime property.
+     * Obtiene el valor de la propiedad eventDateTime.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class StatusEventList {
     }
 
     /**
-     * Sets the value of the eventDateTime property.
+     * Define el valor de la propiedad eventDateTime.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class StatusEventList {
     }
 
     /**
-     * Gets the value of the trackingSummary property.
+     * Obtiene el valor de la propiedad trackingSummary.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class StatusEventList {
     }
 
     /**
-     * Sets the value of the trackingSummary property.
+     * Define el valor de la propiedad trackingSummary.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class StatusEventList {
     }
 
     /**
-     * Gets the value of the trackingResults property.
+     * Obtiene el valor de la propiedad trackingResults.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class StatusEventList {
     }
 
     /**
-     * Sets the value of the trackingResults property.
+     * Define el valor de la propiedad trackingResults.
      * 
      * @param value
      *     allowed object is

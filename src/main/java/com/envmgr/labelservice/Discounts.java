@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Discounts complex type.
+ * <p>Clase Java para Discounts complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Discounts"&gt;
@@ -47,7 +47,7 @@ public class Discounts {
     protected boolean openAndDistribute;
 
     /**
-     * Gets the value of the discount property.
+     * Obtiene el valor de la propiedad discount.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class Discounts {
     }
 
     /**
-     * Sets the value of the discount property.
+     * Define el valor de la propiedad discount.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class Discounts {
     }
 
     /**
-     * Gets the value of the cubicPricing property.
+     * Obtiene el valor de la propiedad cubicPricing.
      * 
      */
     public boolean isCubicPricing() {
@@ -79,7 +79,7 @@ public class Discounts {
     }
 
     /**
-     * Sets the value of the cubicPricing property.
+     * Define el valor de la propiedad cubicPricing.
      * 
      */
     public void setCubicPricing(boolean value) {
@@ -87,7 +87,7 @@ public class Discounts {
     }
 
     /**
-     * Gets the value of the flatRatePaddedEnvelope property.
+     * Obtiene el valor de la propiedad flatRatePaddedEnvelope.
      * 
      */
     public boolean isFlatRatePaddedEnvelope() {
@@ -95,7 +95,7 @@ public class Discounts {
     }
 
     /**
-     * Sets the value of the flatRatePaddedEnvelope property.
+     * Define el valor de la propiedad flatRatePaddedEnvelope.
      * 
      */
     public void setFlatRatePaddedEnvelope(boolean value) {
@@ -103,7 +103,7 @@ public class Discounts {
     }
 
     /**
-     * Gets the value of the halfPoundRate property.
+     * Obtiene el valor de la propiedad halfPoundRate.
      * 
      */
     public boolean isHalfPoundRate() {
@@ -111,7 +111,7 @@ public class Discounts {
     }
 
     /**
-     * Sets the value of the halfPoundRate property.
+     * Define el valor de la propiedad halfPoundRate.
      * 
      */
     public void setHalfPoundRate(boolean value) {
@@ -119,7 +119,7 @@ public class Discounts {
     }
 
     /**
-     * Gets the value of the regionalRateBox property.
+     * Obtiene el valor de la propiedad regionalRateBox.
      * 
      */
     public boolean isRegionalRateBox() {
@@ -127,7 +127,7 @@ public class Discounts {
     }
 
     /**
-     * Sets the value of the regionalRateBox property.
+     * Define el valor de la propiedad regionalRateBox.
      * 
      */
     public void setRegionalRateBox(boolean value) {
@@ -135,7 +135,7 @@ public class Discounts {
     }
 
     /**
-     * Gets the value of the openAndDistribute property.
+     * Obtiene el valor de la propiedad openAndDistribute.
      * 
      */
     public boolean isOpenAndDistribute() {
@@ -143,7 +143,7 @@ public class Discounts {
     }
 
     /**
-     * Sets the value of the openAndDistribute property.
+     * Define el valor de la propiedad openAndDistribute.
      * 
      */
     public void setOpenAndDistribute(boolean value) {

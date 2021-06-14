@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for InternationalConsolidatorServiceDetailResponse complex type.
+ * <p>Clase Java para InternationalConsolidatorServiceDetailResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="InternationalConsolidatorServiceDetailResponse"&gt;
@@ -44,7 +44,7 @@ public class InternationalConsolidatorServiceDetailResponse {
     protected String enabledInternationalConsolidatorGenericServiceName;
 
     /**
-     * Gets the value of the enabledInternationalConsolidatorServiceID property.
+     * Obtiene el valor de la propiedad enabledInternationalConsolidatorServiceID.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class InternationalConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Sets the value of the enabledInternationalConsolidatorServiceID property.
+     * Define el valor de la propiedad enabledInternationalConsolidatorServiceID.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class InternationalConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Gets the value of the enabledInternationalConsolidatorBrandedServiceName property.
+     * Obtiene el valor de la propiedad enabledInternationalConsolidatorBrandedServiceName.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class InternationalConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Sets the value of the enabledInternationalConsolidatorBrandedServiceName property.
+     * Define el valor de la propiedad enabledInternationalConsolidatorBrandedServiceName.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class InternationalConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Gets the value of the enabledInternationalConsolidatorGenericServiceName property.
+     * Obtiene el valor de la propiedad enabledInternationalConsolidatorGenericServiceName.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class InternationalConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Sets the value of the enabledInternationalConsolidatorGenericServiceName property.
+     * Define el valor de la propiedad enabledInternationalConsolidatorGenericServiceName.
      * 
      * @param value
      *     allowed object is

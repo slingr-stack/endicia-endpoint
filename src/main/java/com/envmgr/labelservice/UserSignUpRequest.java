@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for UserSignUpRequest complex type.
+ * <p>Clase Java para UserSignUpRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="UserSignUpRequest"&gt;
@@ -40,6 +40,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="USPSRep" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="DedicatedResellerAccount" type="{http://www.w3.org/2001/XMLSchema}boolean"/&gt;
  *         &lt;element name="ICertify" type="{http://www.w3.org/2001/XMLSchema}boolean"/&gt;
+ *         &lt;element name="UserName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="RequesterID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *       &lt;attribute name="TokenRequested" use="required" type="{http://www.w3.org/2001/XMLSchema}boolean" /&gt;
@@ -74,6 +75,7 @@ import javax.xml.bind.annotation.XmlType;
     "uspsRep",
     "dedicatedResellerAccount",
     "iCertify",
+    "userName",
     "requesterID"
 })
 public class UserSignUpRequest
@@ -124,13 +126,15 @@ public class UserSignUpRequest
     protected boolean dedicatedResellerAccount;
     @XmlElement(name = "ICertify")
     protected boolean iCertify;
+    @XmlElement(name = "UserName")
+    protected String userName;
     @XmlElement(name = "RequesterID")
     protected String requesterID;
     @XmlAttribute(name = "TokenRequested", required = true)
     protected boolean tokenRequested;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -142,7 +146,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +158,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the firstName property.
+     * Obtiene el valor de la propiedad firstName.
      * 
      * @return
      *     possible object is
@@ -166,7 +170,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the firstName property.
+     * Define el valor de la propiedad firstName.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +182,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the lastName property.
+     * Obtiene el valor de la propiedad lastName.
      * 
      * @return
      *     possible object is
@@ -190,7 +194,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the lastName property.
+     * Define el valor de la propiedad lastName.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +206,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the middleName property.
+     * Obtiene el valor de la propiedad middleName.
      * 
      * @return
      *     possible object is
@@ -214,7 +218,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the middleName property.
+     * Define el valor de la propiedad middleName.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +230,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the title property.
+     * Obtiene el valor de la propiedad title.
      * 
      * @return
      *     possible object is
@@ -238,7 +242,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the title property.
+     * Define el valor de la propiedad title.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +254,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the emailAddress property.
+     * Obtiene el valor de la propiedad emailAddress.
      * 
      * @return
      *     possible object is
@@ -262,7 +266,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the emailAddress property.
+     * Define el valor de la propiedad emailAddress.
      * 
      * @param value
      *     allowed object is
@@ -274,7 +278,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the phoneNumber property.
+     * Obtiene el valor de la propiedad phoneNumber.
      * 
      * @return
      *     possible object is
@@ -286,7 +290,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the phoneNumber property.
+     * Define el valor de la propiedad phoneNumber.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +302,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the phoneNumberExt property.
+     * Obtiene el valor de la propiedad phoneNumberExt.
      * 
      * @return
      *     possible object is
@@ -310,7 +314,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the phoneNumberExt property.
+     * Define el valor de la propiedad phoneNumberExt.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +326,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the faxNumber property.
+     * Obtiene el valor de la propiedad faxNumber.
      * 
      * @return
      *     possible object is
@@ -334,7 +338,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the faxNumber property.
+     * Define el valor de la propiedad faxNumber.
      * 
      * @param value
      *     allowed object is
@@ -346,7 +350,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the billingType property.
+     * Obtiene el valor de la propiedad billingType.
      * 
      * @return
      *     possible object is
@@ -358,7 +362,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the billingType property.
+     * Define el valor de la propiedad billingType.
      * 
      * @param value
      *     allowed object is
@@ -370,7 +374,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the partnerID property.
+     * Obtiene el valor de la propiedad partnerID.
      * 
      * @return
      *     possible object is
@@ -382,7 +386,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the partnerID property.
+     * Define el valor de la propiedad partnerID.
      * 
      * @param value
      *     allowed object is
@@ -394,7 +398,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the originatingIpAddress property.
+     * Obtiene el valor de la propiedad originatingIpAddress.
      * 
      * @return
      *     possible object is
@@ -406,7 +410,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the originatingIpAddress property.
+     * Define el valor de la propiedad originatingIpAddress.
      * 
      * @param value
      *     allowed object is
@@ -418,7 +422,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the contracts property.
+     * Obtiene el valor de la propiedad contracts.
      * 
      * @return
      *     possible object is
@@ -430,7 +434,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the contracts property.
+     * Define el valor de la propiedad contracts.
      * 
      * @param value
      *     allowed object is
@@ -442,7 +446,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the accountCredentials property.
+     * Obtiene el valor de la propiedad accountCredentials.
      * 
      * @return
      *     possible object is
@@ -454,7 +458,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the accountCredentials property.
+     * Define el valor de la propiedad accountCredentials.
      * 
      * @param value
      *     allowed object is
@@ -466,7 +470,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the creditCard property.
+     * Obtiene el valor de la propiedad creditCard.
      * 
      * @return
      *     possible object is
@@ -478,7 +482,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the creditCard property.
+     * Define el valor de la propiedad creditCard.
      * 
      * @param value
      *     allowed object is
@@ -490,7 +494,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the checkingAccount property.
+     * Obtiene el valor de la propiedad checkingAccount.
      * 
      * @return
      *     possible object is
@@ -502,7 +506,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the checkingAccount property.
+     * Define el valor de la propiedad checkingAccount.
      * 
      * @param value
      *     allowed object is
@@ -514,7 +518,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the physicalAddress property.
+     * Obtiene el valor de la propiedad physicalAddress.
      * 
      * @return
      *     possible object is
@@ -526,7 +530,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the physicalAddress property.
+     * Define el valor de la propiedad physicalAddress.
      * 
      * @param value
      *     allowed object is
@@ -538,7 +542,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the mailingAddress property.
+     * Obtiene el valor de la propiedad mailingAddress.
      * 
      * @return
      *     possible object is
@@ -550,7 +554,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the mailingAddress property.
+     * Define el valor de la propiedad mailingAddress.
      * 
      * @param value
      *     allowed object is
@@ -562,7 +566,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the paymentDetailsDeferred property.
+     * Obtiene el valor de la propiedad paymentDetailsDeferred.
      * 
      */
     public boolean isPaymentDetailsDeferred() {
@@ -570,7 +574,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the paymentDetailsDeferred property.
+     * Define el valor de la propiedad paymentDetailsDeferred.
      * 
      */
     public void setPaymentDetailsDeferred(boolean value) {
@@ -578,7 +582,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the uspsRep property.
+     * Obtiene el valor de la propiedad uspsRep.
      * 
      * @return
      *     possible object is
@@ -590,7 +594,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the uspsRep property.
+     * Define el valor de la propiedad uspsRep.
      * 
      * @param value
      *     allowed object is
@@ -602,7 +606,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the dedicatedResellerAccount property.
+     * Obtiene el valor de la propiedad dedicatedResellerAccount.
      * 
      */
     public boolean isDedicatedResellerAccount() {
@@ -610,7 +614,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the dedicatedResellerAccount property.
+     * Define el valor de la propiedad dedicatedResellerAccount.
      * 
      */
     public void setDedicatedResellerAccount(boolean value) {
@@ -618,7 +622,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the iCertify property.
+     * Obtiene el valor de la propiedad iCertify.
      * 
      */
     public boolean isICertify() {
@@ -626,7 +630,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the iCertify property.
+     * Define el valor de la propiedad iCertify.
      * 
      */
     public void setICertify(boolean value) {
@@ -634,7 +638,31 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad userName.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getUserName() {
+        return userName;
+    }
+
+    /**
+     * Define el valor de la propiedad userName.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setUserName(String value) {
+        this.userName = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -646,7 +674,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -658,7 +686,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Gets the value of the tokenRequested property.
+     * Obtiene el valor de la propiedad tokenRequested.
      * 
      */
     public boolean isTokenRequested() {
@@ -666,7 +694,7 @@ public class UserSignUpRequest
     }
 
     /**
-     * Sets the value of the tokenRequested property.
+     * Define el valor de la propiedad tokenRequested.
      * 
      */
     public void setTokenRequested(boolean value) {

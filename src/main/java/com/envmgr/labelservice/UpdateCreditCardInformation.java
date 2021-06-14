@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for UpdateCreditCardInformation complex type.
+ * <p>Clase Java para UpdateCreditCardInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="UpdateCreditCardInformation"&gt;
@@ -87,7 +87,7 @@ public class UpdateCreditCardInformation {
     protected PaymentTypes paymentType;
 
     /**
-     * Gets the value of the creditCardNumber property.
+     * Obtiene el valor de la propiedad creditCardNumber.
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardNumber property.
+     * Define el valor de la propiedad creditCardNumber.
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardCVV property.
+     * Obtiene el valor de la propiedad creditCardCVV.
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardCVV property.
+     * Define el valor de la propiedad creditCardCVV.
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardAddress property.
+     * Obtiene el valor de la propiedad creditCardAddress.
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardAddress property.
+     * Define el valor de la propiedad creditCardAddress.
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardAddress2 property.
+     * Obtiene el valor de la propiedad creditCardAddress2.
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardAddress2 property.
+     * Define el valor de la propiedad creditCardAddress2.
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardAddress3 property.
+     * Obtiene el valor de la propiedad creditCardAddress3.
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardAddress3 property.
+     * Define el valor de la propiedad creditCardAddress3.
      * 
      * @param value
      *     allowed object is
@@ -207,7 +207,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardCity property.
+     * Obtiene el valor de la propiedad creditCardCity.
      * 
      * @return
      *     possible object is
@@ -219,7 +219,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardCity property.
+     * Define el valor de la propiedad creditCardCity.
      * 
      * @param value
      *     allowed object is
@@ -231,7 +231,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardState property.
+     * Obtiene el valor de la propiedad creditCardState.
      * 
      * @return
      *     possible object is
@@ -243,7 +243,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardState property.
+     * Define el valor de la propiedad creditCardState.
      * 
      * @param value
      *     allowed object is
@@ -255,7 +255,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardZipCode property.
+     * Obtiene el valor de la propiedad creditCardZipCode.
      * 
      * @return
      *     possible object is
@@ -267,7 +267,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardZipCode property.
+     * Define el valor de la propiedad creditCardZipCode.
      * 
      * @param value
      *     allowed object is
@@ -279,7 +279,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardCountryCode property.
+     * Obtiene el valor de la propiedad creditCardCountryCode.
      * 
      * @return
      *     possible object is
@@ -291,7 +291,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardCountryCode property.
+     * Define el valor de la propiedad creditCardCountryCode.
      * 
      * @param value
      *     allowed object is
@@ -303,7 +303,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardType property.
+     * Obtiene el valor de la propiedad creditCardType.
      * 
      * @return
      *     possible object is
@@ -315,7 +315,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardType property.
+     * Define el valor de la propiedad creditCardType.
      * 
      * @param value
      *     allowed object is
@@ -327,7 +327,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardExpMonth property.
+     * Obtiene el valor de la propiedad creditCardExpMonth.
      * 
      * @return
      *     possible object is
@@ -339,7 +339,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardExpMonth property.
+     * Define el valor de la propiedad creditCardExpMonth.
      * 
      * @param value
      *     allowed object is
@@ -351,7 +351,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the creditCardExpYear property.
+     * Obtiene el valor de la propiedad creditCardExpYear.
      * 
      * @return
      *     possible object is
@@ -363,7 +363,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the creditCardExpYear property.
+     * Define el valor de la propiedad creditCardExpYear.
      * 
      * @param value
      *     allowed object is
@@ -375,7 +375,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Gets the value of the paymentType property.
+     * Obtiene el valor de la propiedad paymentType.
      * 
      * @return
      *     possible object is
@@ -387,7 +387,7 @@ public class UpdateCreditCardInformation {
     }
 
     /**
-     * Sets the value of the paymentType property.
+     * Define el valor de la propiedad paymentType.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for TransactionAddress complex type.
+ * <p>Clase Java para TransactionAddress complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="TransactionAddress"&gt;
@@ -72,7 +72,7 @@ public class TransactionAddress {
     protected String country;
 
     /**
-     * Gets the value of the company property.
+     * Obtiene el valor de la propiedad company.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the company property.
+     * Define el valor de la propiedad company.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the name property.
+     * Obtiene el valor de la propiedad name.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the name property.
+     * Define el valor de la propiedad name.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the phone property.
+     * Obtiene el valor de la propiedad phone.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the phone property.
+     * Define el valor de la propiedad phone.
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the email property.
+     * Obtiene el valor de la propiedad email.
      * 
      * @return
      *     possible object is
@@ -156,7 +156,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the email property.
+     * Define el valor de la propiedad email.
      * 
      * @param value
      *     allowed object is
@@ -168,7 +168,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the addressLines property.
+     * Obtiene el valor de la propiedad addressLines.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the addressLines property.
+     * Define el valor de la propiedad addressLines.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +192,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the city property.
+     * Obtiene el valor de la propiedad city.
      * 
      * @return
      *     possible object is
@@ -204,7 +204,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the city property.
+     * Define el valor de la propiedad city.
      * 
      * @param value
      *     allowed object is
@@ -216,7 +216,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the state property.
+     * Obtiene el valor de la propiedad state.
      * 
      * @return
      *     possible object is
@@ -228,7 +228,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the state property.
+     * Define el valor de la propiedad state.
      * 
      * @param value
      *     allowed object is
@@ -240,7 +240,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the postalCode property.
+     * Obtiene el valor de la propiedad postalCode.
      * 
      * @return
      *     possible object is
@@ -252,7 +252,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the postalCode property.
+     * Define el valor de la propiedad postalCode.
      * 
      * @param value
      *     allowed object is
@@ -264,7 +264,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the zip4 property.
+     * Obtiene el valor de la propiedad zip4.
      * 
      * @return
      *     possible object is
@@ -276,7 +276,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the zip4 property.
+     * Define el valor de la propiedad zip4.
      * 
      * @param value
      *     allowed object is
@@ -288,7 +288,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Gets the value of the country property.
+     * Obtiene el valor de la propiedad country.
      * 
      * @return
      *     possible object is
@@ -300,7 +300,7 @@ public class TransactionAddress {
     }
 
     /**
-     * Sets the value of the country property.
+     * Define el valor de la propiedad country.
      * 
      * @param value
      *     allowed object is

@@ -12,9 +12,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Fees complex type.
+ * <p>Clase Java para Fees complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Fees"&gt;
@@ -42,6 +42,9 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="AMDelivery" type="{http://www.w3.org/2001/XMLSchema}decimal"/&gt;
  *         &lt;element name="GroupedExtraServices" type="{www.envmgr.com/LabelService}GroupedExtraServices" minOccurs="0"/&gt;
  *         &lt;element name="PayOnUse" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/&gt;
+ *         &lt;element name="PayOnUseReturn" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/&gt;
+ *         &lt;element name="DeliveredDutyPaid" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/&gt;
+ *         &lt;element name="InstaLabel" type="{http://www.w3.org/2001/XMLSchema}decimal"/&gt;
  *       &lt;/sequence&gt;
  *       &lt;attribute name="TotalAmount" use="required" type="{http://www.w3.org/2001/XMLSchema}decimal" /&gt;
  *     &lt;/restriction&gt;
@@ -73,7 +76,10 @@ import javax.xml.bind.annotation.XmlType;
     "fragileHandling",
     "amDelivery",
     "groupedExtraServices",
-    "payOnUse"
+    "payOnUse",
+    "payOnUseReturn",
+    "deliveredDutyPaid",
+    "instaLabel"
 })
 public class Fees {
 
@@ -119,11 +125,17 @@ public class Fees {
     protected GroupedExtraServices groupedExtraServices;
     @XmlElementRef(name = "PayOnUse", namespace = "www.envmgr.com/LabelService", type = JAXBElement.class, required = false)
     protected JAXBElement<BigDecimal> payOnUse;
+    @XmlElementRef(name = "PayOnUseReturn", namespace = "www.envmgr.com/LabelService", type = JAXBElement.class, required = false)
+    protected JAXBElement<BigDecimal> payOnUseReturn;
+    @XmlElementRef(name = "DeliveredDutyPaid", namespace = "www.envmgr.com/LabelService", type = JAXBElement.class, required = false)
+    protected JAXBElement<BigDecimal> deliveredDutyPaid;
+    @XmlElement(name = "InstaLabel", required = true, nillable = true)
+    protected BigDecimal instaLabel;
     @XmlAttribute(name = "TotalAmount", required = true)
     protected BigDecimal totalAmount;
 
     /**
-     * Gets the value of the certificateOfMailing property.
+     * Obtiene el valor de la propiedad certificateOfMailing.
      * 
      * @return
      *     possible object is
@@ -135,7 +147,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the certificateOfMailing property.
+     * Define el valor de la propiedad certificateOfMailing.
      * 
      * @param value
      *     allowed object is
@@ -147,7 +159,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the certifiedMail property.
+     * Obtiene el valor de la propiedad certifiedMail.
      * 
      * @return
      *     possible object is
@@ -159,7 +171,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the certifiedMail property.
+     * Define el valor de la propiedad certifiedMail.
      * 
      * @param value
      *     allowed object is
@@ -171,7 +183,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the collectOnDelivery property.
+     * Obtiene el valor de la propiedad collectOnDelivery.
      * 
      * @return
      *     possible object is
@@ -183,7 +195,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the collectOnDelivery property.
+     * Define el valor de la propiedad collectOnDelivery.
      * 
      * @param value
      *     allowed object is
@@ -195,7 +207,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the deliveryConfirmation property.
+     * Obtiene el valor de la propiedad deliveryConfirmation.
      * 
      * @return
      *     possible object is
@@ -207,7 +219,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the deliveryConfirmation property.
+     * Define el valor de la propiedad deliveryConfirmation.
      * 
      * @param value
      *     allowed object is
@@ -219,7 +231,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the electronicReturnReceipt property.
+     * Obtiene el valor de la propiedad electronicReturnReceipt.
      * 
      * @return
      *     possible object is
@@ -231,7 +243,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the electronicReturnReceipt property.
+     * Define el valor de la propiedad electronicReturnReceipt.
      * 
      * @param value
      *     allowed object is
@@ -243,7 +255,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the insuredMail property.
+     * Obtiene el valor de la propiedad insuredMail.
      * 
      * @return
      *     possible object is
@@ -255,7 +267,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the insuredMail property.
+     * Define el valor de la propiedad insuredMail.
      * 
      * @param value
      *     allowed object is
@@ -267,7 +279,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the registeredMail property.
+     * Obtiene el valor de la propiedad registeredMail.
      * 
      * @return
      *     possible object is
@@ -279,7 +291,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the registeredMail property.
+     * Define el valor de la propiedad registeredMail.
      * 
      * @param value
      *     allowed object is
@@ -291,7 +303,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the restrictedDelivery property.
+     * Obtiene el valor de la propiedad restrictedDelivery.
      * 
      * @return
      *     possible object is
@@ -303,7 +315,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the restrictedDelivery property.
+     * Define el valor de la propiedad restrictedDelivery.
      * 
      * @param value
      *     allowed object is
@@ -315,7 +327,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the returnReceipt property.
+     * Obtiene el valor de la propiedad returnReceipt.
      * 
      * @return
      *     possible object is
@@ -327,7 +339,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the returnReceipt property.
+     * Define el valor de la propiedad returnReceipt.
      * 
      * @param value
      *     allowed object is
@@ -339,7 +351,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the returnReceiptForMerchandise property.
+     * Obtiene el valor de la propiedad returnReceiptForMerchandise.
      * 
      * @return
      *     possible object is
@@ -351,7 +363,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the returnReceiptForMerchandise property.
+     * Define el valor de la propiedad returnReceiptForMerchandise.
      * 
      * @param value
      *     allowed object is
@@ -363,7 +375,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the signatureConfirmation property.
+     * Obtiene el valor de la propiedad signatureConfirmation.
      * 
      * @return
      *     possible object is
@@ -375,7 +387,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the signatureConfirmation property.
+     * Define el valor de la propiedad signatureConfirmation.
      * 
      * @param value
      *     allowed object is
@@ -387,7 +399,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the specialHandling property.
+     * Obtiene el valor de la propiedad specialHandling.
      * 
      * @return
      *     possible object is
@@ -399,7 +411,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the specialHandling property.
+     * Define el valor de la propiedad specialHandling.
      * 
      * @param value
      *     allowed object is
@@ -411,7 +423,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the merchandiseReturn property.
+     * Obtiene el valor de la propiedad merchandiseReturn.
      * 
      * @return
      *     possible object is
@@ -423,7 +435,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the merchandiseReturn property.
+     * Define el valor de la propiedad merchandiseReturn.
      * 
      * @param value
      *     allowed object is
@@ -435,7 +447,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the openAndDistribute property.
+     * Obtiene el valor de la propiedad openAndDistribute.
      * 
      * @return
      *     possible object is
@@ -447,7 +459,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the openAndDistribute property.
+     * Define el valor de la propiedad openAndDistribute.
      * 
      * @param value
      *     allowed object is
@@ -459,7 +471,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the adultSignature property.
+     * Obtiene el valor de la propiedad adultSignature.
      * 
      * @return
      *     possible object is
@@ -471,7 +483,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the adultSignature property.
+     * Define el valor de la propiedad adultSignature.
      * 
      * @param value
      *     allowed object is
@@ -483,7 +495,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the adultSignatureRestrictedDelivery property.
+     * Obtiene el valor de la propiedad adultSignatureRestrictedDelivery.
      * 
      * @return
      *     possible object is
@@ -495,7 +507,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the adultSignatureRestrictedDelivery property.
+     * Define el valor de la propiedad adultSignatureRestrictedDelivery.
      * 
      * @param value
      *     allowed object is
@@ -507,7 +519,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the liveAnimalSurcharge property.
+     * Obtiene el valor de la propiedad liveAnimalSurcharge.
      * 
      * @return
      *     possible object is
@@ -519,7 +531,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the liveAnimalSurcharge property.
+     * Define el valor de la propiedad liveAnimalSurcharge.
      * 
      * @param value
      *     allowed object is
@@ -531,7 +543,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the fragileHandling property.
+     * Obtiene el valor de la propiedad fragileHandling.
      * 
      * @return
      *     possible object is
@@ -543,7 +555,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the fragileHandling property.
+     * Define el valor de la propiedad fragileHandling.
      * 
      * @param value
      *     allowed object is
@@ -555,7 +567,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the amDelivery property.
+     * Obtiene el valor de la propiedad amDelivery.
      * 
      * @return
      *     possible object is
@@ -567,7 +579,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the amDelivery property.
+     * Define el valor de la propiedad amDelivery.
      * 
      * @param value
      *     allowed object is
@@ -579,7 +591,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the groupedExtraServices property.
+     * Obtiene el valor de la propiedad groupedExtraServices.
      * 
      * @return
      *     possible object is
@@ -591,7 +603,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the groupedExtraServices property.
+     * Define el valor de la propiedad groupedExtraServices.
      * 
      * @param value
      *     allowed object is
@@ -603,7 +615,7 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the payOnUse property.
+     * Obtiene el valor de la propiedad payOnUse.
      * 
      * @return
      *     possible object is
@@ -615,7 +627,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the payOnUse property.
+     * Define el valor de la propiedad payOnUse.
      * 
      * @param value
      *     allowed object is
@@ -627,7 +639,79 @@ public class Fees {
     }
 
     /**
-     * Gets the value of the totalAmount property.
+     * Obtiene el valor de la propiedad payOnUseReturn.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link BigDecimal }{@code >}
+     *     
+     */
+    public JAXBElement<BigDecimal> getPayOnUseReturn() {
+        return payOnUseReturn;
+    }
+
+    /**
+     * Define el valor de la propiedad payOnUseReturn.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link BigDecimal }{@code >}
+     *     
+     */
+    public void setPayOnUseReturn(JAXBElement<BigDecimal> value) {
+        this.payOnUseReturn = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad deliveredDutyPaid.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link BigDecimal }{@code >}
+     *     
+     */
+    public JAXBElement<BigDecimal> getDeliveredDutyPaid() {
+        return deliveredDutyPaid;
+    }
+
+    /**
+     * Define el valor de la propiedad deliveredDutyPaid.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link BigDecimal }{@code >}
+     *     
+     */
+    public void setDeliveredDutyPaid(JAXBElement<BigDecimal> value) {
+        this.deliveredDutyPaid = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad instaLabel.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public BigDecimal getInstaLabel() {
+        return instaLabel;
+    }
+
+    /**
+     * Define el valor de la propiedad instaLabel.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public void setInstaLabel(BigDecimal value) {
+        this.instaLabel = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad totalAmount.
      * 
      * @return
      *     possible object is
@@ -639,7 +723,7 @@ public class Fees {
     }
 
     /**
-     * Sets the value of the totalAmount property.
+     * Define el valor de la propiedad totalAmount.
      * 
      * @param value
      *     allowed object is

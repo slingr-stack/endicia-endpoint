@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxws:bindings xmlns:jaxws="http://java.sun.com/xml/ns/jaxws" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <jaxws:bindings node="wsdl:definitions/wsdl:types/xsd:schema[1]">
+        <jxb:bindings node="//xs:complexType[@name='AddCarrierResponse']">
+            <jxb:class name="AddCarrierResponseComplex"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:complexType[@name='CreateManifestResponse']">
+            <jxb:class name="CreateManifestResponseComplex"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:complexType[@name='DeleteCarrierResponse']">
+            <jxb:class name="DeleteCarrierResponseComplex"/>
+        </jxb:bindings>
+    </jaxws:bindings>
+</jaxws:bindings>

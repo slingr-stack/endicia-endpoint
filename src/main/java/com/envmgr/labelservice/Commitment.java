@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Commitment complex type.
+ * <p>Clase Java para Commitment complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="Commitment"&gt;
@@ -46,7 +46,7 @@ public class Commitment {
     protected List<Location> location;
 
     /**
-     * Gets the value of the commitmentName property.
+     * Obtiene el valor de la propiedad commitmentName.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class Commitment {
     }
 
     /**
-     * Sets the value of the commitmentName property.
+     * Define el valor de la propiedad commitmentName.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class Commitment {
     }
 
     /**
-     * Gets the value of the commitmentTime property.
+     * Obtiene el valor de la propiedad commitmentTime.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class Commitment {
     }
 
     /**
-     * Sets the value of the commitmentTime property.
+     * Define el valor de la propiedad commitmentTime.
      * 
      * @param value
      *     allowed object is

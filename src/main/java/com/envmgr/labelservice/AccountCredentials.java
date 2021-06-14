@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for AccountCredentials complex type.
+ * <p>Clase Java para AccountCredentials complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="AccountCredentials"&gt;
@@ -50,7 +50,7 @@ public class AccountCredentials
     protected String securityAnswer;
 
     /**
-     * Gets the value of the webPassword property.
+     * Obtiene el valor de la propiedad webPassword.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class AccountCredentials
     }
 
     /**
-     * Sets the value of the webPassword property.
+     * Define el valor de la propiedad webPassword.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class AccountCredentials
     }
 
     /**
-     * Gets the value of the temporaryPassPhrase property.
+     * Obtiene el valor de la propiedad temporaryPassPhrase.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class AccountCredentials
     }
 
     /**
-     * Sets the value of the temporaryPassPhrase property.
+     * Define el valor de la propiedad temporaryPassPhrase.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class AccountCredentials
     }
 
     /**
-     * Gets the value of the securityQuestion property.
+     * Obtiene el valor de la propiedad securityQuestion.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class AccountCredentials
     }
 
     /**
-     * Sets the value of the securityQuestion property.
+     * Define el valor de la propiedad securityQuestion.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class AccountCredentials
     }
 
     /**
-     * Gets the value of the securityAnswer property.
+     * Obtiene el valor de la propiedad securityAnswer.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class AccountCredentials
     }
 
     /**
-     * Sets the value of the securityAnswer property.
+     * Define el valor de la propiedad securityAnswer.
      * 
      * @param value
      *     allowed object is

@@ -1,6 +1,7 @@
 
 package com.envmgr.labelservice;
 
+import java.math.BigDecimal;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -8,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackagePickupResponse complex type.
+ * <p>Clase Java para PackagePickupResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackagePickupResponse"&gt;
@@ -23,6 +24,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="RequestID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="ConfirmationNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="PackagePickup" type="{www.envmgr.com/LabelService}PackagePickup" minOccurs="0"/&gt;
+ *         &lt;element name="EstimatedAmount" type="{http://www.w3.org/2001/XMLSchema}decimal"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -38,7 +40,8 @@ import javax.xml.bind.annotation.XmlType;
     "requesterID",
     "requestID",
     "confirmationNumber",
-    "packagePickup"
+    "packagePickup",
+    "estimatedAmount"
 })
 public class PackagePickupResponse {
 
@@ -54,9 +57,11 @@ public class PackagePickupResponse {
     protected String confirmationNumber;
     @XmlElement(name = "PackagePickup")
     protected PackagePickup packagePickup;
+    @XmlElement(name = "EstimatedAmount", required = true)
+    protected BigDecimal estimatedAmount;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -64,7 +69,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -72,7 +77,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -84,7 +89,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +101,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -108,7 +113,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +125,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -132,7 +137,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -144,7 +149,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Gets the value of the confirmationNumber property.
+     * Obtiene el valor de la propiedad confirmationNumber.
      * 
      * @return
      *     possible object is
@@ -156,7 +161,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Sets the value of the confirmationNumber property.
+     * Define el valor de la propiedad confirmationNumber.
      * 
      * @param value
      *     allowed object is
@@ -168,7 +173,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Gets the value of the packagePickup property.
+     * Obtiene el valor de la propiedad packagePickup.
      * 
      * @return
      *     possible object is
@@ -180,7 +185,7 @@ public class PackagePickupResponse {
     }
 
     /**
-     * Sets the value of the packagePickup property.
+     * Define el valor de la propiedad packagePickup.
      * 
      * @param value
      *     allowed object is
@@ -189,6 +194,30 @@ public class PackagePickupResponse {
      */
     public void setPackagePickup(PackagePickup value) {
         this.packagePickup = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad estimatedAmount.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public BigDecimal getEstimatedAmount() {
+        return estimatedAmount;
+    }
+
+    /**
+     * Define el valor de la propiedad estimatedAmount.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public void setEstimatedAmount(BigDecimal value) {
+        this.estimatedAmount = value;
     }
 
 }

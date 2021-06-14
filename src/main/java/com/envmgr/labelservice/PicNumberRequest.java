@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PicNumberRequest complex type.
+ * <p>Clase Java para PicNumberRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PicNumberRequest"&gt;
@@ -115,7 +115,7 @@ public class PicNumberRequest
     protected BigDecimal amDeliveryFee;
 
     /**
-     * Gets the value of the insuredMail property.
+     * Obtiene el valor de la propiedad insuredMail.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the insuredMail property.
+     * Define el valor de la propiedad insuredMail.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the insuredMailFee property.
+     * Obtiene el valor de la propiedad insuredMailFee.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the insuredMailFee property.
+     * Define el valor de la propiedad insuredMailFee.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the restrictedDeliveryFee property.
+     * Obtiene el valor de la propiedad restrictedDeliveryFee.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the restrictedDeliveryFee property.
+     * Define el valor de la propiedad restrictedDeliveryFee.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceipt property.
+     * Obtiene el valor de la propiedad returnReceipt.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceipt property.
+     * Define el valor de la propiedad returnReceipt.
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceiptFee property.
+     * Obtiene el valor de la propiedad returnReceiptFee.
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceiptFee property.
+     * Define el valor de la propiedad returnReceiptFee.
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceiptRegular property.
+     * Obtiene el valor de la propiedad returnReceiptRegular.
      * 
      */
     public boolean isReturnReceiptRegular() {
@@ -243,7 +243,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceiptRegular property.
+     * Define el valor de la propiedad returnReceiptRegular.
      * 
      */
     public void setReturnReceiptRegular(boolean value) {
@@ -251,7 +251,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceiptRegularFee property.
+     * Obtiene el valor de la propiedad returnReceiptRegularFee.
      * 
      * @return
      *     possible object is
@@ -263,7 +263,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceiptRegularFee property.
+     * Define el valor de la propiedad returnReceiptRegularFee.
      * 
      * @param value
      *     allowed object is
@@ -275,7 +275,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceiptElectronic property.
+     * Obtiene el valor de la propiedad returnReceiptElectronic.
      * 
      */
     public boolean isReturnReceiptElectronic() {
@@ -283,7 +283,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceiptElectronic property.
+     * Define el valor de la propiedad returnReceiptElectronic.
      * 
      */
     public void setReturnReceiptElectronic(boolean value) {
@@ -291,7 +291,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceiptElectronicFee property.
+     * Obtiene el valor de la propiedad returnReceiptElectronicFee.
      * 
      * @return
      *     possible object is
@@ -303,7 +303,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceiptElectronicFee property.
+     * Define el valor de la propiedad returnReceiptElectronicFee.
      * 
      * @param value
      *     allowed object is
@@ -315,7 +315,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceiptMerchandise property.
+     * Obtiene el valor de la propiedad returnReceiptMerchandise.
      * 
      */
     public boolean isReturnReceiptMerchandise() {
@@ -323,7 +323,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceiptMerchandise property.
+     * Define el valor de la propiedad returnReceiptMerchandise.
      * 
      */
     public void setReturnReceiptMerchandise(boolean value) {
@@ -331,7 +331,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the returnReceiptMerchandiseFee property.
+     * Obtiene el valor de la propiedad returnReceiptMerchandiseFee.
      * 
      * @return
      *     possible object is
@@ -343,7 +343,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the returnReceiptMerchandiseFee property.
+     * Define el valor de la propiedad returnReceiptMerchandiseFee.
      * 
      * @param value
      *     allowed object is
@@ -355,7 +355,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the serviceLevel property.
+     * Obtiene el valor de la propiedad serviceLevel.
      * 
      * @return
      *     possible object is
@@ -367,7 +367,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the serviceLevel property.
+     * Define el valor de la propiedad serviceLevel.
      * 
      * @param value
      *     allowed object is
@@ -379,7 +379,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the sundayHolidayDelivery property.
+     * Obtiene el valor de la propiedad sundayHolidayDelivery.
      * 
      */
     public boolean isSundayHolidayDelivery() {
@@ -387,7 +387,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the sundayHolidayDelivery property.
+     * Define el valor de la propiedad sundayHolidayDelivery.
      * 
      */
     public void setSundayHolidayDelivery(boolean value) {
@@ -395,7 +395,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the sundayDelivery property.
+     * Obtiene el valor de la propiedad sundayDelivery.
      * 
      */
     public boolean isSundayDelivery() {
@@ -403,7 +403,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the sundayDelivery property.
+     * Define el valor de la propiedad sundayDelivery.
      * 
      */
     public void setSundayDelivery(boolean value) {
@@ -411,7 +411,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the holidayDelivery property.
+     * Obtiene el valor de la propiedad holidayDelivery.
      * 
      */
     public boolean isHolidayDelivery() {
@@ -419,7 +419,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the holidayDelivery property.
+     * Define el valor de la propiedad holidayDelivery.
      * 
      */
     public void setHolidayDelivery(boolean value) {
@@ -427,7 +427,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the noDeliverySaturday property.
+     * Obtiene el valor de la propiedad noDeliverySaturday.
      * 
      */
     public boolean isNoDeliverySaturday() {
@@ -435,7 +435,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the noDeliverySaturday property.
+     * Define el valor de la propiedad noDeliverySaturday.
      * 
      */
     public void setNoDeliverySaturday(boolean value) {
@@ -443,7 +443,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the facilityID property.
+     * Obtiene el valor de la propiedad facilityID.
      * 
      * @return
      *     possible object is
@@ -455,7 +455,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the facilityID property.
+     * Define el valor de la propiedad facilityID.
      * 
      * @param value
      *     allowed object is
@@ -467,7 +467,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the waiverOfSignature property.
+     * Obtiene el valor de la propiedad waiverOfSignature.
      * 
      */
     public boolean isWaiverOfSignature() {
@@ -475,7 +475,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the waiverOfSignature property.
+     * Define el valor de la propiedad waiverOfSignature.
      * 
      */
     public void setWaiverOfSignature(boolean value) {
@@ -483,7 +483,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the amDelivery property.
+     * Obtiene el valor de la propiedad amDelivery.
      * 
      */
     public boolean isAMDelivery() {
@@ -491,7 +491,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the amDelivery property.
+     * Define el valor de la propiedad amDelivery.
      * 
      */
     public void setAMDelivery(boolean value) {
@@ -499,7 +499,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Gets the value of the amDeliveryFee property.
+     * Obtiene el valor de la propiedad amDeliveryFee.
      * 
      * @return
      *     possible object is
@@ -511,7 +511,7 @@ public class PicNumberRequest
     }
 
     /**
-     * Sets the value of the amDeliveryFee property.
+     * Define el valor de la propiedad amDeliveryFee.
      * 
      * @param value
      *     allowed object is

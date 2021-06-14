@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for TransactionsResponseOptions complex type.
+ * <p>Clase Java para TransactionsResponseOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="TransactionsResponseOptions"&gt;
@@ -35,7 +35,7 @@ public class TransactionsResponseOptions {
     protected String endDateTime;
 
     /**
-     * Gets the value of the startDateTime property.
+     * Obtiene el valor de la propiedad startDateTime.
      * 
      * @return
      *     possible object is
@@ -47,7 +47,7 @@ public class TransactionsResponseOptions {
     }
 
     /**
-     * Sets the value of the startDateTime property.
+     * Define el valor de la propiedad startDateTime.
      * 
      * @param value
      *     allowed object is
@@ -59,7 +59,7 @@ public class TransactionsResponseOptions {
     }
 
     /**
-     * Gets the value of the endDateTime property.
+     * Obtiene el valor de la propiedad endDateTime.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class TransactionsResponseOptions {
     }
 
     /**
-     * Sets the value of the endDateTime property.
+     * Define el valor de la propiedad endDateTime.
      * 
      * @param value
      *     allowed object is

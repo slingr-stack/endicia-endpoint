@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ChallengeQuestionRequest complex type.
+ * <p>Clase Java para ChallengeQuestionRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ChallengeQuestionRequest"&gt;
@@ -50,7 +50,7 @@ public class ChallengeQuestionRequest
     protected String accountID;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class ChallengeQuestionRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class ChallengeQuestionRequest
     }
 
     /**
-     * Gets the value of the eMail property.
+     * Obtiene el valor de la propiedad eMail.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class ChallengeQuestionRequest
     }
 
     /**
-     * Sets the value of the eMail property.
+     * Define el valor de la propiedad eMail.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class ChallengeQuestionRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class ChallengeQuestionRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class ChallengeQuestionRequest
     }
 
     /**
-     * Gets the value of the accountID property.
+     * Obtiene el valor de la propiedad accountID.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class ChallengeQuestionRequest
     }
 
     /**
-     * Sets the value of the accountID property.
+     * Define el valor de la propiedad accountID.
      * 
      * @param value
      *     allowed object is

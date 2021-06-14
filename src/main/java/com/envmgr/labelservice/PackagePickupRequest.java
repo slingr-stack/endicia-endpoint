@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackagePickupRequest complex type.
+ * <p>Clase Java para PackagePickupRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackagePickupRequest"&gt;
@@ -32,6 +32,10 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="PackageLocation" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="SpecialInstructions" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="CostCenter" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="CarrierPickupType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="Carrier" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="PickupTimeEarliest" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="PickupTimeLatest" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="RequesterID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="CertifiedIntermediary" type="{www.envmgr.com/LabelService}CertifiedIntermediary" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
@@ -58,6 +62,10 @@ import javax.xml.bind.annotation.XmlType;
     "packageLocation",
     "specialInstructions",
     "costCenter",
+    "carrierPickupType",
+    "carrier",
+    "pickupTimeEarliest",
+    "pickupTimeLatest",
     "requesterID",
     "certifiedIntermediary"
 })
@@ -94,6 +102,14 @@ public class PackagePickupRequest
     protected String specialInstructions;
     @XmlElement(name = "CostCenter")
     protected String costCenter;
+    @XmlElement(name = "CarrierPickupType")
+    protected String carrierPickupType;
+    @XmlElement(name = "Carrier")
+    protected String carrier;
+    @XmlElement(name = "PickupTimeEarliest")
+    protected String pickupTimeEarliest;
+    @XmlElement(name = "PickupTimeLatest")
+    protected String pickupTimeLatest;
     @XmlElement(name = "RequesterID")
     protected String requesterID;
     @XmlElement(name = "CertifiedIntermediary")
@@ -102,7 +118,7 @@ public class PackagePickupRequest
     protected String test;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -114,7 +130,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +142,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the useAddressOnFile property.
+     * Obtiene el valor de la propiedad useAddressOnFile.
      * 
      * @return
      *     possible object is
@@ -138,7 +154,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the useAddressOnFile property.
+     * Define el valor de la propiedad useAddressOnFile.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +166,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the physicalPickupAddress property.
+     * Obtiene el valor de la propiedad physicalPickupAddress.
      * 
      * @return
      *     possible object is
@@ -162,7 +178,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the physicalPickupAddress property.
+     * Define el valor de la propiedad physicalPickupAddress.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +190,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the expressMailCount property.
+     * Obtiene el valor de la propiedad expressMailCount.
      * 
      */
     public int getExpressMailCount() {
@@ -182,7 +198,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the expressMailCount property.
+     * Define el valor de la propiedad expressMailCount.
      * 
      */
     public void setExpressMailCount(int value) {
@@ -190,7 +206,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the priorityMailCount property.
+     * Obtiene el valor de la propiedad priorityMailCount.
      * 
      */
     public int getPriorityMailCount() {
@@ -198,7 +214,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the priorityMailCount property.
+     * Define el valor de la propiedad priorityMailCount.
      * 
      */
     public void setPriorityMailCount(int value) {
@@ -206,7 +222,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the firstClassPackageCount property.
+     * Obtiene el valor de la propiedad firstClassPackageCount.
      * 
      */
     public int getFirstClassPackageCount() {
@@ -214,7 +230,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the firstClassPackageCount property.
+     * Define el valor de la propiedad firstClassPackageCount.
      * 
      */
     public void setFirstClassPackageCount(int value) {
@@ -222,7 +238,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the returnsCount property.
+     * Obtiene el valor de la propiedad returnsCount.
      * 
      */
     public int getReturnsCount() {
@@ -230,7 +246,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the returnsCount property.
+     * Define el valor de la propiedad returnsCount.
      * 
      */
     public void setReturnsCount(int value) {
@@ -238,7 +254,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the internationalCount property.
+     * Obtiene el valor de la propiedad internationalCount.
      * 
      */
     public int getInternationalCount() {
@@ -246,7 +262,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the internationalCount property.
+     * Define el valor de la propiedad internationalCount.
      * 
      */
     public void setInternationalCount(int value) {
@@ -254,7 +270,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the otherPackagesCount property.
+     * Obtiene el valor de la propiedad otherPackagesCount.
      * 
      */
     public int getOtherPackagesCount() {
@@ -262,7 +278,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the otherPackagesCount property.
+     * Define el valor de la propiedad otherPackagesCount.
      * 
      */
     public void setOtherPackagesCount(int value) {
@@ -270,7 +286,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the estimatedWeightLb property.
+     * Obtiene el valor de la propiedad estimatedWeightLb.
      * 
      */
     public double getEstimatedWeightLb() {
@@ -278,7 +294,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the estimatedWeightLb property.
+     * Define el valor de la propiedad estimatedWeightLb.
      * 
      */
     public void setEstimatedWeightLb(double value) {
@@ -286,7 +302,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the packageLocation property.
+     * Obtiene el valor de la propiedad packageLocation.
      * 
      * @return
      *     possible object is
@@ -298,7 +314,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the packageLocation property.
+     * Define el valor de la propiedad packageLocation.
      * 
      * @param value
      *     allowed object is
@@ -310,7 +326,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the specialInstructions property.
+     * Obtiene el valor de la propiedad specialInstructions.
      * 
      * @return
      *     possible object is
@@ -322,7 +338,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the specialInstructions property.
+     * Define el valor de la propiedad specialInstructions.
      * 
      * @param value
      *     allowed object is
@@ -334,7 +350,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the costCenter property.
+     * Obtiene el valor de la propiedad costCenter.
      * 
      * @return
      *     possible object is
@@ -346,7 +362,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the costCenter property.
+     * Define el valor de la propiedad costCenter.
      * 
      * @param value
      *     allowed object is
@@ -358,7 +374,103 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad carrierPickupType.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCarrierPickupType() {
+        return carrierPickupType;
+    }
+
+    /**
+     * Define el valor de la propiedad carrierPickupType.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCarrierPickupType(String value) {
+        this.carrierPickupType = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad carrier.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCarrier() {
+        return carrier;
+    }
+
+    /**
+     * Define el valor de la propiedad carrier.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCarrier(String value) {
+        this.carrier = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad pickupTimeEarliest.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getPickupTimeEarliest() {
+        return pickupTimeEarliest;
+    }
+
+    /**
+     * Define el valor de la propiedad pickupTimeEarliest.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setPickupTimeEarliest(String value) {
+        this.pickupTimeEarliest = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad pickupTimeLatest.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getPickupTimeLatest() {
+        return pickupTimeLatest;
+    }
+
+    /**
+     * Define el valor de la propiedad pickupTimeLatest.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setPickupTimeLatest(String value) {
+        this.pickupTimeLatest = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -370,7 +482,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -382,7 +494,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -394,7 +506,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -406,7 +518,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Gets the value of the test property.
+     * Obtiene el valor de la propiedad test.
      * 
      * @return
      *     possible object is
@@ -418,7 +530,7 @@ public class PackagePickupRequest
     }
 
     /**
-     * Sets the value of the test property.
+     * Define el valor de la propiedad test.
      * 
      * @param value
      *     allowed object is

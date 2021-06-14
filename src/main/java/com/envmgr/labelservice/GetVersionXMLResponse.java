@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Clase Java para anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -38,7 +38,7 @@ public class GetVersionXMLResponse {
     protected GetVersionResults getVersionResults;
 
     /**
-     * Gets the value of the getVersionResults property.
+     * Obtiene el valor de la propiedad getVersionResults.
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class GetVersionXMLResponse {
     }
 
     /**
-     * Sets the value of the getVersionResults property.
+     * Define el valor de la propiedad getVersionResults.
      * 
      * @param value
      *     allowed object is

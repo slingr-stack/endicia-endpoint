@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for GroupedExtraServices complex type.
+ * <p>Clase Java para GroupedExtraServices complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="GroupedExtraServices"&gt;
@@ -41,7 +41,7 @@ public class GroupedExtraServices {
     protected String services;
 
     /**
-     * Gets the value of the feeAmount property.
+     * Obtiene el valor de la propiedad feeAmount.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class GroupedExtraServices {
     }
 
     /**
-     * Sets the value of the feeAmount property.
+     * Define el valor de la propiedad feeAmount.
      * 
      * @param value
      *     allowed object is
@@ -65,7 +65,7 @@ public class GroupedExtraServices {
     }
 
     /**
-     * Gets the value of the services property.
+     * Obtiene el valor de la propiedad services.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class GroupedExtraServices {
     }
 
     /**
-     * Sets the value of the services property.
+     * Define el valor de la propiedad services.
      * 
      * @param value
      *     allowed object is

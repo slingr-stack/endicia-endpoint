@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CertifiedIntermediaryStatus complex type.
+ * <p>Clase Java para CertifiedIntermediaryStatus complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CertifiedIntermediaryStatus"&gt;
@@ -61,7 +61,7 @@ public class CertifiedIntermediaryStatus {
     protected String referenceID;
 
     /**
-     * Gets the value of the accountID property.
+     * Obtiene el valor de la propiedad accountID.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Sets the value of the accountID property.
+     * Define el valor de la propiedad accountID.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Gets the value of the serialNumber property.
+     * Obtiene el valor de la propiedad serialNumber.
      * 
      */
     public int getSerialNumber() {
@@ -93,7 +93,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Sets the value of the serialNumber property.
+     * Define el valor de la propiedad serialNumber.
      * 
      */
     public void setSerialNumber(int value) {
@@ -101,7 +101,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Gets the value of the postageBalance property.
+     * Obtiene el valor de la propiedad postageBalance.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Sets the value of the postageBalance property.
+     * Define el valor de la propiedad postageBalance.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Gets the value of the ascendingBalance property.
+     * Obtiene el valor de la propiedad ascendingBalance.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Sets the value of the ascendingBalance property.
+     * Define el valor de la propiedad ascendingBalance.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Gets the value of the accountStatus property.
+     * Obtiene el valor de la propiedad accountStatus.
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Sets the value of the accountStatus property.
+     * Define el valor de la propiedad accountStatus.
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Gets the value of the deviceID property.
+     * Obtiene el valor de la propiedad deviceID.
      * 
      * @return
      *     possible object is
@@ -185,7 +185,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Sets the value of the deviceID property.
+     * Define el valor de la propiedad deviceID.
      * 
      * @param value
      *     allowed object is
@@ -197,7 +197,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Gets the value of the referenceID property.
+     * Obtiene el valor de la propiedad referenceID.
      * 
      * @return
      *     possible object is
@@ -209,7 +209,7 @@ public class CertifiedIntermediaryStatus {
     }
 
     /**
-     * Sets the value of the referenceID property.
+     * Define el valor de la propiedad referenceID.
      * 
      * @param value
      *     allowed object is

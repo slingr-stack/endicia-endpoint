@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ActualService complex type.
+ * <p>Clase Java para ActualService complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ActualService"&gt;
@@ -35,7 +35,7 @@ public class ActualService {
     protected String insuredMail;
 
     /**
-     * Gets the value of the deliveryConfirmation property.
+     * Obtiene el valor de la propiedad deliveryConfirmation.
      * 
      * @return
      *     possible object is
@@ -47,7 +47,7 @@ public class ActualService {
     }
 
     /**
-     * Sets the value of the deliveryConfirmation property.
+     * Define el valor de la propiedad deliveryConfirmation.
      * 
      * @param value
      *     allowed object is
@@ -59,7 +59,7 @@ public class ActualService {
     }
 
     /**
-     * Gets the value of the insuredMail property.
+     * Obtiene el valor de la propiedad insuredMail.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class ActualService {
     }
 
     /**
-     * Sets the value of the insuredMail property.
+     * Define el valor de la propiedad insuredMail.
      * 
      * @param value
      *     allowed object is

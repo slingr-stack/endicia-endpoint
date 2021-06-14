@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for SCANResponse complex type.
+ * <p>Clase Java para SCANResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="SCANResponse"&gt;
@@ -24,8 +24,9 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="SCANForm" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="SubmissionIdOld" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="ScanFormOld" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
- *         &lt;element name="ExcludedItems" type="{www.envmgr.com/LabelService}ArrayOfString10" minOccurs="0"/&gt;
+ *         &lt;element name="ExcludedItems" type="{www.envmgr.com/LabelService}ArrayOfString3" minOccurs="0"/&gt;
  *         &lt;element name="EndOfDayManifest" type="{www.envmgr.com/LabelService}EndOfDayManifest" minOccurs="0"/&gt;
+ *         &lt;element name="AdditionalScanForms" type="{www.envmgr.com/LabelService}ArrayOfString4" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -44,7 +45,8 @@ import javax.xml.bind.annotation.XmlType;
     "submissionIdOld",
     "scanFormOld",
     "excludedItems",
-    "endOfDayManifest"
+    "endOfDayManifest",
+    "additionalScanForms"
 })
 public class SCANResponse {
 
@@ -63,12 +65,14 @@ public class SCANResponse {
     @XmlElement(name = "ScanFormOld")
     protected String scanFormOld;
     @XmlElement(name = "ExcludedItems")
-    protected ArrayOfString10 excludedItems;
+    protected ArrayOfString3 excludedItems;
     @XmlElement(name = "EndOfDayManifest")
     protected EndOfDayManifest endOfDayManifest;
+    @XmlElement(name = "AdditionalScanForms")
+    protected ArrayOfString4 additionalScanForms;
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -80,7 +84,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +96,7 @@ public class SCANResponse {
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -104,7 +108,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +120,7 @@ public class SCANResponse {
     }
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -128,7 +132,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +144,7 @@ public class SCANResponse {
     }
 
     /**
-     * Gets the value of the submissionID property.
+     * Obtiene el valor de la propiedad submissionID.
      * 
      * @return
      *     possible object is
@@ -152,7 +156,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the submissionID property.
+     * Define el valor de la propiedad submissionID.
      * 
      * @param value
      *     allowed object is
@@ -164,7 +168,7 @@ public class SCANResponse {
     }
 
     /**
-     * Gets the value of the scanForm property.
+     * Obtiene el valor de la propiedad scanForm.
      * 
      * @return
      *     possible object is
@@ -176,7 +180,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the scanForm property.
+     * Define el valor de la propiedad scanForm.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +192,7 @@ public class SCANResponse {
     }
 
     /**
-     * Gets the value of the submissionIdOld property.
+     * Obtiene el valor de la propiedad submissionIdOld.
      * 
      * @return
      *     possible object is
@@ -200,7 +204,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the submissionIdOld property.
+     * Define el valor de la propiedad submissionIdOld.
      * 
      * @param value
      *     allowed object is
@@ -212,7 +216,7 @@ public class SCANResponse {
     }
 
     /**
-     * Gets the value of the scanFormOld property.
+     * Obtiene el valor de la propiedad scanFormOld.
      * 
      * @return
      *     possible object is
@@ -224,7 +228,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the scanFormOld property.
+     * Define el valor de la propiedad scanFormOld.
      * 
      * @param value
      *     allowed object is
@@ -236,31 +240,31 @@ public class SCANResponse {
     }
 
     /**
-     * Gets the value of the excludedItems property.
+     * Obtiene el valor de la propiedad excludedItems.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString10 }
+     *     {@link ArrayOfString3 }
      *     
      */
-    public ArrayOfString10 getExcludedItems() {
+    public ArrayOfString3 getExcludedItems() {
         return excludedItems;
     }
 
     /**
-     * Sets the value of the excludedItems property.
+     * Define el valor de la propiedad excludedItems.
      * 
      * @param value
      *     allowed object is
-     *     {@link ArrayOfString10 }
+     *     {@link ArrayOfString3 }
      *     
      */
-    public void setExcludedItems(ArrayOfString10 value) {
+    public void setExcludedItems(ArrayOfString3 value) {
         this.excludedItems = value;
     }
 
     /**
-     * Gets the value of the endOfDayManifest property.
+     * Obtiene el valor de la propiedad endOfDayManifest.
      * 
      * @return
      *     possible object is
@@ -272,7 +276,7 @@ public class SCANResponse {
     }
 
     /**
-     * Sets the value of the endOfDayManifest property.
+     * Define el valor de la propiedad endOfDayManifest.
      * 
      * @param value
      *     allowed object is
@@ -281,6 +285,30 @@ public class SCANResponse {
      */
     public void setEndOfDayManifest(EndOfDayManifest value) {
         this.endOfDayManifest = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad additionalScanForms.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ArrayOfString4 }
+     *     
+     */
+    public ArrayOfString4 getAdditionalScanForms() {
+        return additionalScanForms;
+    }
+
+    /**
+     * Define el valor de la propiedad additionalScanForms.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ArrayOfString4 }
+     *     
+     */
+    public void setAdditionalScanForms(ArrayOfString4 value) {
+        this.additionalScanForms = value;
     }
 
 }

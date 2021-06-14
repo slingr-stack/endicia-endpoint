@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for RetailAccount complex type.
+ * <p>Clase Java para RetailAccount complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="RetailAccount"&gt;
@@ -116,7 +116,7 @@ public class RetailAccount {
     protected BigDecimal balance;
 
     /**
-     * Gets the value of the accountNumber property.
+     * Obtiene el valor de la propiedad accountNumber.
      * 
      */
     public int getAccountNumber() {
@@ -124,7 +124,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the accountNumber property.
+     * Define el valor de la propiedad accountNumber.
      * 
      */
     public void setAccountNumber(int value) {
@@ -132,7 +132,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the name property.
+     * Obtiene el valor de la propiedad name.
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the name property.
+     * Define el valor de la propiedad name.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the companyName property.
+     * Obtiene el valor de la propiedad companyName.
      * 
      * @return
      *     possible object is
@@ -168,7 +168,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the companyName property.
+     * Define el valor de la propiedad companyName.
      * 
      * @param value
      *     allowed object is
@@ -180,7 +180,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the phoneNumber property.
+     * Obtiene el valor de la propiedad phoneNumber.
      * 
      * @return
      *     possible object is
@@ -192,7 +192,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the phoneNumber property.
+     * Define el valor de la propiedad phoneNumber.
      * 
      * @param value
      *     allowed object is
@@ -204,7 +204,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the phoneExt property.
+     * Obtiene el valor de la propiedad phoneExt.
      * 
      * @return
      *     possible object is
@@ -216,7 +216,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the phoneExt property.
+     * Define el valor de la propiedad phoneExt.
      * 
      * @param value
      *     allowed object is
@@ -228,7 +228,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the faxNumber property.
+     * Obtiene el valor de la propiedad faxNumber.
      * 
      * @return
      *     possible object is
@@ -240,7 +240,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the faxNumber property.
+     * Define el valor de la propiedad faxNumber.
      * 
      * @param value
      *     allowed object is
@@ -252,7 +252,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the emailAddress property.
+     * Obtiene el valor de la propiedad emailAddress.
      * 
      * @return
      *     possible object is
@@ -264,7 +264,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the emailAddress property.
+     * Define el valor de la propiedad emailAddress.
      * 
      * @param value
      *     allowed object is
@@ -276,7 +276,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the referredBy property.
+     * Obtiene el valor de la propiedad referredBy.
      * 
      * @return
      *     possible object is
@@ -288,7 +288,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the referredBy property.
+     * Define el valor de la propiedad referredBy.
      * 
      * @param value
      *     allowed object is
@@ -300,7 +300,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the signupDate property.
+     * Obtiene el valor de la propiedad signupDate.
      * 
      * @return
      *     possible object is
@@ -312,7 +312,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the signupDate property.
+     * Define el valor de la propiedad signupDate.
      * 
      * @param value
      *     allowed object is
@@ -324,7 +324,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the domesticContractId property.
+     * Obtiene el valor de la propiedad domesticContractId.
      * 
      * @return
      *     possible object is
@@ -336,7 +336,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the domesticContractId property.
+     * Define el valor de la propiedad domesticContractId.
      * 
      * @param value
      *     allowed object is
@@ -348,7 +348,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the internationalContractId property.
+     * Obtiene el valor de la propiedad internationalContractId.
      * 
      * @return
      *     possible object is
@@ -360,7 +360,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the internationalContractId property.
+     * Define el valor de la propiedad internationalContractId.
      * 
      * @param value
      *     allowed object is
@@ -372,7 +372,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the physicalAddress property.
+     * Obtiene el valor de la propiedad physicalAddress.
      * 
      * @return
      *     possible object is
@@ -384,7 +384,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the physicalAddress property.
+     * Define el valor de la propiedad physicalAddress.
      * 
      * @param value
      *     allowed object is
@@ -396,7 +396,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the physicalCity property.
+     * Obtiene el valor de la propiedad physicalCity.
      * 
      * @return
      *     possible object is
@@ -408,7 +408,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the physicalCity property.
+     * Define el valor de la propiedad physicalCity.
      * 
      * @param value
      *     allowed object is
@@ -420,7 +420,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the physicalState property.
+     * Obtiene el valor de la propiedad physicalState.
      * 
      * @return
      *     possible object is
@@ -432,7 +432,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the physicalState property.
+     * Define el valor de la propiedad physicalState.
      * 
      * @param value
      *     allowed object is
@@ -444,7 +444,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the physicalZip property.
+     * Obtiene el valor de la propiedad physicalZip.
      * 
      * @return
      *     possible object is
@@ -456,7 +456,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the physicalZip property.
+     * Define el valor de la propiedad physicalZip.
      * 
      * @param value
      *     allowed object is
@@ -468,7 +468,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the accountStatus property.
+     * Obtiene el valor de la propiedad accountStatus.
      * 
      * @return
      *     possible object is
@@ -480,7 +480,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the accountStatus property.
+     * Define el valor de la propiedad accountStatus.
      * 
      * @param value
      *     allowed object is
@@ -492,7 +492,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the purchased property.
+     * Obtiene el valor de la propiedad purchased.
      * 
      * @return
      *     possible object is
@@ -504,7 +504,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the purchased property.
+     * Define el valor de la propiedad purchased.
      * 
      * @param value
      *     allowed object is
@@ -516,7 +516,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the printed property.
+     * Obtiene el valor de la propiedad printed.
      * 
      * @return
      *     possible object is
@@ -528,7 +528,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the printed property.
+     * Define el valor de la propiedad printed.
      * 
      * @param value
      *     allowed object is
@@ -540,7 +540,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the refunded property.
+     * Obtiene el valor de la propiedad refunded.
      * 
      * @return
      *     possible object is
@@ -552,7 +552,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the refunded property.
+     * Define el valor de la propiedad refunded.
      * 
      * @param value
      *     allowed object is
@@ -564,7 +564,7 @@ public class RetailAccount {
     }
 
     /**
-     * Gets the value of the balance property.
+     * Obtiene el valor de la propiedad balance.
      * 
      * @return
      *     possible object is
@@ -576,7 +576,7 @@ public class RetailAccount {
     }
 
     /**
-     * Sets the value of the balance property.
+     * Define el valor de la propiedad balance.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ConsolidatorServiceDetailResponse complex type.
+ * <p>Clase Java para ConsolidatorServiceDetailResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ConsolidatorServiceDetailResponse"&gt;
@@ -19,6 +19,8 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence&gt;
  *         &lt;element name="InternationalConsolidator" type="{http://www.w3.org/2001/XMLSchema}boolean"/&gt;
  *         &lt;element name="EnabledInternationalConsolidatorServices" type="{www.envmgr.com/LabelService}ArrayOfInternationalConsolidatorServiceDetailResponse" minOccurs="0"/&gt;
+ *         &lt;element name="TypeCodes" type="{www.envmgr.com/LabelService}ArrayOfConsolidatorTypeCode" minOccurs="0"/&gt;
+ *         &lt;element name="ServiceInfo" type="{www.envmgr.com/LabelService}ConsolidatorServiceInfo" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -30,7 +32,9 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ConsolidatorServiceDetailResponse", propOrder = {
     "internationalConsolidator",
-    "enabledInternationalConsolidatorServices"
+    "enabledInternationalConsolidatorServices",
+    "typeCodes",
+    "serviceInfo"
 })
 public class ConsolidatorServiceDetailResponse {
 
@@ -38,9 +42,13 @@ public class ConsolidatorServiceDetailResponse {
     protected boolean internationalConsolidator;
     @XmlElement(name = "EnabledInternationalConsolidatorServices")
     protected ArrayOfInternationalConsolidatorServiceDetailResponse enabledInternationalConsolidatorServices;
+    @XmlElement(name = "TypeCodes")
+    protected ArrayOfConsolidatorTypeCode typeCodes;
+    @XmlElement(name = "ServiceInfo")
+    protected ConsolidatorServiceInfo serviceInfo;
 
     /**
-     * Gets the value of the internationalConsolidator property.
+     * Obtiene el valor de la propiedad internationalConsolidator.
      * 
      */
     public boolean isInternationalConsolidator() {
@@ -48,7 +56,7 @@ public class ConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Sets the value of the internationalConsolidator property.
+     * Define el valor de la propiedad internationalConsolidator.
      * 
      */
     public void setInternationalConsolidator(boolean value) {
@@ -56,7 +64,7 @@ public class ConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Gets the value of the enabledInternationalConsolidatorServices property.
+     * Obtiene el valor de la propiedad enabledInternationalConsolidatorServices.
      * 
      * @return
      *     possible object is
@@ -68,7 +76,7 @@ public class ConsolidatorServiceDetailResponse {
     }
 
     /**
-     * Sets the value of the enabledInternationalConsolidatorServices property.
+     * Define el valor de la propiedad enabledInternationalConsolidatorServices.
      * 
      * @param value
      *     allowed object is
@@ -77,6 +85,54 @@ public class ConsolidatorServiceDetailResponse {
      */
     public void setEnabledInternationalConsolidatorServices(ArrayOfInternationalConsolidatorServiceDetailResponse value) {
         this.enabledInternationalConsolidatorServices = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad typeCodes.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ArrayOfConsolidatorTypeCode }
+     *     
+     */
+    public ArrayOfConsolidatorTypeCode getTypeCodes() {
+        return typeCodes;
+    }
+
+    /**
+     * Define el valor de la propiedad typeCodes.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ArrayOfConsolidatorTypeCode }
+     *     
+     */
+    public void setTypeCodes(ArrayOfConsolidatorTypeCode value) {
+        this.typeCodes = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad serviceInfo.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ConsolidatorServiceInfo }
+     *     
+     */
+    public ConsolidatorServiceInfo getServiceInfo() {
+        return serviceInfo;
+    }
+
+    /**
+     * Define el valor de la propiedad serviceInfo.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ConsolidatorServiceInfo }
+     *     
+     */
+    public void setServiceInfo(ConsolidatorServiceInfo value) {
+        this.serviceInfo = value;
     }
 
 }

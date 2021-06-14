@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for RecreditRequestResponse complex type.
+ * <p>Clase Java para RecreditRequestResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="RecreditRequestResponse"&gt;
@@ -61,7 +61,7 @@ public class RecreditRequestResponse {
     protected BigDecimal controlRegister;
 
     /**
-     * Gets the value of the status property.
+     * Obtiene el valor de la propiedad status.
      * 
      */
     public int getStatus() {
@@ -69,7 +69,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Sets the value of the status property.
+     * Define el valor de la propiedad status.
      * 
      */
     public void setStatus(int value) {
@@ -77,7 +77,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Gets the value of the errorMessage property.
+     * Obtiene el valor de la propiedad errorMessage.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Sets the value of the errorMessage property.
+     * Define el valor de la propiedad errorMessage.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Gets the value of the transactionID property.
+     * Obtiene el valor de la propiedad transactionID.
      * 
      */
     public long getTransactionID() {
@@ -181,7 +181,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Sets the value of the transactionID property.
+     * Define el valor de la propiedad transactionID.
      * 
      */
     public void setTransactionID(long value) {
@@ -189,7 +189,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Gets the value of the controlRegister property.
+     * Obtiene el valor de la propiedad controlRegister.
      * 
      * @return
      *     possible object is
@@ -201,7 +201,7 @@ public class RecreditRequestResponse {
     }
 
     /**
-     * Sets the value of the controlRegister property.
+     * Define el valor de la propiedad controlRegister.
      * 
      * @param value
      *     allowed object is

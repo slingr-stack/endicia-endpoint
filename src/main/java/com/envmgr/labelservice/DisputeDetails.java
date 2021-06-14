@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for DisputeDetails complex type.
+ * <p>Clase Java para DisputeDetails complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="DisputeDetails"&gt;
@@ -46,7 +46,7 @@ public class DisputeDetails {
     protected String disputeLastUpdateDate;
 
     /**
-     * Gets the value of the disputeStatus property.
+     * Obtiene el valor de la propiedad disputeStatus.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class DisputeDetails {
     }
 
     /**
-     * Sets the value of the disputeStatus property.
+     * Define el valor de la propiedad disputeStatus.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class DisputeDetails {
     }
 
     /**
-     * Gets the value of the disputeCreateDate property.
+     * Obtiene el valor de la propiedad disputeCreateDate.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class DisputeDetails {
     }
 
     /**
-     * Sets the value of the disputeCreateDate property.
+     * Define el valor de la propiedad disputeCreateDate.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class DisputeDetails {
     }
 
     /**
-     * Gets the value of the disputeLastUpdateDate property.
+     * Obtiene el valor de la propiedad disputeLastUpdateDate.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class DisputeDetails {
     }
 
     /**
-     * Sets the value of the disputeLastUpdateDate property.
+     * Define el valor de la propiedad disputeLastUpdateDate.
      * 
      * @param value
      *     allowed object is

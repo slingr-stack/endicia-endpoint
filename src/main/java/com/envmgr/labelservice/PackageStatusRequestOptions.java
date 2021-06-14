@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackageStatusRequestOptions complex type.
+ * <p>Clase Java para PackageStatusRequestOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackageStatusRequestOptions"&gt;
@@ -41,7 +41,7 @@ public class PackageStatusRequestOptions {
     protected String startingTransactionID;
 
     /**
-     * Gets the value of the costCenter property.
+     * Obtiene el valor de la propiedad costCenter.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class PackageStatusRequestOptions {
     }
 
     /**
-     * Sets the value of the costCenter property.
+     * Define el valor de la propiedad costCenter.
      * 
      * @param value
      *     allowed object is
@@ -65,7 +65,7 @@ public class PackageStatusRequestOptions {
     }
 
     /**
-     * Gets the value of the referenceID property.
+     * Obtiene el valor de la propiedad referenceID.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class PackageStatusRequestOptions {
     }
 
     /**
-     * Sets the value of the referenceID property.
+     * Define el valor de la propiedad referenceID.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class PackageStatusRequestOptions {
     }
 
     /**
-     * Gets the value of the packageStatus property.
+     * Obtiene el valor de la propiedad packageStatus.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class PackageStatusRequestOptions {
     }
 
     /**
-     * Sets the value of the packageStatus property.
+     * Define el valor de la propiedad packageStatus.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class PackageStatusRequestOptions {
     }
 
     /**
-     * Gets the value of the startingTransactionID property.
+     * Obtiene el valor de la propiedad startingTransactionID.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class PackageStatusRequestOptions {
     }
 
     /**
-     * Sets the value of the startingTransactionID property.
+     * Define el valor de la propiedad startingTransactionID.
      * 
      * @param value
      *     allowed object is

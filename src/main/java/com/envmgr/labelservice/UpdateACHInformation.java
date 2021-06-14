@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for UpdateACHInformation complex type.
+ * <p>Clase Java para UpdateACHInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="UpdateACHInformation"&gt;
@@ -44,7 +44,7 @@ public class UpdateACHInformation {
     protected PaymentTypes paymentType;
 
     /**
-     * Gets the value of the checkingAccountNumber property.
+     * Obtiene el valor de la propiedad checkingAccountNumber.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class UpdateACHInformation {
     }
 
     /**
-     * Sets the value of the checkingAccountNumber property.
+     * Define el valor de la propiedad checkingAccountNumber.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class UpdateACHInformation {
     }
 
     /**
-     * Gets the value of the checkingAccountRoutingNumber property.
+     * Obtiene el valor de la propiedad checkingAccountRoutingNumber.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class UpdateACHInformation {
     }
 
     /**
-     * Sets the value of the checkingAccountRoutingNumber property.
+     * Define el valor de la propiedad checkingAccountRoutingNumber.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class UpdateACHInformation {
     }
 
     /**
-     * Gets the value of the paymentType property.
+     * Obtiene el valor de la propiedad paymentType.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class UpdateACHInformation {
     }
 
     /**
-     * Sets the value of the paymentType property.
+     * Define el valor de la propiedad paymentType.
      * 
      * @param value
      *     allowed object is

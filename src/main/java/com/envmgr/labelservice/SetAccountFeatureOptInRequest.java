@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for SetAccountFeatureOptInRequest complex type.
+ * <p>Clase Java para SetAccountFeatureOptInRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="SetAccountFeatureOptInRequest"&gt;
@@ -50,7 +50,7 @@ public class SetAccountFeatureOptInRequest
     protected CertifiedIntermediary certifiedIntermediary;
 
     /**
-     * Gets the value of the featureCode property.
+     * Obtiene el valor de la propiedad featureCode.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class SetAccountFeatureOptInRequest
     }
 
     /**
-     * Sets the value of the featureCode property.
+     * Define el valor de la propiedad featureCode.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class SetAccountFeatureOptInRequest
     }
 
     /**
-     * Gets the value of the enable property.
+     * Obtiene el valor de la propiedad enable.
      * 
      */
     public boolean isEnable() {
@@ -82,7 +82,7 @@ public class SetAccountFeatureOptInRequest
     }
 
     /**
-     * Sets the value of the enable property.
+     * Define el valor de la propiedad enable.
      * 
      */
     public void setEnable(boolean value) {
@@ -90,7 +90,7 @@ public class SetAccountFeatureOptInRequest
     }
 
     /**
-     * Gets the value of the acceptTermsAndConditions property.
+     * Obtiene el valor de la propiedad acceptTermsAndConditions.
      * 
      */
     public boolean isAcceptTermsAndConditions() {
@@ -98,7 +98,7 @@ public class SetAccountFeatureOptInRequest
     }
 
     /**
-     * Sets the value of the acceptTermsAndConditions property.
+     * Define el valor de la propiedad acceptTermsAndConditions.
      * 
      */
     public void setAcceptTermsAndConditions(boolean value) {
@@ -106,7 +106,7 @@ public class SetAccountFeatureOptInRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class SetAccountFeatureOptInRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is

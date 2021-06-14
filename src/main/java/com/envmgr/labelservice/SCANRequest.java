@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for SCANRequest complex type.
+ * <p>Clase Java para SCANRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="SCANRequest"&gt;
@@ -20,8 +20,8 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence&gt;
  *         &lt;element name="RequestID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="GetSCANRequestParameters" type="{www.envmgr.com/LabelService}GetSCANParameters" minOccurs="0"/&gt;
- *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString1" minOccurs="0"/&gt;
- *         &lt;element name="TransactionIds" type="{www.envmgr.com/LabelService}ArrayOfString3" minOccurs="0"/&gt;
+ *         &lt;element name="PicNumbers" type="{www.envmgr.com/LabelService}ArrayOfString" minOccurs="0"/&gt;
+ *         &lt;element name="TransactionIds" type="{www.envmgr.com/LabelService}ArrayOfString1" minOccurs="0"/&gt;
  *         &lt;element name="PieceNumbers" type="{www.envmgr.com/LabelService}ArrayOfString2" minOccurs="0"/&gt;
  *         &lt;element name="ManifestType" type="{www.envmgr.com/LabelService}ManifestType" minOccurs="0"/&gt;
  *         &lt;element name="NumberOfContainerLabels" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/&gt;
@@ -56,9 +56,9 @@ public class SCANRequest
     @XmlElement(name = "GetSCANRequestParameters")
     protected GetSCANParameters getSCANRequestParameters;
     @XmlElement(name = "PicNumbers")
-    protected ArrayOfString1 picNumbers;
+    protected ArrayOfString picNumbers;
     @XmlElement(name = "TransactionIds")
-    protected ArrayOfString3 transactionIds;
+    protected ArrayOfString1 transactionIds;
     @XmlElement(name = "PieceNumbers")
     protected ArrayOfString2 pieceNumbers;
     @XmlElement(name = "ManifestType")
@@ -72,7 +72,7 @@ public class SCANRequest
     protected CertifiedIntermediary certifiedIntermediary;
 
     /**
-     * Gets the value of the requestID property.
+     * Obtiene el valor de la propiedad requestID.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class SCANRequest
     }
 
     /**
-     * Sets the value of the requestID property.
+     * Define el valor de la propiedad requestID.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class SCANRequest
     }
 
     /**
-     * Gets the value of the getSCANRequestParameters property.
+     * Obtiene el valor de la propiedad getSCANRequestParameters.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class SCANRequest
     }
 
     /**
-     * Sets the value of the getSCANRequestParameters property.
+     * Define el valor de la propiedad getSCANRequestParameters.
      * 
      * @param value
      *     allowed object is
@@ -120,55 +120,55 @@ public class SCANRequest
     }
 
     /**
-     * Gets the value of the picNumbers property.
+     * Obtiene el valor de la propiedad picNumbers.
      * 
      * @return
      *     possible object is
-     *     {@link ArrayOfString1 }
+     *     {@link ArrayOfString }
      *     
      */
-    public ArrayOfString1 getPicNumbers() {
+    public ArrayOfString getPicNumbers() {
         return picNumbers;
     }
 
     /**
-     * Sets the value of the picNumbers property.
+     * Define el valor de la propiedad picNumbers.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ArrayOfString }
+     *     
+     */
+    public void setPicNumbers(ArrayOfString value) {
+        this.picNumbers = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad transactionIds.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ArrayOfString1 }
+     *     
+     */
+    public ArrayOfString1 getTransactionIds() {
+        return transactionIds;
+    }
+
+    /**
+     * Define el valor de la propiedad transactionIds.
      * 
      * @param value
      *     allowed object is
      *     {@link ArrayOfString1 }
      *     
      */
-    public void setPicNumbers(ArrayOfString1 value) {
-        this.picNumbers = value;
-    }
-
-    /**
-     * Gets the value of the transactionIds property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ArrayOfString3 }
-     *     
-     */
-    public ArrayOfString3 getTransactionIds() {
-        return transactionIds;
-    }
-
-    /**
-     * Sets the value of the transactionIds property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ArrayOfString3 }
-     *     
-     */
-    public void setTransactionIds(ArrayOfString3 value) {
+    public void setTransactionIds(ArrayOfString1 value) {
         this.transactionIds = value;
     }
 
     /**
-     * Gets the value of the pieceNumbers property.
+     * Obtiene el valor de la propiedad pieceNumbers.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class SCANRequest
     }
 
     /**
-     * Sets the value of the pieceNumbers property.
+     * Define el valor de la propiedad pieceNumbers.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +192,7 @@ public class SCANRequest
     }
 
     /**
-     * Gets the value of the manifestType property.
+     * Obtiene el valor de la propiedad manifestType.
      * 
      * @return
      *     possible object is
@@ -204,7 +204,7 @@ public class SCANRequest
     }
 
     /**
-     * Sets the value of the manifestType property.
+     * Define el valor de la propiedad manifestType.
      * 
      * @param value
      *     allowed object is
@@ -216,7 +216,7 @@ public class SCANRequest
     }
 
     /**
-     * Gets the value of the numberOfContainerLabels property.
+     * Obtiene el valor de la propiedad numberOfContainerLabels.
      * 
      * @return
      *     possible object is
@@ -228,7 +228,7 @@ public class SCANRequest
     }
 
     /**
-     * Sets the value of the numberOfContainerLabels property.
+     * Define el valor de la propiedad numberOfContainerLabels.
      * 
      * @param value
      *     allowed object is
@@ -240,7 +240,7 @@ public class SCANRequest
     }
 
     /**
-     * Gets the value of the requesterID property.
+     * Obtiene el valor de la propiedad requesterID.
      * 
      * @return
      *     possible object is
@@ -252,7 +252,7 @@ public class SCANRequest
     }
 
     /**
-     * Sets the value of the requesterID property.
+     * Define el valor de la propiedad requesterID.
      * 
      * @param value
      *     allowed object is
@@ -264,7 +264,7 @@ public class SCANRequest
     }
 
     /**
-     * Gets the value of the certifiedIntermediary property.
+     * Obtiene el valor de la propiedad certifiedIntermediary.
      * 
      * @return
      *     possible object is
@@ -276,7 +276,7 @@ public class SCANRequest
     }
 
     /**
-     * Sets the value of the certifiedIntermediary property.
+     * Define el valor de la propiedad certifiedIntermediary.
      * 
      * @param value
      *     allowed object is

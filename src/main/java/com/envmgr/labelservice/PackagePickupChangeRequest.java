@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PackagePickupChangeRequest complex type.
+ * <p>Clase Java para PackagePickupChangeRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="PackagePickupChangeRequest"&gt;
@@ -38,7 +38,7 @@ public class PackagePickupChangeRequest
     protected String confirmationNumber;
 
     /**
-     * Gets the value of the confirmationNumber property.
+     * Obtiene el valor de la propiedad confirmationNumber.
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class PackagePickupChangeRequest
     }
 
     /**
-     * Sets the value of the confirmationNumber property.
+     * Define el valor de la propiedad confirmationNumber.
      * 
      * @param value
      *     allowed object is

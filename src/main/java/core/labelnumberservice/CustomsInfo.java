@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for CustomsInfo complex type.
+ * <p>Clase Java para CustomsInfo complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="CustomsInfo"&gt;
@@ -95,7 +95,7 @@ public class CustomsInfo
     protected ArrayOfCustomsItem customsItems;
 
     /**
-     * Gets the value of the contentsType property.
+     * Obtiene el valor de la propiedad contentsType.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the contentsType property.
+     * Define el valor de la propiedad contentsType.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the contentsExplanation property.
+     * Obtiene el valor de la propiedad contentsExplanation.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the contentsExplanation property.
+     * Define el valor de la propiedad contentsExplanation.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +143,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the restrictionType property.
+     * Obtiene el valor de la propiedad restrictionType.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the restrictionType property.
+     * Define el valor de la propiedad restrictionType.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the restrictionCommments property.
+     * Obtiene el valor de la propiedad restrictionCommments.
      * 
      * @return
      *     possible object is
@@ -179,7 +179,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the restrictionCommments property.
+     * Define el valor de la propiedad restrictionCommments.
      * 
      * @param value
      *     allowed object is
@@ -191,7 +191,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the sendersCustomsReference property.
+     * Obtiene el valor de la propiedad sendersCustomsReference.
      * 
      * @return
      *     possible object is
@@ -203,7 +203,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the sendersCustomsReference property.
+     * Define el valor de la propiedad sendersCustomsReference.
      * 
      * @param value
      *     allowed object is
@@ -215,7 +215,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the importersCustomsReference property.
+     * Obtiene el valor de la propiedad importersCustomsReference.
      * 
      * @return
      *     possible object is
@@ -227,7 +227,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the importersCustomsReference property.
+     * Define el valor de la propiedad importersCustomsReference.
      * 
      * @param value
      *     allowed object is
@@ -239,7 +239,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the licenseNumber property.
+     * Obtiene el valor de la propiedad licenseNumber.
      * 
      * @return
      *     possible object is
@@ -251,7 +251,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the licenseNumber property.
+     * Define el valor de la propiedad licenseNumber.
      * 
      * @param value
      *     allowed object is
@@ -263,7 +263,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the certificateNumber property.
+     * Obtiene el valor de la propiedad certificateNumber.
      * 
      * @return
      *     possible object is
@@ -275,7 +275,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the certificateNumber property.
+     * Define el valor de la propiedad certificateNumber.
      * 
      * @param value
      *     allowed object is
@@ -287,7 +287,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the invoiceNumber property.
+     * Obtiene el valor de la propiedad invoiceNumber.
      * 
      * @return
      *     possible object is
@@ -299,7 +299,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the invoiceNumber property.
+     * Define el valor de la propiedad invoiceNumber.
      * 
      * @param value
      *     allowed object is
@@ -311,7 +311,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the nonDeliveryOption property.
+     * Obtiene el valor de la propiedad nonDeliveryOption.
      * 
      * @return
      *     possible object is
@@ -323,7 +323,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the nonDeliveryOption property.
+     * Define el valor de la propiedad nonDeliveryOption.
      * 
      * @param value
      *     allowed object is
@@ -335,7 +335,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the redirectAddress property.
+     * Obtiene el valor de la propiedad redirectAddress.
      * 
      * @return
      *     possible object is
@@ -347,7 +347,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the redirectAddress property.
+     * Define el valor de la propiedad redirectAddress.
      * 
      * @param value
      *     allowed object is
@@ -359,7 +359,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the insuredNumber property.
+     * Obtiene el valor de la propiedad insuredNumber.
      * 
      * @return
      *     possible object is
@@ -371,7 +371,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the insuredNumber property.
+     * Define el valor de la propiedad insuredNumber.
      * 
      * @param value
      *     allowed object is
@@ -383,7 +383,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the sdrValue property.
+     * Obtiene el valor de la propiedad sdrValue.
      * 
      * @return
      *     possible object is
@@ -395,7 +395,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the sdrValue property.
+     * Define el valor de la propiedad sdrValue.
      * 
      * @param value
      *     allowed object is
@@ -407,7 +407,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the itnEeiNumber property.
+     * Obtiene el valor de la propiedad itnEeiNumber.
      * 
      * @return
      *     possible object is
@@ -419,7 +419,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the itnEeiNumber property.
+     * Define el valor de la propiedad itnEeiNumber.
      * 
      * @param value
      *     allowed object is
@@ -431,7 +431,7 @@ public class CustomsInfo
     }
 
     /**
-     * Gets the value of the customsItems property.
+     * Obtiene el valor de la propiedad customsItems.
      * 
      * @return
      *     possible object is
@@ -443,7 +443,7 @@ public class CustomsInfo
     }
 
     /**
-     * Sets the value of the customsItems property.
+     * Define el valor de la propiedad customsItems.
      * 
      * @param value
      *     allowed object is

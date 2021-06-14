@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ExtraServiceRate complex type.
+ * <p>Clase Java para ExtraServiceRate complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="ExtraServiceRate"&gt;
@@ -45,7 +45,7 @@ public class ExtraServiceRate {
     protected String discountType;
 
     /**
-     * Gets the value of the extraService property.
+     * Obtiene el valor de la propiedad extraService.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class ExtraServiceRate {
     }
 
     /**
-     * Sets the value of the extraService property.
+     * Define el valor de la propiedad extraService.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class ExtraServiceRate {
     }
 
     /**
-     * Gets the value of the rate property.
+     * Obtiene el valor de la propiedad rate.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class ExtraServiceRate {
     }
 
     /**
-     * Sets the value of the rate property.
+     * Define el valor de la propiedad rate.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class ExtraServiceRate {
     }
 
     /**
-     * Gets the value of the discountType property.
+     * Obtiene el valor de la propiedad discountType.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class ExtraServiceRate {
     }
 
     /**
-     * Sets the value of the discountType property.
+     * Define el valor de la propiedad discountType.
      * 
      * @param value
      *     allowed object is

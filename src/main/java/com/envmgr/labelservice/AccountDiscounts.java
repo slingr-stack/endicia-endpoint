@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for AccountDiscounts complex type.
+ * <p>Clase Java para AccountDiscounts complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
  * &lt;complexType name="AccountDiscounts"&gt;
@@ -56,7 +56,7 @@ public class AccountDiscounts {
     protected DiscountRates fcpis;
 
     /**
-     * Gets the value of the priorityMail property.
+     * Obtiene el valor de la propiedad priorityMail.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Sets the value of the priorityMail property.
+     * Define el valor de la propiedad priorityMail.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Gets the value of the pmExpress property.
+     * Obtiene el valor de la propiedad pmExpress.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Sets the value of the pmExpress property.
+     * Define el valor de la propiedad pmExpress.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Gets the value of the fcps property.
+     * Obtiene el valor de la propiedad fcps.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Sets the value of the fcps property.
+     * Define el valor de la propiedad fcps.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Gets the value of the pmi property.
+     * Obtiene el valor de la propiedad pmi.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Sets the value of the pmi property.
+     * Define el valor de la propiedad pmi.
      * 
      * @param value
      *     allowed object is
@@ -152,7 +152,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Gets the value of the emi property.
+     * Obtiene el valor de la propiedad emi.
      * 
      * @return
      *     possible object is
@@ -164,7 +164,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Sets the value of the emi property.
+     * Define el valor de la propiedad emi.
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Gets the value of the fcpis property.
+     * Obtiene el valor de la propiedad fcpis.
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class AccountDiscounts {
     }
 
     /**
-     * Sets the value of the fcpis property.
+     * Define el valor de la propiedad fcpis.
      * 
      * @param value
      *     allowed object is
