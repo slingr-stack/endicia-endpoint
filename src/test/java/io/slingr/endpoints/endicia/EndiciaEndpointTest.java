@@ -1,6 +1,8 @@
 package io.slingr.endpoints.endicia;
 
 import com.envmgr.labelservice.*;
+import io.slingr.endpoints.framework.annotations.EndpointConfiguration;
+import io.slingr.endpoints.utils.Json;
 import io.slingr.endpoints.utils.tests.EndpointTests;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -16,6 +18,7 @@ public class EndiciaEndpointTest {
     private static EndiciaEndpoint endpoint;
 
     private static URL API_URL;
+
     private static String accountNumber = "";
     private static String passphrase = "";
     private static String requesterId = "";
@@ -24,30 +27,33 @@ public class EndiciaEndpointTest {
     public static void init() throws Exception {
         test = EndpointTests.start(new io.slingr.endpoints.endicia.Runner(), "test.properties");
         endpoint = (EndiciaEndpoint) test.getEndpoint();
-        API_URL = new URL("https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl");
+        API_URL = new URL("https://elstestserver2.endicia.com/LabelService/EwsLabelService.asmx?wsdl");
+        accountNumber = endpoint.configuration.string("accountNumber");
+        passphrase = endpoint. configuration.string("passphrase");
+        requesterId = endpoint. configuration.string("requesterId");
     }
 
     @Test
     @Ignore
     public void testChangePassPhrase() {
 
-//        EwsLabelService ewsLabelService = new EwsLabelService(API_URL);
-//
-//        CertifiedIntermediary certifiedIntermediary = new CertifiedIntermediary();
-//        certifiedIntermediary.setAccountID(accountNumber);
-//        certifiedIntermediary.setPassPhrase(passphrase);
-//
-//        ChangePassPhraseRequest changePassPhraseReq = new ChangePassPhraseRequest();
-//        changePassPhraseReq.setCertifiedIntermediary(certifiedIntermediary);
-//        changePassPhraseReq.setRequesterID(requesterId);
-//        changePassPhraseReq.setRequestID("1");
-//        changePassPhraseReq.setNewPassPhrase("maipu is cool");
-//
-//        ChangePassPhraseRequestResponse response = ewsLabelService.getEwsLabelServiceSoap().changePassPhrase(changePassPhraseReq);
-//
-//        String strRes = JSONUtils.toJson(response, true);
-//        Assert.assertNotNull(strRes);
-//        System.out.println(strRes);
+        EwsLabelService ewsLabelService = new EwsLabelService(API_URL);
+
+        CertifiedIntermediary certifiedIntermediary = new CertifiedIntermediary();
+        certifiedIntermediary.setAccountID(accountNumber);
+        certifiedIntermediary.setPassPhrase(passphrase);
+
+        ChangePassPhraseRequest changePassPhraseReq = new ChangePassPhraseRequest();
+        changePassPhraseReq.setCertifiedIntermediary(certifiedIntermediary);
+        changePassPhraseReq.setRequesterID(requesterId);
+        changePassPhraseReq.setRequestID("1");
+        changePassPhraseReq.setNewPassPhrase("maipu is cool");
+
+        ChangePassPhraseRequestResponse response = ewsLabelService.getEwsLabelServiceSoap().changePassPhrase(changePassPhraseReq);
+
+        String strRes = JSONUtils.toJson(response, true);
+        Assert.assertNotNull(strRes);
+        System.out.println(strRes);
 
     }
 
@@ -77,6 +83,7 @@ public class EndiciaEndpointTest {
 
 
     @Test
+    @Ignore
     public void testLabelRequest() {
 
         EwsLabelService ewsLabelService = new EwsLabelService(API_URL);
@@ -115,6 +122,7 @@ public class EndiciaEndpointTest {
     }
 
     @Test
+    @Ignore
     public void testTransactionListRequest() {
 
         EwsLabelService ewsLabelService = new EwsLabelService(API_URL);
@@ -141,5 +149,9 @@ public class EndiciaEndpointTest {
 
     }
 
-
+    @Test
+    public void testTrackByPicNumber() {
+        Json response = endpoint.trackByPicNumber(Json.map().set("picNumber","281362593420"));
+        System.out.println(response);
+    }
 }

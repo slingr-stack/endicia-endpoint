@@ -41,8 +41,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="DeviceIdentity" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="PickupNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="ClientID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
- *         &lt;element name="AccountUsername" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
- *         &lt;element name="AccountPassword" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ClientSecret" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="DistributionCenter" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/extension&gt;
@@ -78,8 +77,7 @@ import javax.xml.bind.annotation.XmlType;
     "deviceIdentity",
     "pickupNumber",
     "clientID",
-    "accountUsername",
-    "accountPassword",
+    "clientSecret",
     "distributionCenter"
 })
 public class AddCarrierRequest
@@ -134,10 +132,8 @@ public class AddCarrierRequest
     protected String pickupNumber;
     @XmlElement(name = "ClientID")
     protected String clientID;
-    @XmlElement(name = "AccountUsername")
-    protected String accountUsername;
-    @XmlElement(name = "AccountPassword")
-    protected String accountPassword;
+    @XmlElement(name = "ClientSecret")
+    protected String clientSecret;
     @XmlElement(name = "DistributionCenter")
     protected String distributionCenter;
 
@@ -694,51 +690,27 @@ public class AddCarrierRequest
     }
 
     /**
-     * Obtiene el valor de la propiedad accountUsername.
+     * Obtiene el valor de la propiedad clientSecret.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getAccountUsername() {
-        return accountUsername;
+    public String getClientSecret() {
+        return clientSecret;
     }
 
     /**
-     * Define el valor de la propiedad accountUsername.
+     * Define el valor de la propiedad clientSecret.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setAccountUsername(String value) {
-        this.accountUsername = value;
-    }
-
-    /**
-     * Obtiene el valor de la propiedad accountPassword.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAccountPassword() {
-        return accountPassword;
-    }
-
-    /**
-     * Define el valor de la propiedad accountPassword.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAccountPassword(String value) {
-        this.accountPassword = value;
+    public void setClientSecret(String value) {
+        this.clientSecret = value;
     }
 
     /**

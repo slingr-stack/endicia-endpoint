@@ -2,10 +2,7 @@ package io.slingr.endpoints.endicia;
 
 import com.envmgr.labelservice.*;
 import io.slingr.endpoints.Endpoint;
-import io.slingr.endpoints.framework.annotations.ApplicationLogger;
-import io.slingr.endpoints.framework.annotations.EndpointFunction;
-import io.slingr.endpoints.framework.annotations.EndpointProperty;
-import io.slingr.endpoints.framework.annotations.SlingrEndpoint;
+import io.slingr.endpoints.framework.annotations.*;
 import io.slingr.endpoints.services.AppLogs;
 import io.slingr.endpoints.utils.Json;
 import org.apache.commons.lang.StringUtils;
@@ -17,12 +14,15 @@ import java.net.URL;
 public class EndiciaEndpoint extends Endpoint {
 
     private static final Logger logger = Logger.getLogger(EndiciaEndpoint.class);
-    private static final String SANDBOX = "https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl";
+    private static final String SANDBOX = "https://elstestserver2.endicia.com/LabelService/EwsLabelService.asmx?wsdl";
 
     private static URL URL;
 
     @ApplicationLogger
     private AppLogs appLogger;
+
+    @EndpointConfiguration
+    public static Json configuration;
 
     @EndpointProperty
     private String accountNumber;

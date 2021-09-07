@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema"
-                  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
-                  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
-                  xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
-                  xmlns:tns="www.envmgr.com/LabelService"
-                  xmlns:s1="LabelNumberService.Core"
-                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-                  xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"
-                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
-                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="www.envmgr.com/LabelService">
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="www.envmgr.com/LabelService" xmlns:s1="LabelNumberService.Core" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="www.envmgr.com/LabelService">
   <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">You have reached the Help page for the Label Server Web Service.</wsdl:documentation>
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="www.envmgr.com/LabelService">
@@ -1640,8 +1630,7 @@
               <s:element minOccurs="0" maxOccurs="1" name="DeviceIdentity" type="s:string"/>
               <s:element minOccurs="0" maxOccurs="1" name="PickupNumber" type="s:string"/>
               <s:element minOccurs="0" maxOccurs="1" name="ClientID" type="s:string"/>
-              <s:element minOccurs="0" maxOccurs="1" name="AccountUsername" type="s:string"/>
-              <s:element minOccurs="0" maxOccurs="1" name="AccountPassword" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ClientSecret" type="s:string"/>
               <s:element minOccurs="0" maxOccurs="1" name="DistributionCenter" type="s:string"/>
             </s:sequence>
           </s:extension>
@@ -1930,6 +1919,84 @@
         <s:complexType>
           <s:sequence>
             <s:element minOccurs="0" maxOccurs="1" name="GetNotificationSettingResponse" type="tns:CreateNotificationSettingResult"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateShipmentNotification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateShipmentNotificationRequest" type="tns:CreateShipmentNotificationRequest"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CreateShipmentNotificationRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DataValidator">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="RequesterID" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="CertifiedIntermediary" type="tns:CertifiedIntermediary"/>
+              <s:element minOccurs="0" maxOccurs="1" name="TrackingNumber" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="Carrier" type="s:string"/>
+              <s:element minOccurs="1" maxOccurs="1" name="WeightOz" type="s:double"/>
+              <s:element minOccurs="0" maxOccurs="1" name="TrackingType" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="BrandingID" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="NotificationSettingId" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="EmailSenderName" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromName" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromCompany" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ReturnAddress1" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ReturnAddress2" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ReturnAddress3" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromCity" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromState" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromPostalCode" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromCountry" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromPhone" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="FromEmail" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToName" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToCompany" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToAddress1" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToAddress2" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToAddress3" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToCity" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToState" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToPostalCode" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToCountry" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToPhone" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="ToEmail" type="s:string"/>
+              <s:element minOccurs="0" maxOccurs="1" name="OrderDetails" type="tns:OrderDetails"/>
+              <s:element minOccurs="1" maxOccurs="1" name="ShipDate" type="s:dateTime"/>
+              <s:element minOccurs="1" maxOccurs="1" name="SendEmail" type="s:boolean"/>
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="CreateShipmentNotificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetShipmentNotificationResponse" type="tns:CreateShipmentNotificationResult"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CreateShipmentNotificationResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMessage" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="RequesterID" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TrackingUrl" type="s:string"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CreateShipmentNotificationRequestXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateShipmentNotificationRequestXML" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateShipmentNotificationRequestXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetShipmentNotificationResponse" type="tns:CreateShipmentNotificationResult"/>
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -2345,43 +2412,6 @@
           </s:sequence>
         </s:complexType>
       </s:element>
-      <s:element name="CreateManifest">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="CreateManifestRequest" type="tns:CreateManifestRequest"/>
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:complexType name="CreateManifestRequest">
-        <s:complexContent mixed="false">
-          <s:extension base="tns:DataValidator">
-            <s:sequence>
-              <s:element minOccurs="1" maxOccurs="1" name="Carrier" type="tns:Carrier"/>
-              <s:element minOccurs="0" maxOccurs="1" name="CertifiedIntermediary" type="tns:CertifiedIntermediary"/>
-            </s:sequence>
-          </s:extension>
-        </s:complexContent>
-      </s:complexType>
-      <s:simpleType name="Carrier">
-        <s:restriction base="s:string">
-          <s:enumeration value="DHL"/>
-        </s:restriction>
-      </s:simpleType>
-      <s:element name="CreateManifestResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="CreateManifestResponse" type="tns:CreateManifestResponse"/>
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:complexType name="CreateManifestResponse">
-        <s:sequence>
-          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int"/>
-          <s:element minOccurs="0" maxOccurs="1" name="ErrorMessage" type="s:string"/>
-          <s:element minOccurs="0" maxOccurs="1" name="ManifestID" type="s:string"/>
-          <s:element minOccurs="0" maxOccurs="1" name="ManifestFile" type="s:string"/>
-        </s:sequence>
-      </s:complexType>
       <s:element name="DeleteCarrier">
         <s:complexType>
           <s:sequence>
@@ -3813,6 +3843,7 @@
       <s:element name="DdpRateResponse" nillable="true" type="tns:DdpRateResponse"/>
       <s:element name="PostageRateResponse" nillable="true" type="tns:PostageRateResponse"/>
       <s:element name="CreateNotificationSettingResult" nillable="true" type="tns:CreateNotificationSettingResult"/>
+      <s:element name="CreateShipmentNotificationResult" nillable="true" type="tns:CreateShipmentNotificationResult"/>
       <s:element name="DeleteNotificationSettingResult" nillable="true" type="tns:DeleteNotificationSettingResult"/>
       <s:element name="DeleteBrandingResult" nillable="true" type="tns:DeleteBrandingResult"/>
       <s:element name="GetUrlResult" nillable="true" type="tns:GetUrlResult"/>
@@ -4082,6 +4113,18 @@
   <wsdl:message name="CreateNotificationSettingRequestXMLSoapOut">
     <wsdl:part name="parameters" element="tns:CreateNotificationSettingRequestXMLResponse"/>
   </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateShipmentNotification"/>
+  </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateShipmentNotificationResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationRequestXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateShipmentNotificationRequestXML"/>
+  </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationRequestXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateShipmentNotificationRequestXMLResponse"/>
+  </wsdl:message>
   <wsdl:message name="DeleteNotificationSettingSoapIn">
     <wsdl:part name="parameters" element="tns:DeleteNotificationSetting"/>
   </wsdl:message>
@@ -4165,12 +4208,6 @@
   </wsdl:message>
   <wsdl:message name="GetBrandingXMLSoapOut">
     <wsdl:part name="parameters" element="tns:GetBrandingXMLResponse"/>
-  </wsdl:message>
-  <wsdl:message name="CreateManifestSoapIn">
-    <wsdl:part name="parameters" element="tns:CreateManifest"/>
-  </wsdl:message>
-  <wsdl:message name="CreateManifestSoapOut">
-    <wsdl:part name="parameters" element="tns:CreateManifestResponse"/>
   </wsdl:message>
   <wsdl:message name="DeleteCarrierSoapIn">
     <wsdl:part name="parameters" element="tns:DeleteCarrier"/>
@@ -4468,6 +4505,12 @@
   <wsdl:message name="CreateNotificationSettingRequestXMLHttpGetOut">
     <wsdl:part name="Body" element="tns:CreateNotificationSettingResult"/>
   </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationRequestXMLHttpGetIn">
+    <wsdl:part name="createShipmentNotificationRequestXML" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationRequestXMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:CreateShipmentNotificationResult"/>
+  </wsdl:message>
   <wsdl:message name="DeleteNotificationSettingXMLHttpGetIn">
     <wsdl:part name="deleteNotificationSettingRequestXML" type="s:string"/>
   </wsdl:message>
@@ -4703,6 +4746,12 @@
   </wsdl:message>
   <wsdl:message name="CreateNotificationSettingRequestXMLHttpPostOut">
     <wsdl:part name="Body" element="tns:CreateNotificationSettingResult"/>
+  </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationRequestXMLHttpPostIn">
+    <wsdl:part name="createShipmentNotificationRequestXML" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CreateShipmentNotificationRequestXMLHttpPostOut">
+    <wsdl:part name="Body" element="tns:CreateShipmentNotificationResult"/>
   </wsdl:message>
   <wsdl:message name="DeleteNotificationSettingXMLHttpPostIn">
     <wsdl:part name="deleteNotificationSettingRequestXML" type="s:string"/>
@@ -4975,6 +5024,14 @@
       <wsdl:input message="tns:CreateNotificationSettingRequestXMLSoapIn"/>
       <wsdl:output message="tns:CreateNotificationSettingRequestXMLSoapOut"/>
     </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotification">
+      <wsdl:input message="tns:CreateShipmentNotificationSoapIn"/>
+      <wsdl:output message="tns:CreateShipmentNotificationSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotificationRequestXML">
+      <wsdl:input message="tns:CreateShipmentNotificationRequestXMLSoapIn"/>
+      <wsdl:output message="tns:CreateShipmentNotificationRequestXMLSoapOut"/>
+    </wsdl:operation>
     <wsdl:operation name="DeleteNotificationSetting">
       <wsdl:input message="tns:DeleteNotificationSettingSoapIn"/>
       <wsdl:output message="tns:DeleteNotificationSettingSoapOut"/>
@@ -5030,10 +5087,6 @@
     <wsdl:operation name="GetBrandingXML">
       <wsdl:input message="tns:GetBrandingXMLSoapIn"/>
       <wsdl:output message="tns:GetBrandingXMLSoapOut"/>
-    </wsdl:operation>
-    <wsdl:operation name="CreateManifest">
-      <wsdl:input message="tns:CreateManifestSoapIn"/>
-      <wsdl:output message="tns:CreateManifestSoapOut"/>
     </wsdl:operation>
     <wsdl:operation name="DeleteCarrier">
       <wsdl:input message="tns:DeleteCarrierSoapIn"/>
@@ -5237,6 +5290,10 @@
       <wsdl:input message="tns:CreateNotificationSettingRequestXMLHttpGetIn"/>
       <wsdl:output message="tns:CreateNotificationSettingRequestXMLHttpGetOut"/>
     </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotificationRequestXML">
+      <wsdl:input message="tns:CreateShipmentNotificationRequestXMLHttpGetIn"/>
+      <wsdl:output message="tns:CreateShipmentNotificationRequestXMLHttpGetOut"/>
+    </wsdl:operation>
     <wsdl:operation name="DeleteNotificationSettingXML">
       <wsdl:input message="tns:DeleteNotificationSettingXMLHttpGetIn"/>
       <wsdl:output message="tns:DeleteNotificationSettingXMLHttpGetOut"/>
@@ -5398,6 +5455,10 @@
     <wsdl:operation name="CreateNotificationSettingRequestXML">
       <wsdl:input message="tns:CreateNotificationSettingRequestXMLHttpPostIn"/>
       <wsdl:output message="tns:CreateNotificationSettingRequestXMLHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotificationRequestXML">
+      <wsdl:input message="tns:CreateShipmentNotificationRequestXMLHttpPostIn"/>
+      <wsdl:output message="tns:CreateShipmentNotificationRequestXMLHttpPostOut"/>
     </wsdl:operation>
     <wsdl:operation name="DeleteNotificationSettingXML">
       <wsdl:input message="tns:DeleteNotificationSettingXMLHttpPostIn"/>
@@ -5791,6 +5852,24 @@
         <soap:body use="literal"/>
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotification">
+      <soap:operation soapAction="www.envmgr.com/LabelService/CreateShipmentNotification" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotificationRequestXML">
+      <soap:operation soapAction="www.envmgr.com/LabelService/CreateShipmentNotificationRequestXML" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="DeleteNotificationSetting">
       <soap:operation soapAction="www.envmgr.com/LabelService/DeleteNotificationSetting" style="document"/>
       <wsdl:input>
@@ -5910,15 +5989,6 @@
     </wsdl:operation>
     <wsdl:operation name="GetBrandingXML">
       <soap:operation soapAction="www.envmgr.com/LabelService/GetBrandingXML" style="document"/>
-      <wsdl:input>
-        <soap:body use="literal"/>
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal"/>
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateManifest">
-      <soap:operation soapAction="www.envmgr.com/LabelService/CreateManifest" style="document"/>
       <wsdl:input>
         <soap:body use="literal"/>
       </wsdl:input>
@@ -6523,6 +6593,24 @@
         <soap12:body use="literal"/>
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotification">
+      <soap12:operation soapAction="www.envmgr.com/LabelService/CreateShipmentNotification" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotificationRequestXML">
+      <soap12:operation soapAction="www.envmgr.com/LabelService/CreateShipmentNotificationRequestXML" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="DeleteNotificationSetting">
       <soap12:operation soapAction="www.envmgr.com/LabelService/DeleteNotificationSetting" style="document"/>
       <wsdl:input>
@@ -6642,15 +6730,6 @@
     </wsdl:operation>
     <wsdl:operation name="GetBrandingXML">
       <soap12:operation soapAction="www.envmgr.com/LabelService/GetBrandingXML" style="document"/>
-      <wsdl:input>
-        <soap12:body use="literal"/>
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal"/>
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateManifest">
-      <soap12:operation soapAction="www.envmgr.com/LabelService/CreateManifest" style="document"/>
       <wsdl:input>
         <soap12:body use="literal"/>
       </wsdl:input>
@@ -7111,6 +7190,15 @@
         <mime:mimeXml part="Body"/>
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotificationRequestXML">
+      <http:operation location="/CreateShipmentNotificationRequestXML"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="DeleteNotificationSettingXML">
       <http:operation location="/DeleteNotificationSettingXML"/>
       <wsdl:input>
@@ -7474,6 +7562,15 @@
         <mime:mimeXml part="Body"/>
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CreateShipmentNotificationRequestXML">
+      <http:operation location="/CreateShipmentNotificationRequestXML"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="DeleteNotificationSettingXML">
       <http:operation location="/DeleteNotificationSettingXML"/>
       <wsdl:input>
@@ -7685,16 +7782,16 @@
   <wsdl:service name="EwsLabelService">
     <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">You have reached the Help page for the Label Server Web Service.</wsdl:documentation>
     <wsdl:port name="EwsLabelServiceSoap" binding="tns:EwsLabelServiceSoap">
-      <soap:address location="http://elstestserver.endicia.com/LabelService/EwsLabelService.asmx"/>
+      <soap:address location="https://labelserver.endicia.com/LabelService/EwsLabelService.asmx"/>
     </wsdl:port>
     <wsdl:port name="EwsLabelServiceSoap12" binding="tns:EwsLabelServiceSoap12">
-      <soap12:address location="http://elstestserver.endicia.com/LabelService/EwsLabelService.asmx"/>
+      <soap12:address location="https://labelserver.endicia.com/LabelService/EwsLabelService.asmx"/>
     </wsdl:port>
     <wsdl:port name="EwsLabelServiceHttpGet" binding="tns:EwsLabelServiceHttpGet">
-      <http:address location="http://elstestserver.endicia.com/LabelService/EwsLabelService.asmx"/>
+      <http:address location="https://labelserver.endicia.com/LabelService/EwsLabelService.asmx"/>
     </wsdl:port>
     <wsdl:port name="EwsLabelServiceHttpPost" binding="tns:EwsLabelServiceHttpPost">
-      <http:address location="http://elstestserver.endicia.com/LabelService/EwsLabelService.asmx"/>
+      <http:address location="https://labelserver.endicia.com/LabelService/EwsLabelService.asmx"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

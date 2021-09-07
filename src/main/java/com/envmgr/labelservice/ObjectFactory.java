@@ -41,6 +41,7 @@ public class ObjectFactory {
     private final static QName _DdpRateResponse_QNAME = new QName("www.envmgr.com/LabelService", "DdpRateResponse");
     private final static QName _PostageRateResponse_QNAME = new QName("www.envmgr.com/LabelService", "PostageRateResponse");
     private final static QName _CreateNotificationSettingResult_QNAME = new QName("www.envmgr.com/LabelService", "CreateNotificationSettingResult");
+    private final static QName _CreateShipmentNotificationResult_QNAME = new QName("www.envmgr.com/LabelService", "CreateShipmentNotificationResult");
     private final static QName _DeleteNotificationSettingResult_QNAME = new QName("www.envmgr.com/LabelService", "DeleteNotificationSettingResult");
     private final static QName _DeleteBrandingResult_QNAME = new QName("www.envmgr.com/LabelService", "DeleteBrandingResult");
     private final static QName _GetUrlResult_QNAME = new QName("www.envmgr.com/LabelService", "GetUrlResult");
@@ -860,6 +861,54 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link CreateShipmentNotification }
+     * 
+     */
+    public CreateShipmentNotification createCreateShipmentNotification() {
+        return new CreateShipmentNotification();
+    }
+
+    /**
+     * Create an instance of {@link CreateShipmentNotificationRequest }
+     * 
+     */
+    public CreateShipmentNotificationRequest createCreateShipmentNotificationRequest() {
+        return new CreateShipmentNotificationRequest();
+    }
+
+    /**
+     * Create an instance of {@link CreateShipmentNotificationResponse }
+     * 
+     */
+    public CreateShipmentNotificationResponse createCreateShipmentNotificationResponse() {
+        return new CreateShipmentNotificationResponse();
+    }
+
+    /**
+     * Create an instance of {@link CreateShipmentNotificationResult }
+     * 
+     */
+    public CreateShipmentNotificationResult createCreateShipmentNotificationResult() {
+        return new CreateShipmentNotificationResult();
+    }
+
+    /**
+     * Create an instance of {@link CreateShipmentNotificationRequestXML }
+     * 
+     */
+    public CreateShipmentNotificationRequestXML createCreateShipmentNotificationRequestXML() {
+        return new CreateShipmentNotificationRequestXML();
+    }
+
+    /**
+     * Create an instance of {@link CreateShipmentNotificationRequestXMLResponse }
+     * 
+     */
+    public CreateShipmentNotificationRequestXMLResponse createCreateShipmentNotificationRequestXMLResponse() {
+        return new CreateShipmentNotificationRequestXMLResponse();
+    }
+
+    /**
      * Create an instance of {@link DeleteNotificationSetting }
      * 
      */
@@ -1193,38 +1242,6 @@ public class ObjectFactory {
      */
     public GetBrandingXMLResponse createGetBrandingXMLResponse() {
         return new GetBrandingXMLResponse();
-    }
-
-    /**
-     * Create an instance of {@link CreateManifest }
-     * 
-     */
-    public CreateManifest createCreateManifest() {
-        return new CreateManifest();
-    }
-
-    /**
-     * Create an instance of {@link CreateManifestRequest }
-     * 
-     */
-    public CreateManifestRequest createCreateManifestRequest() {
-        return new CreateManifestRequest();
-    }
-
-    /**
-     * Create an instance of {@link CreateManifestResponse }
-     * 
-     */
-    public CreateManifestResponse createCreateManifestResponse() {
-        return new CreateManifestResponse();
-    }
-
-    /**
-     * Create an instance of {@link CreateManifestResponseComplex }
-     * 
-     */
-    public CreateManifestResponseComplex createCreateManifestResponseComplex() {
-        return new CreateManifestResponseComplex();
     }
 
     /**
@@ -3201,6 +3218,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "www.envmgr.com/LabelService", name = "CreateNotificationSettingResult")
     public JAXBElement<CreateNotificationSettingResult> createCreateNotificationSettingResult(CreateNotificationSettingResult value) {
         return new JAXBElement<CreateNotificationSettingResult>(_CreateNotificationSettingResult_QNAME, CreateNotificationSettingResult.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CreateShipmentNotificationResult }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "www.envmgr.com/LabelService", name = "CreateShipmentNotificationResult")
+    public JAXBElement<CreateShipmentNotificationResult> createCreateShipmentNotificationResult(CreateShipmentNotificationResult value) {
+        return new JAXBElement<CreateShipmentNotificationResult>(_CreateShipmentNotificationResult_QNAME, CreateShipmentNotificationResult.class, null, value);
     }
 
     /**
